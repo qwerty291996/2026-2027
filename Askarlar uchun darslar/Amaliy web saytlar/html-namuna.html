@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!-- DOCTYPE - brauzerga bu HTML5 hujjat ekanini bildiradi -->
+<html lang="uz">
+
+<head>
+    <!-- HEAD - sahifa haqidagi texnik ma'lumotlar (ekranda ko'rinmaydi) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Veb-dasturlash asoslari kursi - boshlang'ich dasturchilar uchun namunaviy sahifa">
+    <title>Veb-dasturlash asoslari | Kurs sahifasi</title>
+
+    <style>
+        /* ================================================
+           1. UMUMIY SOZLAMALAR (reset)
+           ================================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* padding va border kenglik ichiga kiradi */
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f4f6f8;
+        }
+
+        /* Kontentni markazga joylashtiruvchi yordamchi klass */
+        .container {
+            max-width: 960px;
+            margin: 0 auto;   /* chap-o'ngdan avtomatik joy = markazlash */
+            padding: 0 16px;
+        }
+
+        /* ================================================
+           2. HEADER VA NAVIGATSIYA
+           ================================================ */
+        header {
+            background-color: #1d3557;
+            color: #ffffff;
+            padding: 14px 0;
+        }
+
+        header .container {
+            display: flex;                  /* logotip va menyu yonma-yon */
+            justify-content: space-between; /* ikki chetga surish */
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none; /* ro'yxat nuqtalarini olib tashlash */
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #a8dadc; /* sichqoncha ustiga kelganda rang o'zgaradi */
+        }
+
+        /* ================================================
+           3. HERO (bosh qism)
+           ================================================ */
+        .hero {
+            background-color: #457b9d;
+            color: #ffffff;
+            text-align: center;
+            padding: 60px 16px;
+        }
+
+        .hero h1 {
+            font-size: 34px;
+            margin-bottom: 12px;
+        }
+
+        .hero p {
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #e63946;
+            color: #ffffff;
+            padding: 12px 28px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #c1121f;
+        }
+
+        /* ================================================
+           4. BO'LIMLAR (section)
+           ================================================ */
+        section {
+            padding: 40px 0;
+        }
+
+        section h2 {
+            color: #1d3557;
+            border-bottom: 3px solid #e63946;
+            display: inline-block; /* chiziq faqat matn ostida bo'lishi uchun */
+            padding-bottom: 4px;
+            margin-bottom: 20px;
+        }
+
+        /* "Kurs haqida" bo'limi: maqola + yon panel yonma-yon */
+        .ikki-ustun {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap; /* joy yetmasa pastga tushadi */
+        }
+
+        .ikki-ustun article {
+            flex: 2;              /* kengroq qism */
+            min-width: 280px;
+        }
+
+        .ikki-ustun aside {
+            flex: 1;              /* torroq qism */
+            min-width: 220px;
+            background-color: #ffffff;
+            border-left: 4px solid #457b9d;
+            border-radius: 6px;
+            padding: 16px;
+        }
+
+        article p,
+        article blockquote {
+            margin-bottom: 12px;
+        }
+
+        blockquote {
+            border-left: 4px solid #e63946;
+            padding-left: 12px;
+            font-style: italic;
+            color: #555555;
+        }
+
+        /* Matn ichidagi kod ko'rinishi */
+        code {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+            font-size: 90%;
+        }
+
+        /* Ro'yxatlarga chap tomondan joy */
+        section ul,
+        section ol {
+            margin: 0 0 12px 24px;
+        }
+
+        dt {
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        dd {
+            margin-left: 20px;
+        }
+
+        /* ================================================
+           5. JADVAL
+           ================================================ */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* katak chiziqlarini birlashtirish */
+            background-color: #ffffff;
+        }
+
+        caption {
+            caption-side: bottom;
+            font-size: 14px;
+            color: #777777;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid #d0d7de;
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: #1d3557;
+            color: #ffffff;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f1f5f9; /* juft qatorlarni ajratish */
+        }
+
+        /* ================================================
+           6. RASM VA FAQ
+           ================================================ */
+        figure {
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 100%;   /* rasm ekrandan chiqib ketmasligi uchun */
+            height: auto;
+            border-radius: 8px;
+        }
+
+        figcaption {
+            font-size: 14px;
+            color: #777777;
+            margin-top: 8px;
+        }
+
+        details {
+            background-color: #ffffff;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        details p {
+            margin-top: 8px;
+        }
+
+        /* ================================================
+           7. FORMA
+           ================================================ */
+        form {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #d0d7de;
+        }
+
+        fieldset {
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #1d3557;
+            padding: 0 8px;
+        }
+
+        label {
+            display: block; /* har bir yorliq yangi qatordan */
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 14px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+
+        /* radio va checkbox yonidagi yozuv qalin bo'lmasin */
+        .qator-label {
+            display: inline;
+            font-weight: normal;
+            margin-right: 16px;
+        }
+
+        button {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button[type="submit"] {
+            background-color: #1d3557;
+            color: #ffffff;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #457b9d;
+        }
+
+        button[type="reset"] {
+            background-color: #e9ecef;
+            color: #333333;
+        }
+
+        /* ================================================
+           8. FOOTER
+           ================================================ */
+        footer {
+            background-color: #1d3557;
+            color: #ffffff;
+            text-align: center;
+            padding: 24px 16px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #a8dadc;
+        }
+
+        address {
+            font-style: normal;
+            margin: 8px 0;
+        }
+
+        /* ================================================
+           9. MOSLASHUVCHANLIK (responsive)
+           ================================================ */
+        @media (max-width: 600px) {
+            header .container {
+                flex-direction: column; /* telefonda menyu logotip ostiga tushadi */
+            }
+
+            .hero h1 {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ============ SARLAVHA VA MENYU ============ -->
+    <header>
+        <div class="container">
+            <div class="logo">&lt;Web/Kurs&gt;</div>
+            <nav>
+                <ul>
+                    <li><a href="#kurs">Kurs haqida</a></li>
+                    <li><a href="#jadval">Jadval</a></li>
+                    <li><a href="#savollar">Savollar</a></li>
+                    <li><a href="#royxat">Ro'yxatdan o'tish</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============ ASOSIY QISM ============ -->
+    <main>
+
+        <!-- Hero: sahifaning bosh e'loni. h1 sahifada bitta bo'ladi -->
+        <section class="hero">
+            <h1>Veb-dasturlash asoslari</h1>
+            <p>HTML, CSS va JavaScript'ni noldan o'rganing - 12 haftalik amaliy kurs.</p>
+            <a class="btn" href="#royxat">Kursga yozilish</a>
+        </section>
+
+        <!-- Kurs haqida: article (mustaqil matn) + aside (yon ma'lumot) -->
+        <section id="kurs">
+            <div class="container">
+                <h2>Kurs haqida</h2>
+                <div class="ikki-ustun">
+                    <article>
+                        <h3>Nimalarni o'rganasiz?</h3>
+                        <p>
+                            Bu kursda siz <strong>HTML</strong> yordamida sahifa tuzilishini,
+                            <em>CSS</em> yordamida dizaynni va
+                            <mark>JavaScript</mark> yordamida interaktivlikni o'rganasiz.
+                            Har bir dars amaliy topshiriq bilan yakunlanadi.
+                        </p>
+                        <p>
+                            Birinchi darsdayoq <code>&lt;h1&gt;Salom, dunyo!&lt;/h1&gt;</code>
+                            kodini yozib, natijani brauzerda ko'rasiz.
+                            Kurs davomida <abbr title="Cascading Style Sheets">CSS</abbr> va
+                            <abbr title="HyperText Markup Language">HTML</abbr> bo'yicha
+                            rasmiy hujjatlar bilan ishlashni ham o'rganamiz -
+                            masalan, <a href="https://developer.mozilla.org" target="_blank">MDN sayti</a> orqali.
+                        </p>
+                        <blockquote>
+                            Dasturlashni o'rganishning eng yaxshi usuli - kod yozishdir.
+                        </blockquote>
+                        <p><small>Eslatma: kurs boshlang'ich darajaga mo'ljallangan, oldindan bilim talab qilinmaydi.</small></p>
+
+                        <h3>Kurs bosqichlari</h3>
+                        <!-- ol - tartiblangan (raqamli) ro'yxat -->
+                        <ol>
+                            <li>HTML: sahifa tuzilishi va teglar</li>
+                            <li>CSS: ranglar, shriftlar, joylashuv</li>
+                            <li>JavaScript: hodisalar va dinamika</li>
+                            <li>Yakuniy loyiha: shaxsiy portfolio sayt</li>
+                        </ol>
+                    </article>
+
+                    <aside>
+                        <h3>Qisqa ma'lumot</h3>
+                        <!-- ul - tartibsiz (nuqtali) ro'yxat -->
+                        <ul>
+                            <li>Davomiyligi: 12 hafta</li>
+                            <li>Haftasiga: 3 ta dars</li>
+                            <li>Format: amaliy mashg'ulot</li>
+                            <li>Sertifikat: bor</li>
+                        </ul>
+                        <hr>
+                        <!-- dl - "atama - izoh" ko'rinishidagi ro'yxat -->
+                        <dl>
+                            <dt>HTML</dt>
+                            <dd>Sahifa skeleti (tuzilishi)</dd>
+                            <dt>CSS</dt>
+                            <dd>Sahifa dizayni (ko'rinishi)</dd>
+                            <dt>JavaScript</dt>
+                            <dd>Sahifa harakati (mantig'i)</dd>
+                        </dl>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dars jadvali: to'liq jadval tuzilishi -->
+        <section id="jadval">
+            <div class="container">
+                <h2>Dars jadvali</h2>
+                <table>
+                    <caption>1-hafta uchun dars jadvali</caption>
+                    <thead>
+                        <tr>
+                            <th>Kun</th>
+                            <th>Mavzu</th>
+                            <th>Soat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dushanba</td>
+                            <td>HTML bilan tanishuv</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Chorshanba</td>
+                            <td>Teglar va atributlar</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Juma</td>
+                            <td>Amaliy mashg'ulot</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"><strong>Jami</strong></td>
+                            <td><strong>6</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <!-- Rasm: figure + img + figcaption -->
+        <section>
+            <div class="container">
+                <h2>Darslardan lavha</h2>
+                <figure>
+                    <img src="https://placehold.co/800x360/457b9d/ffffff?text=Amaliy+dars+jarayoni"
+                         alt="Amaliy dars jarayonidan olingan rasm" width="800" height="360">
+                    <figcaption>1-rasm. Amaliy mashg'ulot jarayoni.</figcaption>
+                </figure>
+
+                <!-- Video va audio teglar namunasi (fayl bo'lsa, izohdan chiqarib ishlating):
+                <video src="dars.mp4" controls width="800">Brauzeringiz videoni qo'llamaydi.</video>
+                <audio src="dars.mp3" controls>Brauzeringiz audioni qo'llamaydi.</audio>
+                -->
+            </div>
+        </section>
+
+        <!-- FAQ: details/summary - JavaScript'siz ochilib-yopiladigan blok -->
+        <section id="savollar">
+            <div class="container">
+                <h2>Ko'p beriladigan savollar</h2>
+                <details>
+                    <summary>Kurs uchun kompyuter bilimi kerakmi?</summary>
+                    <p>Yo'q, oddiy foydalanuvchi darajasi yetarli. Barchasini noldan boshlaymiz.</p>
+                </details>
+                <details>
+                    <summary>Qaysi dasturlar kerak bo'ladi?</summary>
+                    <p>Faqat brauzer va bepul <code>VS Code</code> muharriri kifoya.</p>
+                </details>
+                <details>
+                    <summary>Darslarni qoldirsam nima bo'ladi?</summary>
+                    <p>Har bir darsning video yozuvi va materiallari saqlanib boriladi.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Forma: barcha asosiy forma elementlari -->
+        <section id="royxat">
+            <div class="container">
+                <h2>Ro'yxatdan o'tish</h2>
+                <form action="#" method="post">
+
+                    <fieldset>
+                        <legend>Shaxsiy ma'lumotlar</legend>
+
+                        <label for="ism">Ism va familiya</label>
+                        <input type="text" id="ism" name="ism" placeholder="Masalan: Aziz Karimov" required>
+
+                        <label for="email">Elektron pochta</label>
+                        <input type="email" id="email" name="email" placeholder="aziz@mail.uz" required>
+
+                        <label for="tel">Telefon raqami</label>
+                        <input type="tel" id="tel" name="tel" placeholder="+998 90 123 45 67">
+
+                        <label for="sana">Tug'ilgan sana</label>
+                        <input type="date" id="sana" name="sana">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Kurs tanlovi</legend>
+
+                        <label>Yo'nalish:</label>
+                        <!-- radio - bir xil name bilan faqat bittasi tanlanadi -->
+                        <p>
+                            <input type="radio" id="frontend" name="yonalish" value="frontend" checked>
+                            <label class="qator-label" for="frontend">Frontend</label>
+
+                            <input type="radio" id="backend" name="yonalish" value="backend">
+                            <label class="qator-label" for="backend">Backend</label>
+                        </p>
+
+                        <label for="vaqt">Qulay vaqt:</label>
+                        <select id="vaqt" name="vaqt">
+                            <option value="ertalab">Ertalab (9:00 - 11:00)</option>
+                            <option value="kunduzi">Kunduzi (14:00 - 16:00)</option>
+                            <option value="kechqurun">Kechqurun (18:00 - 20:00)</option>
+                        </select>
+
+                        <label for="xabar">Qo'shimcha xabar</label>
+                        <textarea id="xabar" name="xabar" rows="4" placeholder="Savolingiz bo'lsa yozing..."></textarea>
+
+                        <!-- checkbox - mustaqil belgilash katagi -->
+                        <p>
+                            <input type="checkbox" id="rozilik" name="rozilik" required>
+                            <label class="qator-label" for="rozilik">Shartlar bilan tanishdim va roziman</label>
+                        </p>
+                    </fieldset>
+
+                    <button type="submit">Yuborish</button>
+                    <button type="reset">Tozalash</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ SAHIFA PASTI ============ -->
+    <footer>
+        <p><span class="logo">&lt;Web/Kurs&gt;</span></p>
+        <address>
+            Manzil: Toshkent shahri, Universitet ko'chasi, 4-uy<br>
+            Aloqa: <a href="mailto:info@webkurs.uz">info@webkurs.uz</a> |
+            <a href="tel:+998711234567">+998 71 123 45 67</a>
+        </address>
+        <p><small>&copy; 2026 Veb-dasturlash asoslari kursi. Barcha huquqlar himoyalangan.</small></p>
+        <p><a href="#">&uarr; Yuqoriga qaytish</a></p>
+    </footer>
+
+</body>
+
+</html>

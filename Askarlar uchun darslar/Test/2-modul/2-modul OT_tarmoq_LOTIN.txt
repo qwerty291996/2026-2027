@@ -1,0 +1,599 @@
+Operatsion tizim nima?
++ Kompyuter resurslarini boshqaruvchi tizimli dasturlar majmuasi
+- Hujjatlarni tahrirlash uchun mo'ljallangan amaliy dastur
+- Asosiy plataga o'rnatiladigan boshqaruvchi elektron mikrosxema
+- Tarmoq orqali ma'lumot uzatuvchi maxsus apparat qurilma
+
+Operatsion tizim qaysi ikki qatlam o'rtasida bog'lovchi bo'lib xizmat qiladi?
++ Apparat ta'minot va amaliy dasturlar o'rtasida
+- Protsessor va operativ xotira qurilmalari o'rtasida
+- Klaviatura va monitor ekrani o'rtasida
+- Lokal tarmoq va global tarmoq o'rtasida
+
+Quyidagilardan qaysi biri operatsion tizimning vazifasi EMAS?
++ Fotosuratlarni badiiy tahrirlash
+- Xotira resurslarini taqsimlash
+- Fayl tizimini boshqarib borish
+- Qurilmalar ishini muvofiqlashtirish
+
+Operatsion tizim yadrosi (Kernel) nimani bajaradi?
++ Tizimning asosiy resurslarini boshqaradi
+- Foydalanuvchi hujjatlarini saqlab boradi
+- Internet sahifalarini ochib beradi
+- Tayyor tasvirni monitorga chiqaradi
+
+Kompyuter yoqilganda operatsion tizim qayerdan qayerga yuklanadi?
++ Qattiq diskdan operativ xotiraga
+- Operativ xotiradan qattiq diskka
+- Protsessordan videokarta xotirasiga
+- Monitordan tizim blokining ichiga
+
+Drayver nima?
++ Muayyan qurilma bilan ishlashni ta'minlovchi dastur
+- Faylni siqib, hajmini kichraytiruvchi yordamchi dastur
+- Matn hujjatlarini formatlab beruvchi maxsus dastur
+- Tarmoq kabelini kompyuterga ulovchi kichik qurilma
+
+Protsessor vaqtini dasturlar o'rtasida taqsimlash qanday nomlanadi?
++ Jarayonlarni boshqarish
+- Fayllarni indekslash
+- Xotirani formatlash
+- Ma'lumotlarni arxivlash
+
+Ko'p masalalik (multitasking) rejimi nimani anglatadi?
++ Bir vaqtda bir nechta dastur ishlay olishini
+- Bir kompyuterda bir nechta disk borligini
+- Bitta dasturning bir necha faylni ochishini
+- Bir nechta monitor birga ulanganligini
+
+BIOS/UEFI qachon ishga tushadi?
++ Operatsion tizim yuklanishidan oldin
+- Operatsion tizim yuklangandan keyin
+- Faqat foydalanuvchi chaqirgan paytda
+- Kompyuter o'chirilayotgan vaqtda
+
+Tizimli dastur amaliy dasturdan nimasi bilan farq qiladi?
++ Kompyuterning o'zini boshqarishga xizmat qiladi
+- Har doim pullik litsenziya bilan tarqatiladi
+- Faqat internetga ulangan holda ishlay oladi
+- Hech qachon yangilanmaydi va o'zgarmaydi
+
+Operatsion tizimning printer, skaner kabi qurilmalar bilan ishlash vazifasi qanday ataladi?
++ Qurilmalarni boshqarish
+- Xotirani himoyalash
+- Ma'lumotni shifrlash
+- Interfeysni bezash
+
+Quyidagilardan qaysi biri operatsion tizim hisoblanadi?
++ Linux
+- Excel
+- WinRAR
+- Opera
+
+Quyidagilardan qaysi biri operatsion tizim EMAS?
++ Photoshop
+- Windows
+- macOS
+- Android
+
+Mobil qurilmalar uchun mo'ljallangan operatsion tizim qaysi?
++ Android
+- MS-DOS
+- Windows Server
+- Ubuntu Server
+
+Linux operatsion tizimining muhim xususiyati nimada?
++ Ochiq kodli va bepul tarqatiladi
+- Faqat pullik litsenziya bilan beriladi
+- Faqat serverlarga o'rnatila oladi
+- Grafik interfeysga umuman ega emas
+
+Ubuntu, Fedora, Debian — bular nima?
++ Linux tizimining tarqatmalari
+- Windows tizimining versiyalari
+- Antiviruslarning turli nomlari
+- Veb-brauzerlarning ko'rinishlari
+
+macOS operatsion tizimi qaysi kompaniya mahsuloti?
++ Apple
+- Google
+- Microsoft
+- Oracle
+
+MS-DOS tizimi qanday interfeysga ega bo'lgan?
++ Buyruqli (matnli) interfeys
+- Grafik oynali interfeys
+- Sensorli teginish interfeysi
+- Ovoz orqali boshqarish
+
+Serverlar uchun mo'ljallangan operatsion tizimga misol qaysi?
++ Windows Server
+- Windows 10 Home
+- Android
+- iOS
+
+Grafik interfeysning buyruqli interfeysdan asosiy afzalligi nimada?
++ Foydalanish osonroq va ko'rgazmali
+- Ancha kamroq xotira talab qiladi
+- Faqat mutaxassislarga mo'ljallangan
+- Har qanday holatda tezroq ishlaydi
+
+Bir vaqtda bir nechta foydalanuvchi ishlay oladigan tizim qanday nomlanadi?
++ Ko'p foydalanuvchili tizim
+- Bir masalali oddiy tizim
+- Yopiq kodli maxsus tizim
+- Real vaqtdagi tezkor tizim
+
+Windows bilan Linux o'rtasidagi farqlardan biri qaysi?
++ Linux ochiq kodli, Windows yopiq kodli
+- Windows'da fayl tizimi mutlaqo mavjud emas
+- Linux'da grafik interfeys hech qachon bo'lmaydi
+- Windows tarmoq bilan umuman ishlay olmaydi
+
+iOS operatsion tizimi qaysi qurilmalarda ishlaydi?
++ iPhone va iPad
+- Barcha telefonlar
+- Faqat noutbuklar
+- Faqat serverlar
+
+Operatsion tizimni tanlashda birinchi navbatda nima hisobga olinadi?
++ Bajariladigan vazifa va apparat imkoniyati
+- Monitor ekranining o'lchami va yorqinligi
+- Klaviaturaning tili va tugmalari soni
+- Tizim blokining rangi va tashqi ko'rinishi
+
+Windows'da ish stoli (Rabochiy stol) nima?
++ Tizim yuklangach ochiladigan asosiy ish maydoni
+- Fayllar saqlanadigan yashirin tizim papkasi
+- Dasturlar o'rnatiladigan alohida disk bo'limi
+- Tarmoq sozlamalari joylashgan boshqaruv oynasi
+
+"Pusk" (Start) menyusi orqali nima qilinadi?
++ Dasturlar topiladi va ishga tushiriladi
+- Faqat kompyuter o'chiriladi, boshqa amal yo'q
+- Faqat internetga ulanish sozlab olinadi
+- Faqat printer va skaner sozlamalari ochiladi
+
+Yorliq faylning o'zidan nimasi bilan farq qiladi?
++ U faqat faylga ko'rsatkich, asl nusxa emas
+- U faylning to'liq nusxasi bo'lib hisoblanadi
+- Uni o'chirilsa asl fayl ham o'chib ketadi
+- U faqat papkalar uchungina yaratila oladi
+
+Masalalar paneli (Panel zadach) nimani ko'rsatadi?
++ Ochiq turgan dasturlarni
+- Diskdagi barcha fayllarni
+- Tizimdagi xatoliklar ro'yxatini
+- Brauzerdagi ko'rilgan saytlarni
+
+Oynadagi "" tugmasi qanday amal bajaradi?
++ Oynani masalalar paneliga yashiradi
+- Oynani butunlay yopib, dasturni to'xtatadi
+- Oynani ekran bo'ylab to'liq kattalashtiradi
+- Oynadagi faylni boshqa diskka ko'chiradi
+
+Alt+Tab tugmalar birikmasi nima qiladi?
++ Ochiq oynalar orasida almashadi
+- Ochiq turgan oynani darhol yopadi
+- Ish stolida yangi papka yaratadi
+- Tanlangan faylni printerga yuboradi
+
+Kontekst menyu qanday ochiladi?
++ Sichqonchaning o'ng tugmasi bosilganda
+- Sichqonchaning chap tugmasi bosilganda
+- Klaviaturadan Enter tugmasi bosilganda
+- Kompyuter qaytadan yuklab olinganda
+
+Windows'da tizim sozlamalari qaysi bo'limda joylashgan?
++ Boshqaruv paneli (Panel upravleniya)
+- Savat (Korzina)
+- Hujjatlar saqlanadigan papka (Dokumenty)
+- Yuklamalar papkasi (Zagruzki)
+
+"Bu kompyuter" (Moy kompyuter) oynasi nimani ko'rsatadi?
++ Disklar va ulangan qurilmalarni
+- Faqat hozir ochiq turgan dasturlarni
+- Faqat oxirgi ochilgan veb-saytlarni
+- Faqat savatga tashlangan fayllarni
+
+Piktogramma nima?
++ Obyektni bildiruvchi kichik tasvir
+- Matn yozilayotgan joydagi kursor
+- Klaviaturadagi maxsus boshqaruv tugmasi
+- Tizim xatoligi haqidagi ogohlantirish
+
+Dasturni ishga tushirishning eng oddiy usuli qaysi?
++ Yorlig'ini ikki marta bosish
+- Kompyuterni qaytadan yuklash
+- Tizim faylini o'chirib tashlash
+- Qattiq diskni formatlab yuborish
+
+Dispetcher zadach (Task Manager) nima uchun kerak?
++ Ishlayotgan dastur va jarayonlarni boshqarish uchun
+- Yangi matnli hujjat yaratib, uni saqlash uchun
+- Internetga ulanishni sozlab, saytlarni ochish uchun
+- Fayllarni arxivga siqib, hajmini kamaytirish uchun
+
+Fayl nima?
++ Diskda nom bilan saqlanadigan ma'lumotlar to'plami
+- Operativ xotiradagi vaqtinchalik yozuvlar ketma-ketligi
+- Kompyuterga tashqaridan ulanadigan qo'shimcha qurilma
+- Tarmoq kabeli orqali uzatiladigan elektr signali
+
+Papka (jild) nima uchun ishlatiladi?
++ Fayllarni guruhlab, tartibli saqlash uchun
+- Fayllarni siqib, hajmini kichraytirish uchun
+- Fayllarni viruslardan doimiy himoyalash uchun
+- Fayllarni belgilangan vaqtda chop etish uchun
+
+Fayl kengaytmasi (masalan .docx) nimani bildiradi?
++ Faylning turini
+- Faylning hajmini
+- Faylning yaratilgan sanasini
+- Faylni yaratgan foydalanuvchini
+
+Fayl tizimi nima?
++ Ma'lumotlarni diskda tashkil etish va saqlash tartibi
+- Kompyuterga ulangan barcha qurilmalarning umumiy ro'yxati
+- Foydalanuvchi hisoblarini boshqarish qoidalari
+- Tarmoqdagi kompyuterlarning joylashuv tuzilishi
+
+Quyidagilardan qaysi biri fayl tizimi hisoblanadi?
++ NTFS
+- HTTP
+- USB
+- RAM
+
+Windows'da faylning to'liq yo'li qanday ko'rinishda bo'ladi?
++ C:\Hujjatlar\dars.docx
+- http://hujjatlar/dars
+- 192.168.1.1/dars.docx
+- www.hujjatlar.uz/dars
+
+Faylni nusxalash uchun qaysi tugmalar birikmasi ishlatiladi?
++ Ctrl+C va Ctrl+V
+- Ctrl+X va Ctrl+V
+- Ctrl+Z va Ctrl+Y
+- Ctrl+S va Ctrl+P
+
+Faylni kesib olib ko'chirish uchun qaysi birikma ishlatiladi?
++ Ctrl+X va Ctrl+V
+- Ctrl+C va Ctrl+V
+- Ctrl+A va Ctrl+D
+- Ctrl+P va Ctrl+S
+
+Shift+Delete bilan o'chirilgan fayl qayerga tushadi?
++ Hech qayerga, butunlay o'chiriladi
+- Savatga (Korzina) vaqtincha tushadi
+- Hujjatlar papkasiga ko'chib o'tadi
+- Vaqtinchalik fayllar orasiga o'tadi
+
+Savatdagi faylni qaytarish uchun qaysi buyruq beriladi?
++ Vosstanovit (tiklash)
+- Pereimenovat (qayta nomlash)
+- Svoystva (xossalarini ko'rish)
+- Otpravit (boshqa joyga yuborish)
+
+Faylni qayta nomlash uchun qaysi tugma ishlatiladi?
++ F2
+- F5
+- F1
+- F12
+
+Fayl hajmi birliklarining o'sish tartibi qaysi qatorda to'g'ri?
++ Bayt, kilobayt, megabayt, gigabayt
+- Bayt, megabayt, kilobayt, gigabayt
+- Kilobayt, bayt, gigabayt, megabayt
+- Gigabayt, megabayt, kilobayt, bayt
+
+1 kilobayt necha baytga teng?
++ 1024 bayt
+- 1000 bayt
+- 512 bayt
+- 2048 bayt
+
+Tizim resurslari deganda nima tushuniladi?
++ Protsessor vaqti, xotira va qurilmalar
+- Foydalanuvchi yaratgan barcha hujjatlar
+- Kompyuterdagi internet ulanish tezligi
+- Diskka o'rnatilgan amaliy dasturlar
+
+Operativ xotira yetishmay qolganda tizim nimadan foydalanadi?
++ Diskdagi almashinuv faylidan
+- Videokarta xotirasining bo'sh qismidan
+- Printerga o'rnatilgan buferdan
+- Tarmoq kabelining o'tkazuvchanligidan
+
+Fayl atributlari ("Faqat o'qish", "Yashirin") nimani belgilaydi?
++ Fayl bilan ishlash shartlarini
+- Faylning ranglar palitrasini
+- Faylning tarmoqdagi tezligini
+- Faylning chop etilish sifatini
+
+Diskni defragmentatsiya qilishdan maqsad nima?
++ Fayllarga murojaat tezligini oshirish
+- Diskdagi barcha fayllarni o'chirish
+- Diskning fizik hajmini kattalashtirish
+- Diskni lokal tarmoqqa ulab qo'yish
+
+Fayl qidirishda "*" belgisi nimani anglatadi?
++ Ixtiyoriy sondagi belgilarni
+- Faqat bittagina belgini
+- Faqat raqamli belgilarni
+- Faqat bosh harflarni
+
+Kompyuter tarmog'i nima?
++ Ma'lumot almashish uchun bog'langan kompyuterlar majmuasi
+- Bitta kompyuterga o'rnatilgan disklar va xotira to'plami
+- Internetda mavjud bo'lgan veb-saytlarning umumiy ro'yxati
+- Binoga elektr quvvatini uzatib beruvchi kabellar tizimi
+
+Lokal tarmoq (LAN) qanday hududni qamrab oladi?
++ Bino yoki tashkilot ichini
+- Butun dunyo bo'ylab hududni
+- Kamida bitta shahar hududini
+- Bir necha davlat hududini
+
+Global tarmoqqa qaysi misol to'g'ri keladi?
++ Internet
+- Bitta xonadagi kompyuterlar
+- Bitta kompyuterning disklari
+- Printerga ulangan kabellar
+
+Kompyuter tarmog'ining asosiy vazifasi nima?
++ Resurs va ma'lumotlarni birgalikda ishlatish
+- Protsessorning ishlash tezligini oshirish
+- Operativ xotira hajmini kengaytirib berish
+- Monitor ekranining o'lchamini kattalashtirish
+
+Server nima?
++ Boshqa kompyuterlarga xizmat ko'rsatuvchi kompyuter
+- Foydalanuvchi kundalik ishlaydigan oddiy kompyuter
+- Tarmoq kabellarini o'zaro ulovchi passiv qurilma
+- Ma'lumot ko'chirish uchun ishlatiladigan flesh-xotira
+
+Klient nima?
++ Serverdan xizmat so'rovchi kompyuter yoki dastur
+- Tarmoqda xizmat ko'rsatuvchi asosiy kompyuter
+- Signalni kuchaytirib beruvchi tarmoq qurilmasi
+- Ma'lumot saqlash uchun ishlatiladigan tashqi disk
+
+Router (marshrutizator) qanday vazifani bajaradi?
++ Tarmoqlar orasida ma'lumotni yo'naltiradi
+- Ma'lumotlarni qog'ozga chop etib beradi
+- Elektr quvvatini qurilmalarga taqsimlaydi
+- Fayllarni arxivga siqib, hajmini kamaytiradi
+
+Kommutator (switch) nima uchun ishlatiladi?
++ Lokal tarmoqdagi qurilmalarni o'zaro ulash uchun
+- Internetga simsiz usulda ulanishni ta'minlash uchun
+- Uzatilayotgan ma'lumotlarni shifrlab himoyalash uchun
+- Kompyuterga yangi dasturlarni o'rnatib berish uchun
+
+IP-manzil nima?
++ Tarmoqdagi qurilmaning raqamli manzili
+- Foydalanuvchining maxfiy shaxsiy paroli
+- Fayl saqlanadigan papkaning to'liq nomi
+- Kompyuter korpusidagi seriya raqami
+
+Quyidagilardan qaysi biri IP-manzil?
++ 192.168.1.10
+- www.edu.uz
+- user@mail.ru
+- C:\Windows\System
+
+Simsiz lokal tarmoq texnologiyasi qanday nomlanadi?
++ Wi-Fi
+- USB
+- HDMI
+- VGA
+
+Tarmoq kabeli uchun qanday ulagich ishlatiladi?
++ RJ-45
+- USB-C
+- HDMI
+- VGA
+
+"Yulduz" topologiyasida qurilmalar qanday ulanadi?
++ Hammasi bitta markaziy qurilmaga
+- Ketma-ket bir-birining ortidan
+- Yopiq halqa shaklidagi zanjirga
+- Faqat juft-juft bo'lib o'zaro
+
+Tarmoq protokoli nima?
++ Ma'lumot almashish qoidalari to'plami
+- Tarmoqqa ulangan kompyuterlar soni
+- Kabel uzunligini o'lchash birligi
+- Tarmoq kartasining seriya raqami
+
+Internet asosan qaysi protokollar to'plamiga asoslanadi?
++ TCP/IP
+- HTML/CSS
+- USB/HDMI
+- JPEG/PNG
+
+Tarmoq kartasi nima uchun kerak?
++ Kompyuterni tarmoqqa ulash uchun
+- Tasvirni ekranga chiqarish uchun
+- Ovozni yozib olib saqlash uchun
+- Ma'lumotni doimiy saqlash uchun
+
+Internet nima?
++ Butun dunyo tarmoqlarini birlashtirgan global tarmoq
+- Bitta tashkilot ichida ishlaydigan yopiq lokal tarmoq
+- Kompyuterga alohida o'rnatiladigan maxsus dastur
+- Ma'lumot saqlash uchun ishlatiladigan tashqi disk
+
+Veb-brauzer nima uchun mo'ljallangan?
++ Veb-sahifalarni ochib ko'rish uchun
+- Matnli hujjatlarni tahrirlash uchun
+- Fayllarni arxivga siqish uchun
+- Kompyuterni virusdan tozalash uchun
+
+Quyidagilardan qaysi biri brauzer EMAS?
++ Windows
+- Chrome
+- Firefox
+- Opera
+
+URL nima?
++ Veb-resursning internetdagi manzili
+- Kompyuterning tarmoqdagi raqami
+- Foydalanuvchining pochta manzili
+- Faylning diskdagi umumiy hajmi
+
+HTTP protokoli nima uchun xizmat qiladi?
++ Veb-sahifalarni uzatish uchun
+- Elektron pochta jo'natish uchun
+- Fayllarni siqib saqlash uchun
+- Qattiq diskni formatlash uchun
+
+HTTPS protokolining HTTP dan farqi nimada?
++ Ma'lumot shifrlangan holda uzatiladi
+- Veb-sahifalar ancha tezroq ochiladi
+- Rasmlar yuqori sifatda ko'rsatiladi
+- Faqat mobil qurilmalarda ishlaydi
+
+DNS xizmati qanday vazifani bajaradi?
++ Sayt nomini IP-manzilga aylantiradi
+- Saytlarni viruslardan himoya qiladi
+- Fayllarni internetga yuklab qo'yadi
+- Foydalanuvchi parollarini saqlaydi
+
+Elektron pochta manzilida qaysi belgi ishlatiladi?
++ @
+- #
+- &
+- %
+
+Quyidagilardan qaysi biri qidiruv tizimi?
++ Google
+- Gmail
+- Telegram
+- Word
+
+Faylni internetdan kompyuterga olish qanday nomlanadi?
++ Yuklab olish (download)
+- Yuklash (upload)
+- Nusxalash (copy)
+- Arxivlash (archive)
+
+Faylni kompyuterdan internetga joylash qanday nomlanadi?
++ Yuklash (upload)
+- Yuklab olish (download)
+- O'chirish (delete)
+- Qidirish (search)
+
+Bulutli xizmatga qaysi misol mos keladi?
++ Google Drive
+- Microsoft Paint
+- Kalkulyator
+- Bloknot
+
+Brauzerdagi xatcho'plar (Zakladki) nima uchun kerak?
++ Kerakli saytlarni saqlab qo'yish uchun
+- Ochiq sahifalarni chop etib olish uchun
+- Keraksiz fayllarni o'chirib tashlash uchun
+- Foydalanuvchi parolini almashtirish uchun
+
+Veb-sayt bilan veb-sahifa o'rtasidagi farq nimada?
++ Sayt bir necha sahifadan tashkil topadi
+- Sahifa saytdan ancha kattaroq bo'ladi
+- Ular butunlay bir xil tushuncha sanaladi
+- Sahifada faqat rasm joylashtiriladi
+
+Ctrl+F birikmasi brauzerda nima qiladi?
++ Sahifa ichidan matn qidiradi
+- Sahifani qaytadan yangilaydi
+- Yangi brauzer oynasini ochadi
+- Sahifani printerga jo'natadi
+
+F5 tugmasi brauzerda nima qiladi?
++ Sahifani yangilaydi
+- Sahifani yopib qo'yadi
+- Sahifani diskka saqlaydi
+- Sahifani kattalashtiradi
+
+Ish stolida yangi papka yaratish uchun nima qilinadi?
++ O'ng tugma -> ->
+- Chap tugma -> Svoystva -> OK
+- Delete tugmasi bosib yuboriladi
+- Kompyuter qaytadan yuklab olinadi
+
+Ketma-ket joylashgan bir nechta faylni belgilash uchun qaysi tugma bosib turiladi?
++ Shift
+- Ctrl
+- Alt
+- Tab
+
+Tarqoq joylashgan bir nechta faylni belgilash uchun qaysi tugma bosib turiladi?
++ Ctrl
+- Shift
+- Alt
+- Esc
+
+Windows+E birikmasi nimani ochadi?
++ Fayllar tadqiqotchisini (Provodnik)
+- Tizim boshqaruv panelini (Panel)
+- Vazifalar dispetcherini (Dispetcher)
+- Standart veb-brauzer oynasini
+
+Kompyuterning tarmoqqa ulanganini tekshirish uchun qaysi buyruq ishlatiladi?
++ ping
+- copy
+- format
+- print
+
+ipconfig buyrug'i nimani ko'rsatadi?
++ Kompyuterning tarmoq sozlamalarini
+- Diskdagi bo'sh joy hajmini
+- O'rnatilgan dasturlar ro'yxatini
+- Protsessorning ish haroratini
+
+Wi-Fi tarmog'iga ulanish uchun odatda nima talab qilinadi?
++ Tarmoq nomi va uning paroli
+- Faqat tarmoq kabeli va ulagich
+- Faqat printer uchun drayver fayli
+- Faqat brauzerning yangi versiyasi
+
+Kompyuterni to'g'ri o'chirish usuli qaysi?
++ Pusk -> Zavershenie raboty
+- Elektr simini rozetkadan sug'urish
+- Monitorning tugmasini bosib qo'yish
+- Klaviatura kabelini ajratib olish
+
+Elektron pochta orqali fayl yuborish uchun nima qilinadi?
++ Xatga fayl biriktiriladi (vlojenie)
+- Fayl brauzer oynasiga sudrab tashlanadi
+- Fayl avval printerga chiqarib olinadi
+- Fayl savatga (Korzina) ko'chiriladi
+
+Onlayn xizmatlardan foydalanish uchun odatda nima kerak?
++ Internet ulanishi va hisob yozuvi
+- Faqat printer hamda skaner qurilmasi
+- Faqat lokal tarmoq kabeli va ulagich
+- Faqat o'rnatilgan matn muharriri
+
+Notanish saytdan yuklangan faylni ochishdan oldin nima qilish kerak?
++ Antivirus bilan tekshirib olish
+- Uni darhol ishga tushirib ko'rish
+- Do'stlarga tarqatib yuborish
+- Ish stoliga ko'chirib qo'yish
+
+Brauzerda bir vaqtning o'zida bir nechta sahifani ochish uchun nima ishlatiladi?
++ Ilovalar (vkladki)
+- Xatcho'plar ro'yxati
+- Yuklamalar oynasi
+- Sozlamalar bo'limi
+
+Tizim sozlamalarini o'zgartirishda nimaga e'tibor berish kerak?
++ Faqat vazifasi ma'lum sozlamalar o'zgartiriladi
+- Barcha sozlamalarni navbat bilan sinab ko'riladi
+- Tizim fayllari oldindan o'chirib tashlanadi
+- Drayverlar butunlay o'chirib qo'yiladi
+
+Ushbu modulda o'rganilgan bilimlar qayerda amaliy foyda beradi?
++ Kompyuter va tarmoq bilan mustaqil ishlashda
+- Faqat qog'oz hujjatlarni qo'lda tayyorlashda
+- Faqat kalkulyator yordamida hisob-kitobda
+- Faqat telefon orqali suhbat o'tkazishda

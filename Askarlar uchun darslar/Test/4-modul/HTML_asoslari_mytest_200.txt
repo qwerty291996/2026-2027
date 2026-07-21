@@ -1,0 +1,1199 @@
+#1. HTML nima?
++Web sahifa yaratish uchun ishlatiladigan belgilash tili
+-Kompyuterni boshqaruvchi operatsion tizim
+-Ma'lumot saqlash uchun tashqi qattiq disk
+-Kompyuterni internetga ulash uchun tarmoq qurilmasi
+
+#2. HTML qisqartmasi qanday ochiladi?
++HyperText Markup Language
+-High Technology Modern Language
+-Home Text Making Language
+-Hard Text Management Layout
+
+#3. HTML fayllar odatda qanday kengaytma bilan saqlanadi?
++.html
+-.exe
+-.docx
+-.mp3
+
+#4. HTML sahifa qaysi dastur orqali ko'riladi?
++Brauzer orqali
+-Kalkulyator orqali
+-Videopleer orqali
+-Arxivator orqali
+
+#5. HTML tili nima uchun mo'ljallangan?
++Web sahifaning tuzilmasini yaratish uchun
+-Kompyuter viruslarini tozalash uchun
+-Musiqa fayllarini tahrirlash uchun
+-Fayllarni siqib saqlash uchun
+
+#6. HTML hujjati qaysi teg bilan boshlanadi?
++<html>
+-<start>
+-<begin>
+-<open>
+
+#7. HTML hujjatining asosiy ikki qismi qaysilar?
++<head> va <body>
+-<top> va <bottom>
+-<start> va <end>
+-<left> va <right>
+
+#8. <head> teg ichida odatda nima joylashadi?
++Sahifa haqidagi xizmatchi ma'lumotlar
+-Sahifada ko'rinadigan asosiy matn
+-Faqat sahifadagi rasmlar va videolar
+-Faqat foydalanuvchi parollari
+
+#9. <body> teg ichida nima joylashadi?
++Sahifada ko'rinadigan asosiy mazmun
+-Faqat sahifa sarlavhasi ma'lumoti
+-Kompyuterning tizim sozlamalari
+-Brauzer versiyasi haqidagi ma'lumot
+
+#10. Sahifa sarlavhasini (brauzer ilovasida ko'rinadigan) belgilovchi teg qaysi?
++<title>
+-<header>
+-<caption>
+-<name>
+
+#11. <title> teg qayerga yoziladi?
++<head> teg ichiga
+-<body> teg ichiga
+-<footer> teg ichiga
+-<table> teg ichiga
+
+#12. HTML hujjat turini bildiruvchi qator qaysi?
++<!DOCTYPE html>
+-<!TYPE html>
+-<!HTML doc>
+-<!START html>
+
+#13. HTML sahifadagi teglar odatda qanday ko'rinishda bo'ladi?
++Burchak qavslar ichida yoziladi
+-Yumaloq qavslar ichida yoziladi
+-Qo'shtirnoq ichida yoziladi
+-Kvadrat qavslar ichida yoziladi
+
+#14. HTML tili katta-kichik harfga sezgirmi?
++Yo'q, teglar katta yoki kichik yozilishi mumkin
+-Ha, teglar faqat katta harfda ishlaydi
+-Ha, teglar faqat kichik harfda ishlaydi
+-Ha, teglarda faqat raqamlar ishlaydi
+
+#15. HTML sahifa tuzilmasini yaratish nima uchun muhim?
++Mazmunni tartibli va to'g'ri ko'rsatish uchun
+-Kompyuter ishlashini tezlashtirish uchun
+-Internet ulanish tezligini oshirish uchun
+-Muhim faylni yo'qotib qo'ymaslik uchun
+
+#16. Teg (teg) nima?
++HTML elementini belgilovchi maxsus buyruq
+-Kompyuterga tashqaridan ulanadigan qurilma
+-Fayllar saqlanadigan papkaning turi
+-Internet sayt manzilining bir qismi
+
+#17. Ko'pchilik HTML teglari qanday tuzilishga ega?
++Ochiluvchi va yopiluvchi tegdan iborat
+-Faqat bitta ochiluvchi tegdan iborat
+-Faqat raqamlardan tashkil topgan
+-Faqat rasmli elementlardan iborat
+
+#18. Yopiluvchi teg qanday belgi bilan yoziladi?
++Ichida qiya chiziq (/) bo'ladi
+-Ichida yulduzcha (*) bo'ladi
+-Ichida foiz (%) bo'ladi
+-Ichida panjara (#) bo'ladi
+
+#19. <p> tegining yopiluvchi ko'rinishi qaysi?
++</p>
+-<p/>
+-<\p>
+-<p end>
+
+#20. Atribut (atribut) nima?
++Tegga qo'shimcha xususiyat beruvchi ko'rsatma
+-Sahifadagi asosiy sarlavha yozuvidir
+-Kompyuterning ichki apparat qurilmasi
+-Fayl kengaytmasini bildiruvchi belgi
+
+#21. Atribut tegning qayerida yoziladi?
++Ochiluvchi teg ichida
+-Yopiluvchi teg ichida
+-Teglardan tashqarida
+-Faqat sahifaning eng oxirida
+
+#22. Atribut qiymati odatda qanday yoziladi?
++Qo'shtirnoq ichida
+-Burchak qavs ichida
+-Yulduzcha bilan
+-Panjara bilan
+
+#23. Quyidagilardan qaysi biri to'g'ri yozilgan atribut?
++href="sahifa.html"
+-href=sahifa.html>
+-<href>sahifa.html
+-href-sahifa.html
+
+#24. Bo'sh (yopiluvchi teg talab qilmaydigan) tegga misol qaysi?
++<br>
+-<p>
+-<div>
+-<span>
+
+#25. HTML sintaksisidagi xatolik nimaga olib kelishi mumkin?
++Sahifa noto'g'ri ko'rsatilishiga
+-Kompyuterning o'chib qolishiga
+-Internetning uzilishiga
+-Printerning buzilishiga
+
+#26. Bir teg ichiga boshqa teg joylashtirilishi qanday nomlanadi?
++Teglarni ichma-ich joylashtirish
+-Yozilgan teglarni butunlay o'chirish
+-Teglarni boshqa joyga ko'chirish
+-Teglarni qog'ozga chop etish
+
+#27. HTML kodiga izoh (comment) qanday yoziladi?
++<!-- izoh -->
+-// izoh
+-/* izoh */
+-# izoh
+
+#28. HTML izohlari brauzerda ko'rinadimi?
++Yo'q, ko'rinmaydi
+-Ha, qizil rangda ko'rinadi
+-Ha, sarlavha sifatida ko'rinadi
+-Ha, jadval ichida ko'rinadi
+
+#29. <b> tegi nima vazifani bajaradi?
++Matnni qalin (semiz) qiladi
+-Ekrandagi matnni qiya qilib ko'rsatadi
+-Ekrandagi matn ostiga chiziq chizadi
+-Ekrandagi matnni butunlay o'chiradi
+
+#30. <i> tegi nima vazifani bajaradi?
++Matnni qiya (kursiv) qiladi
+-Ekrandagi matnni qalin qilib ko'rsatadi
+-Ekrandagi matnni kattaroq qilib ko'rsatadi
+-Ekrandagi matnni ko'rinmas qiladi
+
+#31. <u> tegi nima vazifani bajaradi?
++Matn ostiga chiziq chizadi
+-Ekrandagi matnni qalin qilib ko'rsatadi
+-Ekrandagi matnni qiya qilib ko'rsatadi
+-Ekrandagi matnni butunlay o'chiradi
+
+#32. Eng katta sarlavha tegi qaysi?
++<h1>
+-<h6>
+-<hd>
+-<head>
+
+#33. Eng kichik sarlavha tegi qaysi?
++<h6>
+-<h1>
+-<h9>
+-<hmin>
+
+#34. HTML da nechta darajadagi sarlavha tegi mavjud?
++6 ta
+-3 ta
+-9 ta
+-12 ta
+
+#35. Paragraf (matn qatori) yaratuvchi teg qaysi?
++<p>
+-<par>
+-<text>
+-<line>
+
+#36. Yangi qatorga o'tish uchun qaysi teg ishlatiladi?
++<br>
+-<nl>
+-<next>
+-<line>
+
+#37. Gorizontal ajratuvchi chiziq qo'yuvchi teg qaysi?
++<hr>
+-<line>
+-<hz>
+-<div>
+
+#38. Matnni ekranda o'z holicha (yozilganidek) ko'rsatuvchi teg qaysi?
++<pre>
+-<raw>
+-<text>
+-<fix>
+
+#39. <strong> tegi matnga qanday ta'sir qiladi?
++Matnni ahamiyatli qilib qalin ko'rsatadi
+-Matnni yashirin qiladi
+-Ekrandagi matnni butunlay o'chiradi
+-Ekrandagi matnni kichraytirib ko'rsatadi
+
+#40. <em> tegi matnga qanday ta'sir qiladi?
++Matnni urg'u berib qiya ko'rsatadi
+-Ekrandagi matnni qalin qilib ko'rsatadi
+-Ekrandagi matn ostiga chiziq chizadi
+-Ekrandagi matnni butunlay yo'qotadi
+
+#41. Matnni pastki indeks (past yozuv) qiluvchi teg qaysi?
++<sub>
+-<sup>
+-<low>
+-<down>
+
+#42. Matnni yuqori indeks (yuqori yozuv) qiluvchi teg qaysi?
++<sup>
+-<sub>
+-<top>
+-<up>
+
+#43. Sarlavha teglari matnni qanday ko'rsatadi?
++Qalin va kattaroq shriftda
+-Doim qiya shriftda
+-Doim juda kichik shriftda
+-Doim qizil rangda
+
+#44. <mark> tegi matnga qanday ta'sir qiladi?
++Matnni belgilab (rangli fon bilan) ajratadi
+-Ekrandagi matnni butunlay o'chiradi
+-Ekrandagi matnni ko'rinmas qiladi
+-Ekrandagi matnni kichraytirib ko'rsatadi
+
+#45. Matnni markazga joylashtirishda ko'pincha qaysi atribut ishlatiladi?
++align="center"
+-align="middle"
+-place="center"
+-set="center"
+
+#46. Bir nechta paragraf yozish uchun nima qilish kerak?
++Har birini alohida <p> tegiga olish
+-Hammasini bitta <br> ichiga yozish
+-Faqat probellar qo'yish
+-Faqat sarlavha ishlatish
+
+#47. Matn elementlari bilan ishlashda asosiy maqsad nima?
++Matnni tartibli va o'qishga qulay joylashtirish
+-Kompyuter ishlashini tezlashtirish
+-Fayllar hajmini siqib kichraytirish
+-Kompyuterni internetga ulash
+
+#48. Havola (havola) yaratuvchi teg qaysi?
++<a>
+-<link>
+-<href>
+-<url>
+
+#49. <a> tegida havola manzili qaysi atribut orqali beriladi?
++href
+-src
+-link
+-url
+
+#50. Havola matnini foydalanuvchi qayerda ko'radi?
++Ochiluvchi va yopiluvchi <a> teg orasida
+-Faqat sahifaning <head> teg ichida
+-Faqat sahifaning eng oxirida
+-Faqat qo'yilgan rasm ustida
+
+#51. Boshqa saytga o'tuvchi havola qanday nomlanadi?
++Tashqi havola
+-Ichki havola
+-Yashirin havola
+-Yopiq havola
+
+#52. Bir sayt ichidagi boshqa sahifaga o'tuvchi havola qanday nomlanadi?
++Ichki havola
+-Tashqi havola
+-Ochiq havola
+-Uzoq havola
+
+#53. Havolani yangi ilovada (oynada) ochish uchun qaysi atribut ishlatiladi?
++target="_blank"
+-open="new"
+-target="new"
+-window="open"
+
+#54. Elektron pochtaga havola yaratishda nima ishlatiladi?
++mailto:
+-email:
+-mail:
+-send:
+
+#55. Havola bosilganda nima sodir bo'ladi?
++Ko'rsatilgan sahifa yoki manzilga o'tiladi
+-Ishlab turgan kompyuter darhol o'chadi
+-Diskdagi keraksiz fayl o'chiriladi
+-Ishlab turgan brauzer birdan yopiladi
+
+#56. Rasmlarga ham havola qo'yish mumkinmi?
++Ha, rasmni <a> teg ichiga olish orqali
+-Yo'q, rasmga havola qo'yib bo'lmaydi
+-Faqat matnlarga havola qo'yiladi
+-Faqat jadvallarga havola qo'yiladi
+
+#57. Havolaning ko'rinishi odatda qanday bo'ladi?
++Ko'k rangda va ostiga chizilgan
+-Doim qizil rangda va katta shriftda
+-Doim yashil rangda va qalin shriftda
+-Doim qora rangda va yashirin holatda
+
+#58. Navigatsiya elementlari nima uchun kerak?
++Sahifalar orasida qulay o'tish uchun
+-Kompyuterni sovutish uchun
+-Fayllar hajmini siqib kichraytirish uchun
+-Ekranda turli rasm chizish uchun
+
+#59. Havolalar web sahifada qanday foyda beradi?
++Sahifalarni o'zaro bog'lash imkonini beradi
+-Kompyuter ishlash tezligini oshiradi
+-Sarflanadigan elektr energiyasini tejaydi
+-Kompyuterni viruslardan himoya qiladi
+
+#60. Sahifaning muayyan qismiga o'tuvchi havola nimadan foydalanadi?
++Belgi (#) va element identifikatoridan
+-Faqat qo'yilgan rasm manzilidan
+-Faqat sahifadagi jadval nomidan
+-Faqat belgilangan rang kodidan
+
+#61. Web sahifaga rasm qo'shuvchi teg qaysi?
++<img>
+-<image>
+-<pic>
+-<photo>
+
+#62. <img> tegida rasm manzili qaysi atribut orqali beriladi?
++src
+-href
+-link
+-file
+
+#63. <img> tegi yopiluvchi tegga muhtojmi?
++Yo'q, u bo'sh teg hisoblanadi
+-Ha, </img> yozish shart
+-Ha, <img end> yoziladi
+-Ha, <close img> yoziladi
+
+#64. Rasm ko'rinmay qolganda o'rniga matn ko'rsatuvchi atribut qaysi?
++alt
+-src
+-text
+-name
+
+#65. alt atributi nima uchun kerak?
++Rasm yuklanmasa, o'rniga matn ko'rsatish uchun
+-Sahifadagi rasmni o'chirish uchun
+-Rasmni ekranda katta qilib ko'rsatish uchun
+-Rasmni qog'ozga chop etish uchun
+
+#66. Rasm o'lchamini belgilovchi atributlar qaysilar?
++width va height
+-size va scale
+-big va small
+-long va tall
+
+#67. width atributi rasmning nimasini belgilaydi?
++Enini (kengligini)
+-Balandligini
+-Rangini
+-Manzilini
+
+#68. height atributi rasmning nimasini belgilaydi?
++Balandligini
+-Enini
+-Rangini
+-Nomini
+
+#69. Rasm fayllari qaysi formatlarda bo'lishi mumkin?
++JPG, PNG, GIF
+-DOCX, XLSX, PPTX
+-MP3, WAV, MP4
+-EXE, BAT, COM
+
+#70. Multimedia deganda nima tushuniladi?
++Rasm, ovoz va video kabi elementlar
+-Faqat oddiy matnli hujjatlar
+-Faqat o'rnatilgan kompyuter dasturlari
+-Faqat ulanuvchi tarmoq qurilmalari
+
+#71. Web sahifaga video qo'shuvchi teg qaysi?
++<video>
+-<movie>
+-<film>
+-<play>
+
+#72. Web sahifaga ovoz qo'shuvchi teg qaysi?
++<audio>
+-<sound>
+-<music>
+-<voice>
+
+#73. Rasmni to'g'ri joylashtirishda nimaga e'tibor berish kerak?
++O'lcham va joylashuvni to'g'ri sozlashga
+-Faqat qo'yilgan rasm rangiga
+-Faqat rasm faylining nomiga
+-Faqat rasm yaratilgan sanasiga
+
+#74. src atributi nimani ko'rsatadi?
++Rasm faylining manzilini
+-Rasmning rangini
+-Rasmning sanasini
+-Rasmning egasini
+
+#75. Rasm sahifada juda katta chiqmasligi uchun nima qilinadi?
++width va height qiymatlarini belgilash
+-Rasmni o'chirish
+-Ochiq turgan sahifani yopish
+-Ishlatilayotgan brauzerni almashtirish
+
+#76. Tartibsiz ro'yxat yaratuvchi teg qaysi?
++<ul>
+-<ol>
+-<li>
+-<list>
+
+#77. Tartibli (raqamli) ro'yxat yaratuvchi teg qaysi?
++<ol>
+-<ul>
+-<li>
+-<num>
+
+#78. Ro'yxat elementini (bandini) belgilovchi teg qaysi?
++<li>
+-<ul>
+-<ol>
+-<item>
+
+#79. Tartibsiz ro'yxat bandlari oldida odatda nima ko'rinadi?
++Nuqta yoki belgi
+-Tartib raqami
+-Katta harf
+-Rasm
+
+#80. Tartibli ro'yxat bandlari oldida nima ko'rinadi?
++Tartib raqami
+-Faqat nuqta
+-Faqat belgi
+-Hech narsa
+
+#81. <li> teg qaysi teglar ichida ishlatiladi?
++<ul> yoki <ol> ichida
+-<table> ichida
+-<img> ichida
+-<head> ichida
+
+#82. Jadval yaratuvchi asosiy teg qaysi?
++<table>
+-<grid>
+-<board>
+-<box>
+
+#83. Jadvaldagi qatorni belgilovchi teg qaysi?
++<tr>
+-<td>
+-<th>
+-<row>
+
+#84. Jadvaldagi katakni (yacheykani) belgilovchi teg qaysi?
++<td>
+-<tr>
+-<cell>
+-<box>
+
+#85. Jadval sarlavha katagini belgilovchi teg qaysi?
++<th>
+-<td>
+-<tr>
+-<title>
+
+#86. <th> katagidagi matn qanday ko'rinadi?
++Qalin va markazda
+-Qiya va chapda
+-Kichik va o'ngda
+-Yashirin holatda
+
+#87. Jadvalga chegara (ramka) qo'shishda ko'pincha nima ishlatiladi?
++border atributi
+-line atributi
+-edge atributi
+-frame atributi
+
+#88. Jadval nima uchun ishlatiladi?
++Ma'lumotlarni qator va ustunlarda ko'rsatish uchun
+-Ekranda turli rasm chizish uchun
+-Sahifaga ovozli fayl qo'shish uchun
+-Sahifada bosiladigan havola yaratish uchun
+
+#89. Ro'yxatlar nima uchun foydali?
++Ma'lumotlarni tartibli sanab ko'rsatish uchun
+-Kompyuter ishlashini tezlashtirish uchun
+-Kompyuterni internetga ulash uchun
+-Fayllar hajmini siqib kichraytirish uchun
+
+#90. Ikkita katakni bitta qilib birlashtirishda qaysi atribut ishlatiladi?
++colspan yoki rowspan
+-mergecell atributi
+-joincell atributi
+-unioncell atributi
+
+#91. Forma (forma) yaratuvchi teg qaysi?
++<form>
+-<input>
+-<field>
+-<box>
+
+#92. Foydalanuvchidan ma'lumot kirituvchi asosiy teg qaysi?
++<input>
+-<enter>
+-<data>
+-<get>
+
+#93. Ko'p qatorli matn kiritish uchun qaysi teg ishlatiladi?
++<textarea>
+-<input>
+-<text>
+-<longtext>
+
+#94. Matn kiritish maydonini yaratish uchun input turi qaysi?
++type="text"
+-type="line"
+-type="string"
+-type="word"
+
+#95. Parol kiritish maydonini yaratuvchi input turi qaysi?
++type="password"
+-type="secret"
+-type="hidden"
+-type="key"
+
+#96. Tugma (knopka) yaratuvchi input turi qaysi?
++type="submit"
+-type="button2"
+-type="click"
+-type="press"
+
+#97. Bittasini tanlash uchun dumaloq belgili element turi qaysi?
++type="radio"
+-type="circle"
+-type="dot"
+-type="round"
+
+#98. Bir nechtasini belgilash uchun katakcha element turi qaysi?
++type="checkbox"
+-type="check"
+-type="tick"
+-type="box"
+
+#99. Forma nima uchun kerak?
++Foydalanuvchidan ma'lumot yig'ish uchun
+-Ekranda turli rasm chizish uchun
+-Ishlab turgan kompyuterni o'chirish uchun
+-Fayllar hajmini siqib kichraytirish uchun
+
+#100. <label> teg nima uchun ishlatiladi?
++Forma elementiga izoh (nom) berish uchun
+-Sahifaga tasvir (rasm) qo'shish uchun
+-Sahifada bosiladigan havola yaratish uchun
+-Sahifada ma'lumot jadvalini chizish uchun
+
+#101. Quyidagi kodda xato bor: <p>Salom</b>. Xato nimada?
++Ochilgan va yopilgan teglar mos emas
+-Yozilgan matn juda uzun
+-Kodda katta harf ishlatilgan
+-Jumla oxiriga nuqta qo'yilmagan
+
+#102. <a href="https://uz.wikipedia.org">Vikipediya</a> kodi nima qiladi?
++"Vikipediya" so'zini bosiladigan havolaga aylantiradi
+-Sahifaga Wikipedia rasmini qo'shadi
+-Sahifada yangi jadval yaratadi
+-Ochiq turgan sahifani o'chiradi
+
+#103. <img src="rasm.png" alt="Manzara"> kodida "Manzara" nimani bildiradi?
++Rasm ko'rinmaganda chiqadigan matnni
+-Qo'yilgan rasm faylining o'lchamini
+-Qo'yilgan rasmning umumiy rangini
+-Rasm faylining saqlangan manzilini
+
+#104. <ol> ichida uchta <li> bo'lsa, brauzer nimani ko'rsatadi?
++1, 2, 3 tartib raqamli ro'yxatni
+-Uchta nuqta belgili ro'yxatni
+-Ketma-ket uchta rasmni
+-Ketma-ket uchta havolani
+
+#105. <ul> va <ol> o'rtasidagi asosiy farq nimada?
++<ul> belgili, <ol> raqamli ro'yxat yaratadi
+-<ul> raqamli, <ol> belgili ro'yxat yaratadi
+-Ikkalasi butunlay bir xil ishlaydi
+-Ikkalasi ham jadval yaratadi
+
+#106. <br> va <p> o'rtasidagi farq nimada?
++<br> yangi qator, <p> yangi paragraf ochadi
+-Ikkalasi butunlay bir xil ishlaydi ishlaydi
+-<br> jadval, <p> ro'yxat yaratadi
+-<br> rasm, <p> havola qo'shadi
+
+#107. Quyidagi kodning natijasi qanday: <h1>Salom</h1>?
++"Salom" so'zi katta sarlavha bo'lib chiqadi
+-"Salom" so'zi kichik matn bo'lib chiqadi
+-"Salom" so'zi havolaga aylanadi
+-"Salom" so'zi ko'rinmaydi
+
+#108. <input type="text"> kodi nimani hosil qiladi?
++Matn kiritish maydonini
+-Bosiladigan tugmani
+-Rasm ustidagi bosiladigan havolani
+-Tartibli ro'yxatni
+
+#109. Formada ma'lumot yuboruvchi tugma qanday yaratiladi?
++<input type="submit">
+-<input type="send">
+-<button type="go">
+-<input type="ok">
+
+#110. Quyidagilardan qaysi biri to'g'ri havola kodi?
++<a href="index.html">Bosh sahifa</a>
+-<a src="index.html">Bosh sahifa</a>
+-<link href="index.html">Bosh sahifa</link>
+-<href a="index.html">Bosh sahifa</a>
+
+#111. <table> ichida qatorlar qaysi teg bilan yaratiladi?
++<tr>
+-<td>
+-<th>
+-<table>
+
+#112. <tr> ichida kataklar qaysi teg bilan yaratiladi?
++<td>
+-<tr>
+-<table>
+-<cell>
+
+#113. Ikki ustunli, bir qatorli jadval uchun nechta <td> kerak?
++2 ta
+-1 ta
+-4 ta
+-6 ta
+
+#114. <a href="#bolim2">O'tish</a> kodi qanday havola?
++Sahifa ichidagi belgilangan qismga o'tuvchi havola
+-Butunlay boshqa saytga o'tuvchi havola
+-Elektron pochta manziliga havola
+-Rasm ustidagi bosiladigan havola
+
+#115. Nima uchun har bir <img> tegiga alt atributini yozish tavsiya etiladi?
++Rasm yuklanmaganda ma'lumot ko'rsatish uchun
+-Rasmni tezroq yuklash uchun
+-Rasmni ekranda katta qilib ko'rsatish uchun
+-Sahifadagi rasmni o'chirish uchun
+
+#116. <p style="color:red">Matn</p> kodi nima qiladi?
++Matnni qizil rangda ko'rsatadi
+-Ekrandagi matnni butunlay o'chiradi
+-Ekrandagi matnni kattaroq qilib ko'rsatadi
+-Ekrandagi matnni havolaga aylantiradi
+
+#117. HTML da rang qiymatlari qanday berilishi mumkin?
++Nomi yoki maxsus kod orqali
+-Faqat raqamli qiymat orqali
+-Faqat qo'yilgan rasm orqali
+-Faqat bitta harf orqali
+
+#118. #FF0000 rang kodi qaysi rangni bildiradi?
++Qizil
+-Ko'k
+-Yashil
+-Sariq
+
+#119. style atributi nima uchun ishlatiladi?
++Elementga ko'rinish (bezak) berish uchun
+-Sahifadagi elementni o'chirish uchun
+-Elementni boshqa joyga ko'chirish uchun
+-Elementni qog'ozga chop etish uchun
+
+#120. Quyidagi koddan qaysi biri rasmni to'g'ri qo'shadi?
++<img src="tabiat.jpg">
+-<img href="tabiat.jpg">
+-<image src="tabiat.jpg">
+-<img>tabiat.jpg</img>
+
+#121. <div> teg nima uchun ishlatiladi?
++Sahifa qismlarini bo'limlarga ajratish uchun
+-Sahifaga tasvir (rasm) qo'shish uchun
+-Sahifada bosiladigan havola yaratish uchun
+-Sahifaga ovozli fayl qo'shish uchun
+
+#122. <span> teg qanday element hisoblanadi?
++Matn ichidagi kichik qismni belgilash uchun
+-Butun sahifani o'rab olish uchun
+-Sahifada ma'lumot jadvalini yaratish uchun
+-Sahifaga videoyozuv qo'shish uchun
+
+#123. <div> va <span> o'rtasidagi asosiy farq nimada?
++<div> katta blok, <span> matn ichidagi kichik qism
+-Ikkalasi butunlay bir xil ishlaydi
+-<div> rasm, <span> ovoz qo'shadi
+-<span> jadval, <div> ro'yxat yaratadi
+
+#124. Quyidagi kod nechta ro'yxat bandini hosil qiladi: <ul><li>A</li><li>B</li></ul>?
++2 ta
+-1 ta
+-3 ta
+-4 ta
+
+#125. HTML sahifada bo'sh joy (probel) qanday qo'shiladi?
++&nbsp; belgisi orqali
+-<space> teg orqali
+-<gap> teg orqali
+-<empty> teg orqali
+
+#126. "Kichikroq" (<) belgisini matnda ko'rsatish uchun nima yoziladi?
++&lt;
+-&gt;
+-&amp;
+-&sp;
+
+#127. "Kattaroq" (>) belgisini matnda ko'rsatish uchun nima yoziladi?
++&gt;
+-&lt;
+-&amp;
+-&big;
+
+#128. <a> tegisiz havola yaratish mumkinmi?
++Yo'q, havola uchun <a> teg zarur
+-Ha, <link> teg bilan yaratiladi
+-Ha, <href> teg bilan yaratiladi
+-Ha, hech qanday teg kerak emas
+
+#129. Quyidagi kod xatoligini toping: <img src="rasm.jpg" alt=Manzara>. Xato nimada?
++alt qiymati qo'shtirnoqqa olinmagan
+-src atributi noto'g'ri yozilgan
+-Ochilgan teg yopilmagan
+-Rasm faylining nomi juda uzun
+
+#130. Formadagi <input> elementiga nom berish uchun qaysi atribut ishlatiladi?
++name
+-title
+-alt
+-src
+
+#131. <textarea> va <input type="text"> o'rtasidagi farq nimada?
++<textarea> ko'p qatorli matnga mo'ljallangan
+-Ikkalasi butunlay bir xil ishlaydi ishlaydi
+-<textarea> faqat rasm uchun
+-<input> faqat parol uchun
+
+#132. placeholder atributi nima qiladi?
++Maydonda ko'rsatma matn (namuna) ko'rsatadi
+-Kiritish maydonini butunlay o'chiradi
+-Kiritish maydonini ko'rinmas qiladi
+-Kiritish maydonini kattalashtiradi
+
+#133. Quyidagi kod natijasi qanday: <b><i>Matn</i></b>?
++Matn ham qalin, ham qiya bo'ladi
+-Ekranda matn faqat qalin bo'ladi
+-Ekranda matn faqat qiya bo'ladi
+-Ekrandagi matn o'chib ketadi
+
+#134. HTML da izohlar nima uchun yoziladi?
++Kodni tushuntirish va eslatma qoldirish uchun
+-Sahifani bezash uchun
+-Sahifaga tasvir (rasm) qo'shish uchun
+-Sahifada bosiladigan havola yaratish uchun
+
+#135. <head> ichida sahifa kodlashini belgilovchi teg qaysi?
++<meta charset="UTF-8">
+-<code charset="UTF-8">
+-<lang="UTF-8">
+-<encoding="UTF-8">
+
+#136. UTF-8 kodlashi nima uchun muhim?
++Turli tillardagi harflarni to'g'ri ko'rsatish uchun
+-Sahifa yuklanishini tezlashtirish uchun
+-Sahifadagi rasmlarni siqish uchun
+-Sahifadagi havolalarni ochish uchun
+
+#137. Quyidagi teglardan qaysi biri sarlavha uchun ishlatiladi?
++<h2>
+-<p>
+-<a>
+-<li>
+
+#138. <ol type="A"> kodi ro'yxatni qanday raqamlaydi?
++A, B, C harflari bilan
+-1, 2, 3 raqamlari bilan
+-Nuqtalar bilan
+-Belgilar bilan
+
+#139. Ichma-ich (bir-birining ichida) ro'yxat yaratish mumkinmi?
++Ha, <ul> yoki <ol> ichiga yana ro'yxat qo'yiladi
+-Yo'q, bunday qilish mumkin emas
+-Faqat sahifa jadvali ichida mumkin
+-Faqat sahifa formasi ichida mumkin
+
+#140. <a href="tel:998901234567"> kodi nima qiladi?
++Telefon raqamiga qo'ng'iroq havolasi yaratadi
+-Elektron pochta oynasini ochadi
+-Sahifaga tasvir (rasm) yuklaydi
+-Jadval yaratadi
+
+#141. Web sahifada rasmni havolaga aylantirish uchun nima qilinadi?
++<img> tegini <a> teg ichiga joylashtirish
+-<img> tegining o'ziga href qo'shish
+-<a> tegining o'ziga src qo'shish
+-Rasmni sahifa jadvaliga qo'yish
+
+#142. HTML sahifada qanday qilib bir nechta ustunli jadval yaratiladi?
++Har <tr> ichiga bir nechta <td> qo'yish orqali
+-Ketma-ket bir nechta <table> qo'yish orqali
+-Ketma-ket bir nechta <br> qo'yish orqali
+-Ketma-ket bir nechta <p> qo'yish orqali
+
+#143. Formani qayerga yuborishni belgilovchi atribut qaysi?
++action
+-send
+-target
+-post
+
+#144. Ma'lumot yuborish usulini belgilovchi atribut qaysi?
++method
+-send
+-type
+-mode
+
+#145. <select> teg nima uchun ishlatiladi?
++Ochiladigan tanlov ro'yxatini yaratish uchun
+-Foydalanuvchidan matn kiritish uchun
+-Sahifaga tasvir (rasm) qo'shish uchun
+-Sahifada bosiladigan havola yaratish uchun
+
+#146. <option> teg qayerda ishlatiladi?
++<select> teg ichida
+-<input> teg ichida
+-<img> teg ichida
+-<table> teg ichida
+
+#147. Quyidagilardan qaysi biri to'g'ri jadval tuzilmasi?
++<table><tr><td>A</td></tr></table>
+-<table><td><tr>A</tr></td></table>
+-<tr><table><td>A</td></table></tr>
+-<td><table><tr>A</tr></table></td>
+
+#148. required atributi formada nima qiladi?
++Maydonni to'ldirishni majburiy qiladi
+-Kiritish maydonini butunlay o'chiradi
+-Kiritish maydonini ko'rinmas qiladi
+-Kiritish maydonini ekranda kattalashtiradi
+
+#149. HTML da bo'sh (tarkibsiz) teglar nima deb ataladi?
++Yopiluvchi teg talab qilmaydigan teglar
+-Faqat matn sarlavha teglari
+-Faqat jadval tuzuvchi teglar
+-Faqat forma tuzuvchi teglar
+
+#150. Quyidagilardan qaysi biri bo'sh teg emas?
++<p>
+-<br>
+-<hr>
+-<img>
+
+#151. Web sahifa tuzilmasini tekshirish uchun nima qilinadi?
++Sahifani brauzerda ochib ko'rish
+-Ishlab turgan kompyuterni o'chirish
+-Fayllar hajmini siqib kichraytirish
+-Qattiq diskni to'liq formatlash
+
+#152. HTML faylni brauzerda ochish uchun eng oddiy usul qaysi?
++Faylni ikki marta bosish
+-Faylni qog'ozga chop etish
+-Keraksiz faylni o'chirish
+-Faylni arxivga siqib saqlash
+
+#153. Sahifada matn ko'rinmasa, birinchi nima tekshiriladi?
++Matn <body> ichida yozilganmi
+-Kompyuter korpusining rangi
+-Klaviaturaning kirish tili
+-Internet ulanish tezligi
+
+#154. Havola ishlamasa, birinchi nima tekshiriladi?
++href atributidagi manzil to'g'rimi
+-Ochilgan sahifaning rangi
+-Monitor ekranining o'lchami
+-Ishlatilayotgan brauzer nomi
+
+#155. Rasm ko'rinmasa, birinchi nima tekshiriladi?
++src atributidagi fayl manzili to'g'rimi
+-Qo'yilgan rasmning rangi
+-Ochilgan sahifa sarlavhasi
+-Ulangan internet provayderi
+
+#156. Brauzerda sahifa manba kodini ko'rish uchun ko'pincha qaysi tugma bosiladi?
++Sichqonchaning o'ng tugmasi orqali "manba kodi"
+-Faqat klaviaturadagi Enter tugmasi
+-Faqat klaviaturadagi Delete tugmasi
+-Faqat klaviaturadagi Escape tugmasi
+
+#157. HTML kodini yozish uchun qaysi dasturdan foydalanish mumkin?
++Oddiy matn muharriri (Bloknot)
+-Faqat maxsus rasm muharriri
+-Faqat oddiy kalkulyator dasturi
+-Faqat video ijro etuvchi pleer
+
+#158. Sahifada bir necha rasm qo'yish mumkinmi?
++Ha, har biri uchun alohida <img> teg yoziladi
+-Yo'q, sahifada faqat bitta rasm mumkin
+-Faqat sahifa jadvali ichida mumkin
+-Faqat sahifa formasi ichida mumkin
+
+#159. Web sahifa yaratishda birinchi qadam nima?
++HTML hujjat tuzilmasini yozish
+-Rasmni chop etish
+-Ishlab turgan kompyuterni o'chirish
+-Qattiq diskni to'liq formatlash
+
+#160. Tayyor HTML sahifani boshqa kompyuterda ko'rsa bo'ladimi?
++Ha, brauzeri bor har qanday kompyuterda
+-Yo'q, faqat yaratilgan kompyuterda
+-Faqat internet ulanmagan bo'lsa
+-Faqat printer ulangan bo'lsa
+
+#161. <a href="rasm.jpg" download>Yuklab olish</a> kodi nima qiladi?
++Rasmni yuklab olish havolasini yaratadi
+-Sahifadagi rasmni o'chiradi
+-Rasmni ekranda kattalashtiradi
+-Rasmni qog'ozga chop etadi
+
+#162. Sahifada sarlavhalarni to'g'ri tartibda ishlatish nima uchun muhim?
++Mazmun tuzilmasini aniq ko'rsatish uchun
+-Kompyuter ishlashini tezlashtirish uchun
+-Fayllar hajmini siqib kichraytirish uchun
+-Sahifaga tasvir (rasm) qo'shish uchun
+
+#163. <p> tegining ichiga <h1> teg qo'yish to'g'rimi?
++Yo'q, sarlavhani paragraf ichiga qo'yish noto'g'ri
+-Ha, bunday yozish tavsiya etiladi
+-Ha, faqat shunday tartibda yoziladi
+-Ha, bundan boshqa yo'l yo'q
+
+#164. Quyidagi kodda nechta havola bor: <a href="a.html">A</a> <a href="b.html">B</a>?
++2 ta
+-1 ta
+-3 ta
+-0 ta
+
+#165. HTML sahifada matnni tartibli ko'rsatish uchun asosan nima ishlatiladi?
++Sarlavha, paragraf va ro'yxat teglari
+-Faqat rasm qo'yuvchi teglar
+-Faqat forma tuzuvchi teglar
+-Faqat video qo'yuvchi teglar
+
+#166. Formada tanlangan qiymat serverga qanday yuboriladi?
++name va qiymat juftligi ko'rinishida
+-Faqat qo'yilgan rasm ko'rinishida
+-Faqat belgilangan rang ko'rinishida
+-Faqat kiritilgan sana ko'rinishida
+
+#167. <input type="email"> maydoni nimani tekshiradi?
++Kiritilgan matn pochta manzili ko'rinishidami
+-Kiritilgan matn uzunligini
+-Kiritilgan matn rangini
+-Kiritilgan matn shriftini
+
+#168. <input type="number"> maydoni nima uchun ishlatiladi?
++Faqat raqam kiritish uchun
+-Faqat harf kiritish uchun
+-Faqat rasm qo'shish uchun
+-Faqat havola yaratish uchun
+
+#169. Sana kiritish maydonini yaratuvchi input turi qaysi?
++type="date"
+-type="day"
+-type="calendar"
+-type="time2"
+
+#170. Quyidagi kod xatosini toping: <ul><li>Olma<li>Anor</ul>. Xato nimada?
++<li> teglari yopilmagan
+-<ul> tegi noto'g'ri yozilgan
+-Yozilgan matn juda qisqa
+-Yaratilgan ro'yxat bo'sh
+
+#171. Nested (ichma-ich) jadval nima?
++Bir jadval katagi ichidagi boshqa jadval
+-Ikki alohida jadval
+-Jadvalsiz ro'yxat
+-Rasm ustidagi bosiladigan havola
+
+#172. Jadvalda ustunlarni birlashtirish uchun qaysi atribut ishlatiladi?
++colspan
+-rowspan
+-mergecol
+-joincol
+
+#173. Jadvalda qatorlarni birlashtirish uchun qaysi atribut ishlatiladi?
++rowspan
+-colspan
+-mergerow
+-joinrow
+
+#174. <caption> teg jadvalda nima uchun ishlatiladi?
++Jadvalga sarlavha (nom) berish uchun
+-Yaratilgan jadvalni o'chirish uchun
+-Jadval fonini bo'yash uchun
+-Jadvalni boshqa joyga ko'chirish uchun
+
+#175. Web sahifada asosiy matn qaysi teg ichida bo'lishi kerak?
++<body>
+-<head>
+-<title>
+-<meta>
+
+#176. Quyidagilardan qaysi biri <head> ichida bo'ladi?
++<title>
+-<p>
+-<h1>
+-<img>
+
+#177. Bir HTML faylda nechta <body> teg bo'lishi kerak?
++Bitta
+-Ikkita
+-Uchta
+-Cheksiz ko'p
+
+#178. Sahifa tili qaysi atribut orqali belgilanadi?
++lang atributi
+-language atributi
+-tongue atributi
+-speak atributi
+
+#179. <html lang="uz"> kodi nimani bildiradi?
++Sahifa tili o'zbek tilida ekanligini
+-Ochilgan sahifaning rangi o'zgarganini
+-Sahifaning umumiy hajmini
+-Sahifa yaratilgan sanasini
+
+#180. Quyidagi kod natijasini toping: <p>1</p><p>2</p>. Ular qanday ko'rinadi?
++Ikki alohida qatorda 1 va 2 chiqadi
+-Bitta qatorda 12 raqami chiqadi
+-Ekranda faqat 1 chiqadi
+-Ekranda hech narsa chiqmaydi
+
+#181. HTML da <hr> teg qanday element hosil qiladi?
++Gorizontal ajratuvchi chiziq
+-Sahifada vertikal ustun chizig'i
+-Yangi jadval
+-Rasm ustidagi bosiladigan havola
+
+#182. Formada bir nechta radio tugma bir guruhga qanday birlashtiriladi?
++Bir xil name qiymati berish orqali
+-Bir xil rang berish orqali
+-Bir xil o'lcham berish orqali
+-Bir xil src berish orqali
+
+#183. Nima uchun radio tugmalarga bir xil name beriladi?
++Faqat bittasini tanlash imkonini berish uchun
+-Tugmalar rangini o'zgartirish uchun
+-Barcha tugmalarni o'chirish uchun
+-Barcha tugmalarni yashirish uchun
+
+#184. <fieldset> teg formada nima qiladi?
++Forma elementlarini guruhga ajratadi
+-Yaratilgan formani o'chiradi
+-Formaga rasm qo'shadi
+-Formada havola yaratadi
+
+#185. Web sahifada eng ko'p uchraydigan xatolardan biri qaysi?
++Teglarni yopishni unutish
+-Ishlab turgan kompyuterni o'chirish
+-Diskni to'ldirish
+-Internetni uzish
+
+#186. Bir sahifada matn, rasm va havolani birga ishlatish mumkinmi?
++Ha, ularni birga joylashtirsa bo'ladi
+-Yo'q, faqat bittasigina ishlaydi
+-Faqat sahifa jadvalida mumkin
+-Faqat sahifa formasida mumkin
+
+#187. Oddiy bir sahifali web sahifa qanday elementlardan iborat bo'lishi mumkin?
++Sarlavha, matn, rasm va havoladan
+-Faqat qo'yilgan rasmdan
+-Faqat murakkab kompyuter kodidan
+-Faqat maxfiy parollardan
+
+#188. HTML kodini o'qishga qulay qilish uchun nima qilinadi?
++Teglarni tartibli va bo'shliqlar bilan yozish
+-Butun kodni bitta qatorga yozish
+-Kodda faqat katta harf ishlatish
+-Koddagi barcha izohlarni o'chirish
+
+#189. Quyidagilardan qaysi biri to'g'ri HTML tuzilmasi?
++<html><head></head><body></body></html>
+-<body><html></html></body>
+-<head><html></html></head>
+-<html><body></head></body></html>
+
+#190. Sahifada tugma bosilganda ma'lumot yuborilishi uchun element qayerda bo'lishi kerak?
++<form> teg ichida
+-<head> teg ichida
+-<title> teg ichida
+-<meta> teg ichida
+
+#191. <button> va <input type="submit"> o'rtasidagi umumiylik nima?
++Ikkalasi ham bosiladigan tugma yaratadi
+-Ikkalasi ham sahifaga rasm qo'shadi
+-Ikkalasi ham sahifada havola yaratadi
+-Ikkalasi ham sahifada jadval chizadi
+
+#192. HTML sahifasida havola rangini o'zgartirish mumkinmi?
++Ha, style atributi orqali
+-Yo'q, rang o'zgarmaydi
+-Faqat rasm bilan mumkin
+-Faqat jadval bilan mumkin
+
+#193. Katta hajmli sahifani tartibli qilish uchun nima ishlatiladi?
++<div> yordamida bo'limlarga ajratish
+-Faqat ko'p sonli <br> teglari
+-Faqat ko'p sonli bo'shliqlar
+-Faqat sahifadagi rasmlar
+
+#194. Quyidagi kod nechta katak hosil qiladi: <tr><td>A</td><td>B</td><td>C</td></tr>?
++3 ta
+-1 ta
+-2 ta
+-6 ta
+
+#195. Web sahifa yaratishda teglarni to'g'ri yopish nima uchun muhim?
++Sahifa to'g'ri ko'rinishi uchun
+-Kompyuter ishlash tezligi uchun
+-Internet xizmati narxi uchun
+-Chop etish printeri sifati uchun
+
+#196. HTML5 nima?
++HTML tilining zamonaviy versiyasi
+-Kompyuter uchun yangi operatsion tizim
+-Zararli dasturga qarshi antivirus dasturi
+-Ulanish uchun tarmoq qurilmasi
+
+#197. Semantik teglar (masalan <header>, <footer>) nima uchun foydali?
++Sahifa qismlarini ma'noli belgilash uchun
+-Sahifa yuklanishini tezlashtirish uchun
+-Sahifadagi rasmlarni siqish uchun
+-Kompyuterni internetga ulash uchun
+
+#198. <nav> teg odatda nima uchun ishlatiladi?
++Navigatsiya havolalarini joylashtirish uchun
+-Sahifaga tasvir (rasm) qo'shish uchun
+-Sahifada ma'lumot jadvalini chizish uchun
+-Sahifaga ovozli fayl qo'shish uchun
+
+#199. <footer> teg sahifaning qaysi qismini bildiradi?
++Pastki (yakuniy) qismini
+-Sahifaning yuqori qismini
+-Sahifaning o'rta qismini
+-Sahifaning chap qismini
+
+#200. HTML asoslarini o'rganish nima uchun muhim?
++Web sahifa yaratish ko'nikmasini shakllantirish uchun
+-Faqat kompyuter o'yini o'ynash uchun
+-Faqat ekranda rasm chizish uchun
+-Faqat matnlarni tarjima qilish uchun

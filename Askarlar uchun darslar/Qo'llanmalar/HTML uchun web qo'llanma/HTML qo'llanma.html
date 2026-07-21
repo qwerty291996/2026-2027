@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HTML asoslari — o'quv moduli</title>
+<style>
+:root{
+  --paper:#F1F4EF;
+  --card:#FFFFFF;
+  --ink:#16201A;
+  --slate:#5C6960;
+  --rule:#DBE2D7;
+  --olive:#2E4A34;
+  --olive-soft:#E7EEE6;
+  --brass:#A97B1F;
+  --brass-soft:#FBF2DE;
+  --code-bg:#1A241D;
+  --code-ink:#DCE6DA;
+  --ok:#2F6B3C;
+  --err:#A33B2C;
+  --mono:"Consolas","DejaVu Sans Mono","Courier New",monospace;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:system-ui,"Segoe UI",Tahoma,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:16px;line-height:1.65;
+}
+a{color:var(--olive)}
+
+/* ---------- Karkas ---------- */
+.shell{display:flex;min-height:100vh;align-items:stretch}
+.rail{
+  width:296px;flex:0 0 296px;background:var(--card);
+  border-right:1px solid var(--rule);
+  display:flex;flex-direction:column;
+  position:sticky;top:0;height:100vh;
+}
+.rail-head{padding:20px 22px 16px;border-bottom:1px solid var(--rule)}
+.mark{display:flex;align-items:center;gap:11px}
+.mark img{width:42px;height:42px;display:block}
+.mark b{font-family:var(--serif);font-size:19px;font-weight:700;letter-spacing:-.2px;display:block;line-height:1.2}
+.mark span{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate)}
+
+.meter{margin-top:16px}
+.meter-top{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:6px}
+.meter-bar{height:5px;background:var(--olive-soft);border-radius:3px;overflow:hidden}
+.meter-fill{height:100%;width:0;background:var(--olive);transition:width .45s ease}
+
+.tree{overflow-y:auto;padding:14px 0 28px;flex:1}
+.tree-group{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);padding:16px 22px 8px}
+.node{
+  display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;
+  background:none;border:0;cursor:pointer;font:inherit;color:var(--ink);
+  padding:8px 20px 8px 30px;position:relative;line-height:1.4;
+}
+/* DOM daraxti ko'rinishidagi chiziqlar */
+.node::before{content:"";position:absolute;left:22px;top:0;bottom:0;width:1px;background:var(--rule)}
+.node:first-of-type::before{top:8px}
+.node:hover{background:var(--olive-soft)}
+.node.on{background:var(--olive-soft)}
+.node.on::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--olive)}
+.tick{
+  flex:0 0 18px;height:18px;margin-top:2px;border:1.5px solid var(--rule);border-radius:4px;
+  background:var(--card);display:grid;place-items:center;font-size:11px;color:transparent;
+}
+.node.done .tick{background:var(--olive);border-color:var(--olive);color:#fff}
+.node-txt{font-size:14px}
+.node-no{font-family:var(--mono);font-size:11.5px;color:var(--slate);display:block}
+
+/* ---------- Asosiy ustun ---------- */
+.main{flex:1;min-width:0;padding:38px 46px 90px;max-width:1080px}
+.crumb{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--slate);margin-bottom:14px}
+
+/* Imzo element: sarlavha haqiqiy teg ko'rinishida */
+.tagline{font-family:var(--mono);font-size:13px;color:var(--brass);margin-bottom:2px}
+h1{font-family:var(--serif);font-size:32px;line-height:1.2;margin:0 0 10px;letter-spacing:-.4px;font-weight:700}
+.lede{color:var(--slate);font-size:16.5px;margin:0 0 26px;max-width:66ch}
+
+.badge{
+  display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 9px;border-radius:4px;background:var(--brass-soft);color:var(--brass);margin-right:8px;
+}
+.badge.g{background:var(--olive-soft);color:var(--olive)}
+
+h2{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--slate);margin:38px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--rule);
+}
+h3{font-family:var(--serif);font-size:19px;margin:26px 0 8px;font-weight:700}
+p{margin:0 0 14px;max-width:72ch}
+ul,ol{max-width:72ch;padding-left:22px}
+li{margin-bottom:6px}
+code{font-family:var(--mono);font-size:.92em;background:var(--olive-soft);color:var(--olive);padding:1.5px 5px;border-radius:4px}
+
+.panel{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:20px 22px;margin:16px 0}
+.panel.brass{border-left:3px solid var(--brass)}
+
+table.tags{width:100%;border-collapse:collapse;margin:14px 0;background:var(--card);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+table.tags th{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);
+  text-align:left;padding:11px 16px;background:var(--olive-soft);
+}
+table.tags td{padding:11px 16px;border-top:1px solid var(--rule);vertical-align:top;font-size:15px}
+table.tags td:first-child{font-family:var(--mono);color:var(--olive);white-space:nowrap;width:1%;font-size:14px}
+
+/* ---------- Jonli muharrir ---------- */
+.editor{border:1px solid var(--rule);border-radius:10px;overflow:hidden;background:var(--card);margin:14px 0}
+.ed-bar{display:flex;align-items:center;gap:10px;padding:9px 14px;border-bottom:1px solid var(--rule);background:var(--olive-soft)}
+.ed-bar span{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--olive);margin-right:auto}
+.ed-grid{display:grid;grid-template-columns:1fr 1fr;min-height:290px}
+.ed-grid textarea{
+  border:0;resize:vertical;padding:16px;font-family:var(--mono);font-size:13.5px;line-height:1.7;
+  background:var(--code-bg);color:var(--code-ink);outline:none;min-height:290px;tab-size:2;
+}
+.ed-grid iframe{border:0;border-left:1px solid var(--rule);background:#fff;width:100%;height:100%;min-height:290px}
+.btn{
+  font:inherit;font-size:13px;cursor:pointer;border:1px solid var(--olive);background:var(--olive);color:#fff;
+  padding:6px 15px;border-radius:6px;
+}
+.btn:hover{background:#243a29}
+.btn.ghost{background:transparent;color:var(--olive)}
+.btn.ghost:hover{background:#fff}
+.btn:focus-visible,.node:focus-visible,textarea:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+
+/* ---------- Test ---------- */
+.q{border-top:1px solid var(--rule);padding:16px 0}
+.q:first-child{border-top:0;padding-top:4px}
+.q-h{display:flex;gap:10px;margin-bottom:10px}
+.q-no{font-family:var(--mono);font-size:12px;color:var(--brass);flex:0 0 auto;padding-top:2px}
+.q-t{font-weight:600}
+.opt{display:flex;gap:9px;align-items:flex-start;padding:6px 10px;border-radius:6px;cursor:pointer;margin-left:26px}
+.opt:hover{background:var(--olive-soft)}
+.opt input{margin-top:5px;accent-color:var(--olive)}
+.opt.right{background:#E6F1E7;color:var(--ok)}
+.opt.wrong{background:#F8E9E6;color:var(--err)}
+.score{margin-top:16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.score-txt{font-family:var(--mono);font-size:13px}
+
+.nav-btns{display:flex;justify-content:space-between;gap:12px;margin-top:44px;padding-top:22px;border-top:1px solid var(--rule)}
+
+/* ---------- Bosh sahifa ---------- */
+.hero{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:34px 34px 30px;margin-bottom:26px}
+.hero h1{font-size:38px}
+.stats{display:flex;gap:34px;flex-wrap:wrap;margin-top:22px;padding-top:20px;border-top:1px solid var(--rule)}
+.stat b{font-family:var(--mono);font-size:26px;display:block;color:var(--olive);line-height:1.1}
+.stat span{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.card:hover{border-color:var(--olive)}
+.card .tagline{font-size:12px}
+.card b{display:block;font-family:var(--serif);font-size:16px;margin:2px 0 6px}
+.card p{font-size:13.5px;color:var(--slate);margin:0}
+
+.burger{display:none}
+@media(max-width:900px){
+  .shell{flex-direction:column}
+  .rail{position:static;width:100%;flex:none;height:auto;border-right:0;border-bottom:1px solid var(--rule)}
+  .tree{max-height:0;overflow:hidden;padding:0;transition:max-height .3s ease}
+  .rail.open .tree{max-height:64vh;overflow-y:auto;padding:10px 0 20px}
+  .burger{display:inline-block;margin-top:14px}
+  .main{padding:24px 18px 70px}
+  .ed-grid{grid-template-columns:1fr}
+  .ed-grid iframe{border-left:0;border-top:1px solid var(--rule)}
+  h1{font-size:26px}.hero h1{font-size:28px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="shell">
+  <aside class="rail" id="rail">
+    <div class="rail-head">
+      <div class="mark">
+        <img src="img/logo.png" alt="Modul emblemasi">
+        <div>
+          <b>HTML asoslari</b>
+          <span>1.4-modul · 48 soat</span>
+        </div>
+      </div>
+      <div class="meter">
+        <div class="meter-top"><span>Bajarildi</span><span id="meterNum">0 / 13</span></div>
+        <div class="meter-bar"><div class="meter-fill" id="meterFill"></div></div>
+      </div>
+      <button class="btn ghost burger" id="burger">Mavzular ro'yxati</button>
+    </div>
+    <nav class="tree" id="tree"></nav>
+  </aside>
+
+  <main class="main" id="main"></main>
+</div>
+
+<script>
+/* ============ Saqlash (localStorage bo'lmasa xotirada ishlaydi) ============ */
+const store=(function(){
+  let mem={};
+  try{localStorage.setItem('__t','1');localStorage.removeItem('__t');
+    return{get:k=>localStorage.getItem(k),set:(k,v)=>localStorage.setItem(k,v)};
+  }catch(e){return{get:k=>(k in mem?mem[k]:null),set:(k,v)=>{mem[k]=v}};}
+})();
+const KEY='html_moduli_progress';
+let done=(function(){try{return JSON.parse(store.get(KEY))||{}}catch(e){return{}}})();
+const save=()=>store.set(KEY,JSON.stringify(done));
+
+/* ============ Mavzular ============ */
+const L=[
+{t:'Nazariy',n:1,h:2,nom:"HTML tili va web sahifa tuzilmasi",
+ maqsad:"HTML nima uchun kerakligini tushunish va har qanday web sahifaning skeletini yoza olish.",
+ nazariya:[
+  ["HTML nima?","HTML — HyperText Markup Language, ya'ni gipermatnli belgilash tili. U dasturlash tili emas, balki <b>belgilash</b> tili: brauzerga «bu sarlavha», «bu paragraf», «bu rasm» deb ko'rsatib beradi. Brauzer shu ko'rsatmalarga qarab sahifani chizadi."],
+  ["Sahifaning uch qavati","Har qanday HTML hujjat uch qismdan iborat: <code>&lt;!DOCTYPE html&gt;</code> — brauzerga hujjat turini bildiradi; <code>&lt;html&gt;</code> — butun hujjatni o'rab turadi; uning ichida <code>&lt;head&gt;</code> (xizmat ma'lumotlari) va <code>&lt;body&gt;</code> (ko'rinadigan mazmun) joylashadi."],
+  ["head va body farqi","<code>&lt;head&gt;</code> ichidagi hech narsa sahifada ko'rinmaydi — u yerda kodlash usuli, sahifa nomi, uslublar turadi. Ko'z bilan ko'radigan hamma narsa — matn, rasm, tugma — faqat <code>&lt;body&gt;</code> ichida bo'ladi."],
+  ["Fayl qanday saqlanadi","HTML oddiy matn fayli. Uni Bloknotda yozib, <code>sahifa.html</code> nomi bilan saqlash kifoya. Kengaytma <code>.txt</code> emas, aynan <code>.html</code> bo'lishi shart, aks holda brauzer uni kod sifatida ko'rsatadi."]
+ ],
+ teglar:[["&lt;!DOCTYPE html&gt;","Hujjat HTML5 standartida ekanini bildiradi. Har doim birinchi qatorda turadi."],
+  ["&lt;html&gt;","Butun hujjatning ildiz elementi."],
+  ["&lt;head&gt;","Xizmat ma'lumotlari: kodlash, sahifa nomi."],
+  ["&lt;title&gt;","Brauzer yorlig'ida ko'rinadigan nom."],
+  ["&lt;meta charset&gt;","Matn kodlashi. O'zbekcha harflar to'g'ri chiqishi uchun <code>UTF-8</code> yoziladi."],
+  ["&lt;body&gt;","Sahifaning ko'rinadigan mazmuni."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head>\n  <meta charset="UTF-8">\n  <title>Mening birinchi sahifam</title>\n</head>\n<body>\n\n  <h1>Salom, kursant!</h1>\n  <p>Bu — mening birinchi web sahifam.</p>\n\n</body>\n</html>',
+ vazifa:"Kod maydonidagi <code>&lt;title&gt;</code> matnini o'z familiyangizga almashtiring, <code>&lt;body&gt;</code> ichiga esa o'zingiz haqingizda yana bitta paragraf qo'shing.",
+ test:[
+  {s:"HTML qanday til hisoblanadi?",j:["Belgilash tili","Dasturlash tili","Ma'lumotlar bazasi tili"],t:0},
+  {s:"Sahifada ko'rinadigan mazmun qaysi teg ichida yoziladi?",j:["&lt;head&gt;","&lt;body&gt;","&lt;title&gt;"],t:1},
+  {s:"O'zbekcha harflar to'g'ri ko'rinishi uchun nima yoziladi?",j:["&lt;meta charset=\"UTF-8\"&gt;","&lt;lang=uz&gt;","&lt;font=uz&gt;"],t:0},
+  {s:"HTML fayl qanday kengaytma bilan saqlanadi?",j:[".txt",".doc",".html"],t:2}]},
+
+{t:'Nazariy',n:2,h:4,nom:"HTML teglar va atributlar tushunchasi",
+ maqsad:"Teg, element va atribut o'rtasidagi farqni ajrata olish hamda ichma-ich joylashish qoidasini bilish.",
+ nazariya:[
+  ["Teg va element","Teg — burchakli qavs ichidagi yozuv: <code>&lt;p&gt;</code>. Ochuvchi teg, mazmun va yopuvchi teg birgalikda <b>element</b> deyiladi: <code>&lt;p&gt;Matn&lt;/p&gt;</code>. Yopuvchi tegda qiyshiq chiziq bo'ladi."],
+  ["Bo'sh teglar","Ba'zi teglarning mazmuni bo'lmaydi, shuning uchun ular yopilmaydi: <code>&lt;br&gt;</code>, <code>&lt;hr&gt;</code>, <code>&lt;img&gt;</code>. Ularni «bo'sh» yoki «yakka» teglar deyiladi."],
+  ["Atributlar","Atribut elementga qo'shimcha ma'lumot beradi va faqat ochuvchi tegda yoziladi: <code>&lt;a href=\"sahifa.html\"&gt;</code>. Yozilishi doim <b>nom=\"qiymat\"</b> ko'rinishida, qiymat qo'shtirnoq ichida bo'ladi."],
+  ["Ichma-ich joylashish","Elementlar bir-birining ichiga joylashadi, lekin kesishmaydi. To'g'ri: <code>&lt;p&gt;&lt;b&gt;matn&lt;/b&gt;&lt;/p&gt;</code>. Noto'g'ri: <code>&lt;p&gt;&lt;b&gt;matn&lt;/p&gt;&lt;/b&gt;</code>. Oxirgi ochilgan teg birinchi bo'lib yopiladi."],
+  ["Bo'shliq va qatorlar","Brauzer kodadagi ketma-ket bo'shliqlar va yangi qatorlarni bitta bo'shliq deb hisoblaydi. Shu sababli kodni chiroyli tekislash natijani buzmaydi — aksincha, o'qishni osonlashtiradi."]
+ ],
+ teglar:[["id","Elementga takrorlanmas nom beradi."],
+  ["class","Bir nechta elementni bitta guruhga biriktiradi."],
+  ["title","Sichqoncha olib borilganda paydo bo'ladigan izoh."],
+  ["style","Elementga to'g'ridan-to'g'ri bezak beradi."],
+  ["&lt;br&gt;","Yangi qatorga o'tkazadi (bo'sh teg)."],
+  ["&lt;hr&gt;","Gorizontal ajratuvchi chiziq (bo'sh teg)."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Teglar</title></head>\n<body>\n\n  <p title="Bu izoh matni">Sichqonchani shu matn ustiga olib boring.</p>\n\n  <p>Birinchi qator<br>Ikkinchi qator</p>\n\n  <hr>\n\n  <p style="color: green">Atribut yordamida rangi o\'zgargan matn.</p>\n\n</body>\n</html>',
+ vazifa:"<code>style</code> atributi orqali birinchi paragraf rangini qizil qiling va yangi <code>&lt;p&gt;</code> qo'shib, unga o'zingizning <code>title</code> izohingizni yozing.",
+ test:[
+  {s:"Atribut qayerda yoziladi?",j:["Yopuvchi tegda","Ochuvchi tegda","Ikkalasida ham"],t:1},
+  {s:"Qaysi teg yopilmaydi?",j:["&lt;p&gt;","&lt;br&gt;","&lt;div&gt;"],t:1},
+  {s:"Atribut qiymati qanday yoziladi?",j:["Qo'shtirnoq ichida","Qavs ichida","Bo'sh joysiz"],t:0},
+  {s:"Qaysi yozuv to'g'ri joylashgan?",j:["&lt;p&gt;&lt;b&gt;matn&lt;/p&gt;&lt;/b&gt;","&lt;p&gt;&lt;b&gt;matn&lt;/b&gt;&lt;/p&gt;","&lt;b&gt;&lt;p&gt;matn&lt;/b&gt;"],t:1}]},
+
+{t:'Nazariy',n:3,h:4,nom:"Matn elementlari bilan ishlash",
+ maqsad:"Sarlavha darajalarini to'g'ri tanlash va matnni ma'noli formatlash.",
+ nazariya:[
+  ["Sarlavhalar ierarxiyasi","<code>&lt;h1&gt;</code> dan <code>&lt;h6&gt;</code> gacha olti daraja bor. <code>&lt;h1&gt;</code> — sahifaning bosh sarlavhasi, u odatda bitta bo'ladi. Qolganlari bo'limlarni ichma-ich tartiblaydi. Sarlavha darajasini kattaligiga qarab emas, <b>ma'nosiga</b> qarab tanlanadi."],
+  ["Paragraf","<code>&lt;p&gt;</code> matnni mustaqil xatboshiga ajratadi. Brauzer paragraflar orasiga o'zi bo'sh joy qo'yadi — <code>&lt;br&gt;</code> bilan sun'iy bo'shliq yasash kerak emas."],
+  ["Ma'noli formatlash","<code>&lt;strong&gt;</code> — muhim mazmun (qalin ko'rinadi), <code>&lt;em&gt;</code> — urg'u (qiya ko'rinadi). <code>&lt;b&gt;</code> va <code>&lt;i&gt;</code> ham xuddi shunday ko'rinadi, lekin ma'no bermaydi. Imkoni bo'lsa ma'noli variantni tanlang."],
+  ["Boshqa foydali teglar","<code>&lt;mark&gt;</code> matnni sariq bilan belgilaydi, <code>&lt;small&gt;</code> mayda yozadi, <code>&lt;blockquote&gt;</code> iqtibosni chekintiradi, <code>&lt;pre&gt;</code> esa bo'shliq va qatorlarni saqlab ko'rsatadi."]
+ ],
+ teglar:[["&lt;h1&gt;…&lt;h6&gt;","Sarlavhalar, 1-daraja eng yuqori."],
+  ["&lt;p&gt;","Paragraf."],
+  ["&lt;strong&gt;","Muhim mazmun — qalin."],
+  ["&lt;em&gt;","Urg'u — qiya."],
+  ["&lt;mark&gt;","Belgilangan matn."],
+  ["&lt;blockquote&gt;","Iqtibos bloki."],
+  ["&lt;pre&gt;","Formatlash saqlangan matn."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Matn</title></head>\n<body>\n\n  <h1>Web texnologiyalar</h1>\n  <h2>HTML nima uchun kerak?</h2>\n\n  <p>HTML sahifaning <strong>tuzilmasini</strong> belgilaydi.\n     U <em>bezak</em> bilan shug\'ullanmaydi.</p>\n\n  <blockquote>Avval tuzilma, keyin bezak.</blockquote>\n\n  <p><mark>Eslab qoling:</mark> bitta sahifada bitta h1 bo\'ladi.</p>\n\n</body>\n</html>',
+ vazifa:"Sahifaga <code>&lt;h3&gt;</code> darajasidagi yangi bo'lim va ikkita paragraf qo'shing. Bir so'zni <code>&lt;strong&gt;</code>, boshqasini <code>&lt;em&gt;</code> bilan belgilang.",
+ test:[
+  {s:"Sahifaning eng yuqori darajali sarlavhasi qaysi?",j:["&lt;h6&gt;","&lt;h1&gt;","&lt;head&gt;"],t:1},
+  {s:"Matnni xatboshiga ajratuvchi teg?",j:["&lt;p&gt;","&lt;br&gt;","&lt;hr&gt;"],t:0},
+  {s:"Qaysi teg matnga ma'noli urg'u beradi?",j:["&lt;i&gt;","&lt;em&gt;","&lt;small&gt;"],t:1},
+  {s:"Sarlavha darajasi nimaga qarab tanlanadi?",j:["Harf kattaligiga","Mazmun ierarxiyasiga","Rangiga"],t:1}]},
+
+{t:'Nazariy',n:4,h:4,nom:"Havolalar va navigatsiya elementlari",
+ maqsad:"Sahifalar orasida o'tish tizimini qura olish va yo'l turlarini farqlash.",
+ nazariya:[
+  ["Havola tegi","<code>&lt;a&gt;</code> (anchor) tegi havola yasaydi. Manzil <code>href</code> atributida ko'rsatiladi: <code>&lt;a href=\"ikkinchi.html\"&gt;Keyingi sahifa&lt;/a&gt;</code>. Teg ichidagi matn bosiladigan qism bo'ladi."],
+  ["Ichki va tashqi havola","Ichki havola shu papkadagi faylga ishora qiladi: <code>href=\"about.html\"</code>. Tashqi havola to'liq manzil bilan yoziladi: <code>href=\"https://…\"</code>. Bizning oflayn saytimizda faqat ichki havolalar ishlaydi."],
+  ["Papkalar bo'ylab yo'l","<code>rasm/logo.png</code> — ichki papkaga tushish, <code>../index.html</code> — bir pog'ona yuqoriga chiqish. Yo'lda qiyshiq chiziq <code>/</code> ishlatiladi, teskarisi emas."],
+  ["Sahifa ichidagi o'tish","Element <code>id</code> olsa, unga <code>href=\"#id\"</code> orqali sakrash mumkin. Bu uzun sahifalarda mundarija qilishga qulay."],
+  ["Navigatsiya bloki","Havolalar to'plamini <code>&lt;nav&gt;</code> ichiga joylashtirish qabul qilingan — bu sahifaning menyusi ekanini bildiradi."]
+ ],
+ teglar:[["&lt;a href=\"…\"&gt;","Havola yaratadi."],
+  ["target=\"_blank\"","Havolani yangi oynada ochadi."],
+  ["href=\"#nom\"","Shu sahifadagi elementga sakraydi."],
+  ["href=\"mailto:…\"","Pochta yozish oynasini ochadi."],
+  ["&lt;nav&gt;","Navigatsiya bloki."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Havolalar</title></head>\n<body>\n\n  <nav>\n    <a href="#bolim1">1-bo\'lim</a> |\n    <a href="#bolim2">2-bo\'lim</a>\n  </nav>\n\n  <h2 id="bolim1">Birinchi bo\'lim</h2>\n  <p>Yuqoridagi menyudan shu yerga o\'tish mumkin.</p>\n\n  <h2 id="bolim2">Ikkinchi bo\'lim</h2>\n  <p>Sahifa ichidagi navigatsiya ana shunday ishlaydi.</p>\n\n</body>\n</html>',
+ vazifa:"Menyuga uchinchi havola qo'shing va sahifa oxirida unga mos <code>id</code> li yangi bo'lim yarating.",
+ test:[
+  {s:"Havola manzili qaysi atributda yoziladi?",j:["src","href","link"],t:1},
+  {s:"Sahifa ichidagi elementga o'tish uchun nima yoziladi?",j:["#id","@id",".id"],t:0},
+  {s:"Bir pog'ona yuqoridagi papkaga qanday chiqiladi?",j:["./","../","//"],t:1},
+  {s:"Havolani yangi oynada ochish uchun?",j:["target=\"_blank\"","open=\"new\"","window=\"yes\""],t:0}]},
+
+{t:'Nazariy',n:5,h:4,nom:"Rasm va multimedia elementlari",
+ maqsad:"Mahalliy fayldagi rasmni sahifaga to'g'ri joylashtirish va uni matn bilan hamroh qilish.",
+ nazariya:[
+  ["img tegi","<code>&lt;img&gt;</code> bo'sh teg — yopilmaydi. Rasm manzili <code>src</code> atributida beriladi: <code>&lt;img src=\"img/logo.png\"&gt;</code>. Fayl nomidagi katta-kichik harflar ahamiyatli."],
+  ["alt nima uchun kerak","<code>alt</code> — rasm ochilmasa ko'rinadigan matn. U ko'zi ojiz foydalanuvchilar uchun ham o'qib beriladi. Har bir mazmunli rasmda <code>alt</code> bo'lishi shart."],
+  ["O'lcham berish","<code>width</code> va <code>height</code> atributlari piksel bilan yoziladi. Faqat bittasini bersangiz, ikkinchisi nisbatni saqlagan holda o'zi hisoblanadi — rasm cho'zilib ketmaydi."],
+  ["Fayl turlari","<code>.jpg</code> — fotosuratlar uchun, hajmi kichik. <code>.png</code> — shaffof fon kerak bo'lganda, ikonka va logotiplar uchun. <code>.svg</code> — chizma grafika, cho'zilganda sifati buzilmaydi."],
+  ["Rasm va izoh","Rasmni izohi bilan birga berish uchun <code>&lt;figure&gt;</code> va <code>&lt;figcaption&gt;</code> ishlatiladi."]
+ ],
+ teglar:[["&lt;img src=\"…\"&gt;","Rasmni joylashtiradi."],
+  ["alt=\"…\"","Muqobil matn."],
+  ["width / height","O'lcham (piksel)."],
+  ["&lt;figure&gt;","Rasm va uning izohi uchun blok."],
+  ["&lt;figcaption&gt;","Rasm ostidagi izoh."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Rasmlar</title></head>\n<body>\n\n  <h2>Mahalliy rasmlar</h2>\n\n  <img src="img/logo.png" alt="Modul emblemasi" width="120">\n\n  <figure>\n    <img src="img/manzara.jpg" alt="Tog\'li manzara" width="420">\n    <figcaption>1-rasm. Namuna fotosurat (img papkasidan)</figcaption>\n  </figure>\n\n  <img src="img/yoq.png" alt="Bu fayl mavjud emas — alt matni ko\'rinadi" width="200">\n\n</body>\n</html>',
+ vazifa:"<code>img/kompyuter.png</code> rasmini qo'shing, unga <code>alt</code> yozing va <code>width</code> ni 300 qilib bering. So'ng rasm nomini ataylab xato yozib, <code>alt</code> qanday ko'rinishini kuzating.",
+ test:[
+  {s:"Rasm manzili qaysi atributda beriladi?",j:["href","src","link"],t:1},
+  {s:"alt atributi nima uchun kerak?",j:["Rasm ochilmasa matn ko'rsatish","Rasmni kattalashtirish","Rasmni markazlash"],t:0},
+  {s:"Shaffof fonli logotip uchun qaysi format qulay?",j:[".jpg",".png",".bmp"],t:1},
+  {s:"&lt;img&gt; tegi yopiladimi?",j:["Ha, &lt;/img&gt; bilan","Yo'q, u bo'sh teg","Faqat rasm katta bo'lsa"],t:1}]},
+
+{t:'Nazariy',n:6,h:4,nom:"Ro'yxatlar va jadval elementlari",
+ maqsad:"Ma'lumotni ro'yxat yoki jadval ko'rinishida tartibli joylashtirish.",
+ nazariya:[
+  ["Ikki xil ro'yxat","<code>&lt;ul&gt;</code> — tartibsiz ro'yxat, elementlar oldida nuqta turadi. <code>&lt;ol&gt;</code> — tartibli ro'yxat, raqamlanadi. Ikkalasida ham har bir band <code>&lt;li&gt;</code> ichida yoziladi."],
+  ["Ichma-ich ro'yxat","<code>&lt;li&gt;</code> ichiga yangi <code>&lt;ul&gt;</code> joylashtirsa bo'ladi — shunda ko'p pog'onali ro'yxat hosil bo'ladi. Ichki ro'yxat <code>&lt;li&gt;</code> yopilishidan oldin turishi kerak."],
+  ["Jadval skeleti","Jadval <code>&lt;table&gt;</code> bilan boshlanadi. Har bir qator — <code>&lt;tr&gt;</code>, qator ichidagi katak — <code>&lt;td&gt;</code>. Sarlavha katagi uchun <code>&lt;th&gt;</code> ishlatiladi, u qalin va markazlashgan bo'ladi."],
+  ["Kataklarni birlashtirish","<code>colspan</code> katakni gorizontal, <code>rowspan</code> esa vertikal yo'nalishda bir necha katak o'rniga cho'zadi."],
+  ["Muhim qoida","Jadval faqat <b>ma'lumot</b> uchun ishlatiladi. Sahifa maketini jadval bilan qurish eskirgan usul — buning uchun CSS bor."]
+ ],
+ teglar:[["&lt;ul&gt; / &lt;ol&gt;","Tartibsiz / tartibli ro'yxat."],
+  ["&lt;li&gt;","Ro'yxat bandi."],
+  ["&lt;table&gt;","Jadval."],
+  ["&lt;tr&gt;","Jadval qatori."],
+  ["&lt;th&gt;","Sarlavha katagi."],
+  ["&lt;td&gt;","Oddiy katak."],
+  ["colspan / rowspan","Kataklarni birlashtirish."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Ro\'yxat va jadval</title></head>\n<body>\n\n  <h3>Modul mavzulari</h3>\n  <ol>\n    <li>HTML tuzilmasi</li>\n    <li>Teglar va atributlar\n      <ul>\n        <li>Ochuvchi teg</li>\n        <li>Yopuvchi teg</li>\n      </ul>\n    </li>\n    <li>Matn elementlari</li>\n  </ol>\n\n  <h3>Soatlar taqsimoti</h3>\n  <table border="1" cellpadding="6">\n    <tr><th>Mashg\'ulot turi</th><th>Soat</th></tr>\n    <tr><td>Nazariy</td><td>26</td></tr>\n    <tr><td>Amaliy</td><td>22</td></tr>\n    <tr><td>Jami</td><td>48</td></tr>\n  </table>\n\n</body>\n</html>',
+ vazifa:"Jadvalga uchinchi ustun qo'shing va unga foiz ulushini yozing. Ro'yxatga esa yana bitta ichki band qo'shing.",
+ test:[
+  {s:"Raqamlangan ro'yxat qaysi teg bilan yaratiladi?",j:["&lt;ul&gt;","&lt;ol&gt;","&lt;li&gt;"],t:1},
+  {s:"Jadval qatori qaysi teg bilan ochiladi?",j:["&lt;td&gt;","&lt;tr&gt;","&lt;th&gt;"],t:1},
+  {s:"Sarlavha katagi qaysi teg?",j:["&lt;th&gt;","&lt;td&gt;","&lt;thead&gt;"],t:0},
+  {s:"Katakni gorizontal birlashtirish uchun?",j:["rowspan","colspan","merge"],t:1}]},
+
+{t:'Nazariy',n:7,h:4,nom:"HTML formalar va foydalanuvchi ma'lumotlarini kiritish",
+ maqsad:"Ma'lumot kiritish shaklini tuza olish va maydon turlarini to'g'ri tanlash.",
+ nazariya:[
+  ["Forma nima?","<code>&lt;form&gt;</code> — foydalanuvchidan ma'lumot yig'adigan blok. Uning ichida kiritish maydonlari va yuborish tugmasi joylashadi. Ma'lumot qayerga borishi <code>action</code> atributida ko'rsatiladi."],
+  ["input turlari","<code>&lt;input&gt;</code> bo'sh teg, uning ko'rinishi <code>type</code> atributiga bog'liq: <code>text</code>, <code>password</code>, <code>number</code>, <code>date</code>, <code>checkbox</code>, <code>radio</code>, <code>submit</code>. Bitta teg — o'nlab turli maydon."],
+  ["label bilan bog'lash","<code>&lt;label for=\"id\"&gt;</code> yozuvi maydonga bog'lanadi. Shunda yozuv ustiga bosilsa, kursor maydonga tushadi — bu qulaylik va nogironlar uchun muhim talab."],
+  ["Ko'p qatorli matn va tanlov","Uzun matn uchun <code>&lt;textarea&gt;</code>, tayyor variantlardan tanlash uchun <code>&lt;select&gt;</code> va uning ichidagi <code>&lt;option&gt;</code> ishlatiladi."],
+  ["Oddiy tekshiruv","<code>required</code> atributi maydonni to'ldirishni majburiy qiladi, <code>placeholder</code> esa bo'sh maydonda ko'rsatma ko'rsatadi. Bu tekshiruv brauzer tomonidan bajariladi."]
+ ],
+ teglar:[["&lt;form&gt;","Forma bloki."],
+  ["&lt;input type=\"text\"&gt;","Bir qatorli matn maydoni."],
+  ["&lt;input type=\"radio\"&gt;","Bittasini tanlash."],
+  ["&lt;input type=\"checkbox\"&gt;","Bir nechtasini belgilash."],
+  ["&lt;textarea&gt;","Ko'p qatorli matn."],
+  ["&lt;select&gt; / &lt;option&gt;","Ochiluvchi ro'yxat."],
+  ["&lt;button&gt;","Tugma."],
+  ["required","Majburiy maydon."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Forma</title></head>\n<body>\n\n  <h3>Kursant anketasi</h3>\n  <form>\n    <p>\n      <label for="fio">F.I.Sh.</label><br>\n      <input type="text" id="fio" placeholder="Familiya Ism" required>\n    </p>\n\n    <p>\n      <label for="kurs">Kurs</label><br>\n      <select id="kurs">\n        <option>1-kurs</option>\n        <option>2-kurs</option>\n        <option>3-kurs</option>\n      </select>\n    </p>\n\n    <p>\n      <label>\n        <input type="checkbox"> Ma\'lumotlar to\'g\'riligini tasdiqlayman\n      </label>\n    </p>\n\n    <button type="submit">Yuborish</button>\n  </form>\n\n</body>\n</html>',
+ vazifa:"Formaga tug'ilgan sana maydonini (<code>type=\"date\"</code>) va qisqa izoh uchun <code>&lt;textarea&gt;</code> qo'shing. Har biriga <code>&lt;label&gt;</code> yozing.",
+ test:[
+  {s:"Parol kiritish maydoni turi qanday?",j:["type=\"text\"","type=\"password\"","type=\"secret\""],t:1},
+  {s:"Bir nechta variantni belgilash uchun?",j:["radio","checkbox","select"],t:1},
+  {s:"Maydonni majburiy qiluvchi atribut?",j:["required","must","need"],t:0},
+  {s:"Ko'p qatorli matn uchun qaysi teg?",j:["&lt;input&gt;","&lt;textarea&gt;","&lt;text&gt;"],t:1}]},
+
+{t:'Amaliy',n:1,h:2,nom:"Matn elementlari bilan web sahifa yaratish",
+ maqsad:"Sarlavha, paragraf va formatlash teglaridan foydalanib to'liq matnli sahifa tuzish.",
+ nazariya:[
+  ["Ish tartibi","Avval sahifaning skeletini yozing (DOCTYPE, html, head, body), so'ng mazmunni <code>&lt;body&gt;</code> ichiga qo'shib boring. Har bir qo'shimchadan keyin natijani tekshiring — xato darhol ko'rinadi."],
+  ["Tekislash qoidasi","Ichma-ich joylashgan har bir teg ikki bo'shliqqa chekintiriladi. Bu brauzerga ta'sir qilmaydi, lekin xatoni topishni ancha osonlashtiradi."],
+  ["Topshiriq mazmuni","Sahifa quyidagilardan iborat bo'lsin: bitta <code>&lt;h1&gt;</code>, ikkita <code>&lt;h2&gt;</code>, har bir bo'limda kamida ikkita paragraf, matn ichida <code>&lt;strong&gt;</code> va <code>&lt;em&gt;</code>, bitta ajratuvchi <code>&lt;hr&gt;</code>."]
+ ],
+ teglar:[["&lt;h1&gt;, &lt;h2&gt;","Sarlavha darajalari."],["&lt;p&gt;","Paragraf."],["&lt;strong&gt;, &lt;em&gt;","Ma'noli formatlash."],["&lt;hr&gt;","Bo'limlarni ajratish."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Bo\'limim haqida</title></head>\n<body>\n\n  <h1>Aloqa bo\'limi</h1>\n\n  <h2>Vazifasi</h2>\n  <p>Bo\'lim <strong>uzluksiz aloqani</strong> ta\'minlaydi.</p>\n  <p>Xodimlar <em>navbatchilik</em> tartibida ishlaydi.</p>\n\n  <hr>\n\n  <h2>Texnik ta\'minot</h2>\n  <p>Bu yerni o\'zingiz to\'ldiring.</p>\n\n</body>\n</html>',
+ vazifa:"Namunani o'z bo'limingiz haqidagi ma'lumot bilan to'liq almashtiring. Talab: 1 ta h1, 2 ta h2, kamida 4 ta paragraf.",
+ test:[
+  {s:"Sahifada nechta &lt;h1&gt; bo'lishi tavsiya etiladi?",j:["Bitta","Har bo'limga bittadan","Cheklov yo'q"],t:0},
+  {s:"Kodni chekintirish nima beradi?",j:["Sahifa tezlashadi","Kod o'qishga qulay bo'ladi","Shrift o'zgaradi"],t:1},
+  {s:"Bo'limlarni vizual ajratish uchun?",j:["&lt;hr&gt;","&lt;br&gt;","&lt;div&gt;"],t:0}]},
+
+{t:'Amaliy',n:2,h:4,nom:"Web sahifaga rasm qo'shish",
+ maqsad:"img papkasidagi fayllardan foydalanib rasmli sahifa yig'ish.",
+ nazariya:[
+  ["Papka tuzilmasi","Loyihamiz shunday tashkil etilgan: <code>index.html</code> fayli va uning yonida <code>img</code> papkasi. Shu sababli rasm manzili <code>img/logo.png</code> ko'rinishida yoziladi."],
+  ["Mavjud fayllar","Papkada uchta namuna bor: <code>logo.png</code> (emblema, shaffof fon), <code>manzara.jpg</code> (fotosurat), <code>kompyuter.png</code> (ikonka). Ular internetdan yuklanmaydi — hammasi mahalliy."],
+  ["Tez-tez uchraydigan xato","Rasm chiqmasa uch narsani tekshiring: fayl nomi to'g'ri yozilganmi, kengaytma mos kelyaptimi, papka nomi <code>img</code> ekanmi. Katta-kichik harf farqi ham xatoga sabab bo'ladi."]
+ ],
+ teglar:[["&lt;img src&gt;","Rasm manzili."],["alt","Muqobil matn."],["width","Kenglik (piksel)."],["&lt;figure&gt;","Rasm bloki."],["&lt;figcaption&gt;","Rasm izohi."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Rasmli sahifa</title></head>\n<body>\n\n  <h1>Fotoalbom</h1>\n\n  <figure>\n    <img src="img/manzara.jpg" alt="Tog\' manzarasi" width="400">\n    <figcaption>1-rasm. Tog\' manzarasi</figcaption>\n  </figure>\n\n  <figure>\n    <img src="img/kompyuter.png" alt="Kompyuter ikonkasi" width="220">\n    <figcaption>2-rasm. O\'quv kompyuteri</figcaption>\n  </figure>\n\n</body>\n</html>',
+ vazifa:"Uchinchi <code>&lt;figure&gt;</code> qo'shib, unga <code>img/logo.png</code> ni joylashtiring va o'z izohingizni yozing.",
+ test:[
+  {s:"img papkasidagi faylga qanday murojaat qilinadi?",j:["img/logo.png","/img/logo.png","..img.logo.png"],t:0},
+  {s:"Rasm ko'rinmasa avval nimani tekshirasiz?",j:["Internet aloqasini","Fayl nomi va yo'lini","Brauzer versiyasini"],t:1},
+  {s:"Rasm izohi qaysi teg bilan yoziladi?",j:["&lt;caption&gt;","&lt;figcaption&gt;","&lt;alt&gt;"],t:1}]},
+
+{t:'Amaliy',n:3,h:4,nom:"Havola yaratish amaliyoti",
+ maqsad:"Ikki sahifa o'rtasida ikki tomonlama navigatsiya qurish.",
+ nazariya:[
+  ["Ikki fayl bilan ishlash","Amaliyot uchun bitta papkada ikkita fayl yarating: <code>index.html</code> va <code>ikkinchi.html</code>. Birinchisidan ikkinchisiga, ikkinchisidan birinchisiga havola qo'ying — foydalanuvchi «yo'qolib qolmasin»."],
+  ["Havola matni","«Bu yerga bosing» degan yozuv yaxshi emas. Havola matni qayerga olib borishini aytib turishi kerak: «Modul dasturi», «Ortga qaytish»."],
+  ["Muharrirdagi cheklov","Quyidagi maydonda faqat bitta sahifa ko'rinadi, shuning uchun sahifa ichidagi <code>#id</code> havolalarini sinang. Fayllar orasidagi o'tishni esa haqiqiy papkada tekshiring."]
+ ],
+ teglar:[["&lt;a href&gt;","Havola."],["&lt;nav&gt;","Menyu bloki."],["#id","Sahifa ichidagi nishon."],["title","Havola izohi."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Navigatsiya</title></head>\n<body>\n\n  <nav>\n    <a href="#kirish">Kirish</a> ·\n    <a href="#asosiy">Asosiy qism</a> ·\n    <a href="#xulosa">Xulosa</a>\n  </nav>\n\n  <h2 id="kirish">Kirish</h2>\n  <p>Menyudan bo\'limlarga o\'tib ko\'ring.</p>\n\n  <h2 id="asosiy">Asosiy qism</h2>\n  <p>Har bir sarlavhada o\'z id si bor.</p>\n\n  <h2 id="xulosa">Xulosa</h2>\n  <p><a href="#kirish">Boshiga qaytish</a></p>\n\n</body>\n</html>',
+ vazifa:"Menyuga to'rtinchi bo'lim qo'shing. Har bir bo'lim oxiriga «Boshiga qaytish» havolasini joylashtiring.",
+ test:[
+  {s:"Yaxshi havola matni qanday bo'ladi?",j:["Bu yerga bosing","Modul dasturi","Havola"],t:1},
+  {s:"Nishon element qanday belgilanadi?",j:["id atributi bilan","name atributi bilan","class atributi bilan"],t:0},
+  {s:"Bir papkadagi ikkinchi faylga havola?",j:["href=\"ikkinchi.html\"","href=\"/ikkinchi\"","href=\"#ikkinchi\""],t:0}]},
+
+{t:'Amaliy',n:4,h:4,nom:"Oddiy ro'yxatlar yaratish",
+ maqsad:"Ma'lumotni bir va ko'p pog'onali ro'yxatlarga ajrata olish.",
+ nazariya:[
+  ["Qaysi ro'yxatni tanlash","Tartib muhim bo'lsa (bosqichlar, ketma-ketlik) — <code>&lt;ol&gt;</code>. Tartib muhim bo'lmasa (jihozlar, xususiyatlar) — <code>&lt;ul&gt;</code>."],
+  ["Ko'p pog'onali ro'yxat","Ichki ro'yxat tashqi <code>&lt;li&gt;</code> ning ichiga yoziladi, undan keyin emas. Bu eng ko'p uchraydigan xato."],
+  ["Boshlanish raqami","<code>&lt;ol start=\"5\"&gt;</code> ro'yxatni beshinchi raqamdan boshlaydi, <code>type=\"a\"</code> esa raqam o'rniga harf qo'yadi."]
+ ],
+ teglar:[["&lt;ul&gt;","Tartibsiz ro'yxat."],["&lt;ol&gt;","Tartibli ro'yxat."],["&lt;li&gt;","Ro'yxat bandi."],["start","Boshlanish raqami."],["type","Belgilash turi (1, a, i)."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Ro\'yxatlar</title></head>\n<body>\n\n  <h3>Sahifa yaratish bosqichlari</h3>\n  <ol>\n    <li>Fayl yaratish</li>\n    <li>Skeletni yozish\n      <ul>\n        <li>head qismi</li>\n        <li>body qismi</li>\n      </ul>\n    </li>\n    <li>Mazmunni to\'ldirish</li>\n    <li>Brauzerda tekshirish</li>\n  </ol>\n\n  <h3>Kerakli jihozlar</h3>\n  <ul>\n    <li>Kompyuter</li>\n    <li>Matn muharriri</li>\n    <li>Brauzer</li>\n  </ul>\n\n</body>\n</html>',
+ vazifa:"«Kerakli jihozlar» ro'yxatining bitta bandiga ichki ro'yxat qo'shing va <code>&lt;ol type=\"a\"&gt;</code> bilan harfli ro'yxat yarating.",
+ test:[
+  {s:"Bosqichlarni ko'rsatish uchun qaysi ro'yxat?",j:["&lt;ul&gt;","&lt;ol&gt;","&lt;dl&gt;"],t:1},
+  {s:"Ichki ro'yxat qayerga yoziladi?",j:["&lt;li&gt; ichiga","&lt;li&gt; dan keyin","&lt;ul&gt; dan oldin"],t:0},
+  {s:"Ro'yxatni harflar bilan belgilash uchun?",j:["type=\"a\"","style=\"abc\"","start=\"a\""],t:0}]},
+
+{t:'Amaliy',n:5,h:4,nom:"Bir sahifali oddiy web sahifa tuzish",
+ maqsad:"O'rganilgan barcha elementlarni bitta yaxlit sahifada birlashtirish.",
+ nazariya:[
+  ["Yakuniy topshiriq","Bitta sahifada quyidagilar bo'lishi kerak: sarlavha, navigatsiya menyusi, kamida ikkita bo'lim, bitta rasm, bitta ro'yxat, bitta jadval va oddiy forma."],
+  ["Semantik bloklar","Sahifani <code>&lt;header&gt;</code> (yuqori qism), <code>&lt;nav&gt;</code> (menyu), <code>&lt;main&gt;</code> (asosiy mazmun), <code>&lt;footer&gt;</code> (pastki qism) bloklariga ajrating. Bu teglar <code>&lt;div&gt;</code> kabi ishlaydi, lekin ma'no beradi."],
+  ["Ish ketma-ketligi","Avval bo'sh bloklarni joylashtiring, keyin har birini to'ldiring. Bu «katta rasmni» yo'qotmaslikka yordam beradi."]
+ ],
+ teglar:[["&lt;header&gt;","Sahifaning yuqori qismi."],["&lt;nav&gt;","Menyu."],["&lt;main&gt;","Asosiy mazmun."],["&lt;section&gt;","Mazmun bo'limi."],["&lt;footer&gt;","Pastki qism."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Mening sahifam</title></head>\n<body>\n\n  <header>\n    <img src="img/logo.png" alt="Emblema" width="70">\n    <h1>Aloqa bo\'limi</h1>\n  </header>\n\n  <nav>\n    <a href="#haqida">Bo\'lim haqida</a> ·\n    <a href="#tarkib">Tarkibi</a>\n  </nav>\n\n  <main>\n    <section id="haqida">\n      <h2>Bo\'lim haqida</h2>\n      <p>Qisqacha <strong>ma\'lumot</strong> shu yerda.</p>\n    </section>\n\n    <section id="tarkib">\n      <h2>Tarkibi</h2>\n      <ul>\n        <li>Birinchi guruh</li>\n        <li>Ikkinchi guruh</li>\n      </ul>\n\n      <table border="1" cellpadding="6">\n        <tr><th>Guruh</th><th>Soni</th></tr>\n        <tr><td>Birinchi</td><td>24</td></tr>\n        <tr><td>Ikkinchi</td><td>22</td></tr>\n      </table>\n    </section>\n  </main>\n\n  <footer>\n    <hr>\n    <p><small>2026-yil. O\'quv topshirig\'i.</small></p>\n  </footer>\n\n</body>\n</html>',
+ vazifa:"Sahifaga uchinchi <code>&lt;section&gt;</code> va oddiy aloqa formasini qo'shing. Menyuni ham yangilashni unutmang.",
+ test:[
+  {s:"Sahifaning asosiy mazmuni qaysi blokka joylashadi?",j:["&lt;header&gt;","&lt;main&gt;","&lt;footer&gt;"],t:1},
+  {s:"Semantik teglar nima uchun kerak?",j:["Sahifani bezash","Mazmunning ma'nosini bildirish","Tezlikni oshirish"],t:1},
+  {s:"Menyu uchun qaysi teg mos?",j:["&lt;nav&gt;","&lt;menu&gt;","&lt;list&gt;"],t:0}]},
+
+{t:'Amaliy',n:6,h:4,nom:"Tayyor HTML sahifani brauzerda ko'rish",
+ maqsad:"Sahifani brauzerda ochish, tuzilmasini ko'rish va xatolarni topish.",
+ nazariya:[
+  ["Sahifani ochish","Faylni ikki marta bosing yoki brauzerga sudrab tashlang. Manzil satrida <code>file:///</code> bilan boshlanuvchi yo'l ko'rinadi — bu sahifa internetdan emas, diskdan ochilganini bildiradi."],
+  ["Kodni ko'rish","<code>Ctrl + U</code> — sahifaning manba kodini ochadi. Har qanday saytda ishlaydi va boshqalarning sahifasi qanday qurilganini o'rganishga imkon beradi."],
+  ["Ishlab chiquvchi paneli","<code>F12</code> yoki <code>Ctrl+Shift+I</code> — brauzer paneli. «Elements» bo'limida sahifa daraxti ko'rinadi; elementni tanlab, uni sahifada qayerdaligini ko'rish mumkin. «Console» bo'limida xatolar chiqadi."],
+  ["Xatolarni izlash tartibi","1) Yopilmagan teg bormi? 2) Qo'shtirnoq juft-juftmi? 3) Fayl yo'llari to'g'rimi? 4) Kodlash UTF-8 mi (harflar «???» ko'rinsa)? 5) Fayl <code>.html</code> kengaytmasi bilan saqlanganmi?"],
+  ["Yangilash","Kodni o'zgartirgach faylni saqlang va brauzerda <code>F5</code> bosing. Eski holat qolib ketsa <code>Ctrl + F5</code> — keshni tozalab yangilaydi."]
+ ],
+ teglar:[["Ctrl + U","Manba kodini ko'rish."],["F12","Ishlab chiquvchi paneli."],["F5","Sahifani yangilash."],["Ctrl + F5","Keshsiz yangilash."],["Ctrl + S","Faylni saqlash."]],
+ kod:'<!DOCTYPE html>\n<html lang="uz">\n<head><meta charset="UTF-8"><title>Xatolarni toping</title></head>\n<body>\n\n  <h1>Bu sahifada 3 ta xato bor\n\n  <p>Birinchi paragraf.</p>\n\n  <img src=img/logo.png alt="Emblema" width="100">\n\n  <p>Ikkinchi <strong>paragraf.</p></strong>\n\n</body>\n</html>',
+ vazifa:"Yuqoridagi kodda uchta xato bor: yopilmagan <code>&lt;h1&gt;</code>, qo'shtirnoqsiz <code>src</code> va noto'g'ri ichma-ich joylashgan <code>&lt;strong&gt;</code>. Uchalasini ham to'g'rilang.",
+ test:[
+  {s:"Manba kodini ko'rish tugmasi?",j:["Ctrl + U","Ctrl + P","Ctrl + O"],t:0},
+  {s:"Ishlab chiquvchi panelini nima ochadi?",j:["F1","F12","F9"],t:1},
+  {s:"file:/// manzili nimani bildiradi?",j:["Sahifa diskdan ochilgan","Sahifa serverdan kelgan","Sahifa himoyalangan"],t:0},
+  {s:"Harflar «???» ko'rinsa muammo nimada?",j:["Shriftda","Kodlashda (charset)","Rasmda"],t:1}]}
+];
+
+/* ============ Yordamchilar ============ */
+const $=s=>document.querySelector(s);
+const idOf=l=>l.t.toLowerCase()+l.n;
+const total=L.length;
+
+function drawTree(){
+  const tree=$('#tree');
+  let html='';
+  ['Nazariy','Amaliy'].forEach(gr=>{
+    html+='<div class="tree-group">'+(gr==='Nazariy'?'Nazariy mashg\'ulotlar · 26 soat':'Amaliy mashg\'ulotlar · 22 soat')+'</div>';
+    L.forEach((l,i)=>{
+      if(l.t!==gr)return;
+      html+='<button class="node'+(done[idOf(l)]?' done':'')+'" data-i="'+i+'">'
+        +'<span class="tick">&#10003;</span>'
+        +'<span class="node-txt"><span class="node-no">'+l.n+'-mavzu · '+l.h+' soat</span>'+l.nom+'</span></button>';
+    });
+  });
+  tree.innerHTML=html;
+  tree.querySelectorAll('.node').forEach(b=>b.onclick=()=>ochish(+b.dataset.i));
+  const c=Object.keys(done).length;
+  $('#meterNum').textContent=c+' / '+total;
+  $('#meterFill').style.width=(c/total*100)+'%';
+}
+
+/* ============ Bosh sahifa ============ */
+function home(){
+  let cards='';
+  L.forEach((l,i)=>{
+    cards+='<button class="card" data-i="'+i+'"><div class="tagline">&lt;'+l.t.toLowerCase()+'-'+l.n+'&gt;</div>'
+      +'<b>'+l.nom+'</b><p>'+l.maqsad+'</p></button>';
+  });
+  $('#main').innerHTML=
+   '<div class="hero">'
+   +'<div class="crumb">1.4-modul · Web texnologiyalar</div>'
+   +'<div class="tagline">&lt;html-asoslari&gt;</div>'
+   +'<h1>HTML asoslari</h1>'
+   +'<p class="lede">Belgilash tilining asosiy elementlari va teglaridan foydalanib web sahifa tuzilmasini yaratish, matn, rasm va havolalarni joylashtirish hamda oddiy statik sahifalarni ishlab chiqish moduli.</p>'
+   +'<div class="stats">'
+   +'<div class="stat"><b>13</b><span>Mavzu</span></div>'
+   +'<div class="stat"><b>48</b><span>Soat</span></div>'
+   +'<div class="stat"><b>47</b><span>Test savoli</span></div>'
+   +'<div class="stat"><b>0</b><span>Internet talab</span></div>'
+   +'</div></div>'
+   +'<div class="panel brass"><b>Qanday ishlaymiz.</b> Har bir mavzuda nazariy qism, teglar jadvali, jonli kod muharriri va test bor. '
+   +'Kodni o\'zgartirsangiz natija darhol yonida ko\'rinadi. Testdan o\'tgan mavzu chap ustunda belgilanadi. '
+   +'Sayt to\'liq oflayn ishlaydi — rasmlar <code>img</code> papkasidan olinadi.</div>'
+   +'<h2>Mavzular</h2><div class="cards">'+cards+'</div>';
+  $('#main').querySelectorAll('.card').forEach(b=>b.onclick=()=>ochish(+b.dataset.i));
+  window.scrollTo(0,0);
+}
+
+/* ============ Mavzu sahifasi ============ */
+function ochish(i){
+  const l=L[i];
+  let nz=''; l.nazariya.forEach(x=>{nz+='<h3>'+x[0]+'</h3><p>'+x[1]+'</p>';});
+  let tg='<table class="tags"><tr><th>Element / atribut</th><th>Vazifasi</th></tr>';
+  l.teglar.forEach(x=>{tg+='<tr><td>'+x[0]+'</td><td>'+x[1]+'</td></tr>';});
+  tg+='</table>';
+
+  let ts='';
+  l.test.forEach((q,qi)=>{
+    let op='';
+    q.j.forEach((j,ji)=>{
+      op+='<label class="opt" data-q="'+qi+'" data-j="'+ji+'"><input type="radio" name="q'+qi+'" value="'+ji+'"><span>'+j+'</span></label>';
+    });
+    ts+='<div class="q"><div class="q-h"><span class="q-no">'+(qi+1).toString().padStart(2,'0')+'</span><span class="q-t">'+q.s+'</span></div>'+op+'</div>';
+  });
+
+  $('#main').innerHTML=
+   '<div class="crumb"><a href="#" id="toHome">Modul</a> / '+l.t+' mashg\'ulot</div>'
+   +'<div class="tagline">&lt;'+l.t.toLowerCase()+'-'+l.n+'&gt;</div>'
+   +'<h1>'+l.nom+'</h1>'
+   +'<p class="lede">'+l.maqsad+'</p>'
+   +'<div><span class="badge g">'+l.t+'</span><span class="badge">'+l.h+' soat</span></div>'
+   +'<h2>Nazariy qism</h2>'+nz
+   +'<h2>Teglar va atributlar</h2>'+tg
+   +'<h2>Jonli muharrir</h2>'
+   +'<div class="editor"><div class="ed-bar"><span>Kod / Natija</span>'
+   +'<button class="btn ghost" id="reset">Namunani tiklash</button>'
+   +'<button class="btn" id="run">Ishga tushirish</button></div>'
+   +'<div class="ed-grid"><textarea id="ed" spellcheck="false"></textarea><iframe id="out" title="Natija"></iframe></div></div>'
+   +'<div class="panel brass"><b>Vazifa.</b> '+l.vazifa+'</div>'
+   +'<h2>Nazoratni topshirish</h2>'
+   +'<div class="panel">'+ts
+   +'<div class="score"><button class="btn" id="check">Javoblarni tekshirish</button>'
+   +'<span class="score-txt" id="scoreTxt"></span></div></div>'
+   +'<div class="nav-btns">'
+   +(i>0?'<button class="btn ghost" data-go="'+(i-1)+'">&larr; Oldingi mavzu</button>':'<span></span>')
+   +(i<total-1?'<button class="btn" data-go="'+(i+1)+'">Keyingi mavzu &rarr;</button>':'<button class="btn" id="fin">Modulni yakunlash</button>')
+   +'</div>';
+
+  // muharrir
+  const ed=$('#ed'), out=$('#out');
+  ed.value=l.kod;
+  const run=()=>{out.srcdoc=ed.value;};
+  run();
+  let tmr; ed.oninput=()=>{clearTimeout(tmr);tmr=setTimeout(run,600);};
+  $('#run').onclick=run;
+  $('#reset').onclick=()=>{ed.value=l.kod;run();};
+
+  // test
+  $('#check').onclick=()=>{
+    let ok=0;
+    l.test.forEach((q,qi)=>{
+      const sel=document.querySelector('input[name="q'+qi+'"]:checked');
+      document.querySelectorAll('.opt[data-q="'+qi+'"]').forEach(o=>{
+        o.classList.remove('right','wrong');
+        if(+o.dataset.j===q.t)o.classList.add('right');
+        if(sel&&+sel.value===+o.dataset.j&&+sel.value!==q.t)o.classList.add('wrong');
+      });
+      if(sel&&+sel.value===q.t)ok++;
+    });
+    const need=Math.ceil(l.test.length*0.7);
+    $('#scoreTxt').innerHTML=ok+' / '+l.test.length+' to\'g\'ri — '
+      +(ok>=need?'<b style="color:var(--ok)">mavzu topshirildi</b>':'<b style="color:var(--err)">kamida '+need+' ta kerak</b>');
+    if(ok>=need){done[idOf(l)]=1;save();drawTree();}
+  };
+
+  $('#toHome').onclick=e=>{e.preventDefault();home();};
+  $('#main').querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>ochish(+b.dataset.go));
+  const f=$('#fin'); if(f)f.onclick=home;
+
+  drawTree();
+  document.querySelectorAll('.node').forEach(n=>n.classList.toggle('on',+n.dataset.i===i));
+  $('#rail').classList.remove('open');
+  window.scrollTo(0,0);
+}
+
+$('#burger').onclick=()=>$('#rail').classList.toggle('open');
+drawTree();
+home();
+</script>
+</body>
+</html>

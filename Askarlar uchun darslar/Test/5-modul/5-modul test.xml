@@ -1,0 +1,3813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyTestX>
+	<Version Editor="Text1ToXML">11.0</Version>
+	<SaveDate>2026-07-17T15:02:50Z</SaveDate>
+	<TestOptions/>
+	<Groups>
+		<Group>
+			<Title>CSS_asoslari_mytest_200.txt</Title>
+			<Tasks>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#1. CSS nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Web sahifa ko&apos;rinishini bezovchi uslublar tili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Web sahifa tuzilmasini yaratuvchi belgilash tili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni boshqaruvchi maxsus operatsion tizim</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumot saqlovchi tashqi qattiq disk qurilmasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#2. CSS qisqartmasi qanday ochiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Cascading Style Sheets</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Computer Style System</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Central Style Source</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Creative Style Section</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#3. CSS asosan qaysi til bilan birga ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>HTML bilan birga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Python bilan birga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Excel bilan birga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows bilan birga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#4. CSS ning asosiy vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa elementlariga ko&apos;rinish va bezak berish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa mazmunini yaratish va yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterdagi zararli viruslarni tozalash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet tarmog&apos;iga ulanishni boshqarish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#5. HTML va CSS o&apos;rtasidagi farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>HTML tuzilma, CSS esa ko&apos;rinish beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>HTML ko&apos;rinish, CSS esa tuzilma beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham butunlay bir xil vazifani bajaradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>HTML rasmni, CSS esa ovozni qo&apos;shadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#6. CSS ishlatishning afzalligi nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa ko&apos;rinishini bir joydan boshqarish qulay</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning barcha mazmunini butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning ishlash tezligini pasaytiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarflanadigan internet trafigini ko&apos;paytiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#7. CSS ni HTML ga ulashning nechta asosiy usuli bor?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Uchta asosiy usul</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta asosiy usul mavjud</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jami beshta asosiy usul mavjud</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jami yettita asosiy usul mavjud</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#8. CSS kodini alohida faylda saqlash qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tashqi (external) uslub usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element ichida matn yozish usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada yashirin kodlash usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylni vaqtinchalik saqlash usuli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#9. CSS fayllari qanday kengaytma bilan saqlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>.css</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.html</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.exe</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.txt</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#10. Tashqi CSS faylni HTML ga ulovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;link&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;style&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;css&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;src&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#11. HTML sahifa ichida CSS yozish uchun qaysi teg ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;style&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;css&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;link&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;design&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#12. Bevosita element ichida CSS yozish qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ichki (inline) uslub usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tashqi fayl usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada yashirin kodlash usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Umumiy bezash usuli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#13. Elementga to&apos;g&apos;ridan-to&apos;g&apos;ri uslub berish uchun qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>style atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>design atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>format atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color atributi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#14. &lt;link&gt; teg odatda HTML ning qaysi qismiga yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;head&gt; qismiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;body&gt; qismiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;footer&gt; qismiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;title&gt; qismiga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#15. CSS texnologiyasi web dizaynda qanday o&apos;rin tutadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifani chiroyli va tartibli qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa mazmunini butunlay yozadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni turli viruslardan himoyalaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligini oshirib beradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#16. CSS qoidasi qaysi ikki asosiy qismdan iborat?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Selektor va e&apos;lonlar bloki</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarlavha va matn qatori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm va havola manzili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jadval va ro&apos;yxat bandi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#17. Selektor (selektor) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qaysi elementga uslub berilishini ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi eng asosiy sarlavha matni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning ichki apparat qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayl kengaytmasini bildiruvchi bir turi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#18. CSS e&apos;lonlari qaysi qavslar ichida yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Jingalak qavslar { } ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Burchak qavslar &lt; &gt; ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yumaloq qavslar ( ) ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kvadrat qavslar [ ] ichida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#19. CSS da xususiyat va uning qiymati qanday ajratiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ikki nuqta ( : ) bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqta-vergul ( ; ) bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Teng belgisi ( = ) bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Vergul ( , ) bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#20. CSS da har bir e&apos;lon oxirida qaysi belgi qo&apos;yiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Nuqta-vergul ( ; )</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikki nuqta ( : )</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Vergul ( , )</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqta ( . )</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#21. Element selektori qanday yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>To&apos;g&apos;ridan-to&apos;g&apos;ri teg nomi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Oldiga nuqta belgisi qo&apos;yib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Oldiga panjara belgisi qo&apos;yib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Oldiga yulduzcha belgisi qo&apos;yib</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#22. Class selektori qaysi belgi bilan boshlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Nuqta ( . ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Panjara ( # ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yulduzcha ( * ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Foiz ( % ) belgisi bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#23. Id selektori qaysi belgi bilan boshlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Panjara ( # ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqta ( . ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yulduzcha ( * ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Chiziqcha ( - ) belgisi bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#24. HTML elementiga class qanday beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>class atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>name atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>src atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>href atributi orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#25. HTML elementiga id qanday beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>id atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>class atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>alt atributi orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#26. Class va id o&apos;rtasidagi asosiy farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Class ko&apos;p elementga, id bitta elementga tegishli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Class bitta, id esa ko&apos;p elementga tegishli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham butunlay bir xil ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Class rasm uchun, id esa havola uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#27. Barcha elementlarni tanlovchi selektor qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yulduzcha ( * ) selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqta ( . ) selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Panjara ( # ) selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Vergul ( , ) selektori</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#28. Bir nechta selektorga bir xil uslub berish uchun ular qanday ajratiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Vergul ( , ) bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqta ( . ) bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikki nuqta ( : ) bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bo&apos;shliq bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#29. CSS da izoh (comment) qanday yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>/* izoh */ ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;!-- izoh --&gt; ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>// izoh ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText># izoh ko&apos;rinishida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#30. p { color: red; } qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Barcha paragraf matnini qizil rangga bo&apos;yaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha paragrafni o&apos;chirib tashlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha rasmni qizil qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha havolani yashiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#31. Matn rangini o&apos;zgartiruvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>color</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>background</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>border</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#32. Fon rangini o&apos;zgartiruvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>background-color</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-color</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>fill-color</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#33. Matn o&apos;lchamini belgilovchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>font-size</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-size</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>word-size</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>letter-size</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#34. Shrift turini belgilovchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>font-family</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-type</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-font</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-name</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#35. Matnni qalin qiluvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>font-weight</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-bold</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-thick</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-strong</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#36. Matnni qiya qiluvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>font-style</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-italic</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-slant</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-tilt</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#37. Matnni markazga joylashtiruvchi qiymat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>text-align: center</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-place: middle</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>align-text: center</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-position: center</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#38. CSS da rang qanday usullar bilan beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Nomi, HEX yoki RGB kodi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasm orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat oddiy raqam orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta harf orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#39. #FFFFFF rang kodi qaysi rangni bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Oq rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qora rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qizil rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ko&apos;k rangni</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#40. #000000 rang kodi qaysi rangni bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qora rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Oq rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yashil rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sariq rangni</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#41. RGB rang modeli qaysi uch asosiy rangdan tuziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qizil, yashil, ko&apos;k</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qora, oq, kulrang</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sariq, pushti, jigarrang</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Binafsha, zangori, oltin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#42. font-size uchun ko&apos;p ishlatiladigan o&apos;lchov birligi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>piksel (px)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>santimetr (sm)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>kilogramm (kg)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>litr (l)</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#43. text-decoration: underline qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn ostiga chiziq chizadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni qalin qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni qiya qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#44. Matndagi harflar orasini kengaytiruvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>letter-spacing</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>word-space</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>line-gap</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>char-width</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#45. Qatorlar orasidagi masofani belgilovchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>line-height</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>row-height</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>line-space</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-gap</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#46. Matnni katta yoki kichik harfga o&apos;zgartiruvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>text-transform</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-case</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-case</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>letter-change</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#47. Fon rasmini qo&apos;yuvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>background-image</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>image-background</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>back-picture</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>fon-image</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#48. Ranglar uyg&apos;unligi web dizaynda nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifani ko&apos;zga yoqimli va o&apos;qishga qulay qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning umumiy hajmini kichraytiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligini oshiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#49. Shriftni to&apos;g&apos;ri tanlash nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn o&apos;qishga qulay bo&apos;lishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa hajmini oshirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qizib turgan kompyuterni sovutish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmini siqish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#50. background xususiyati nimani boshqaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementning fon ko&apos;rinishini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementning tarmoq manzilini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementning fayl hajmini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementning yaratilgan sanasini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#51. CSS quti (box) modeli qaysi qismlardan iborat?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Mazmun, padding, border va margin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarlavha, matn va rasm elementlari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Havola, jadval va forma qismlari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Selektor, qiymat va izoh bo&apos;laklari</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#52. margin xususiyati nimani belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element tashqarisidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi ichidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element chegarasi qalinligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element matni rangini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#53. padding xususiyati nimani belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element ichidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element tashqarisidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element shrift turini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#54. border xususiyati nimani belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element atrofidagi chegarani</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element ichidagi matnni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element shrift o&apos;lchamini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#55. width xususiyati elementning nimasini belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kengligini (enini)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Balandligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Shriftini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#56. height xususiyati elementning nimasini belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Balandligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kengligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Manzilini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#57. margin va padding o&apos;rtasidagi farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Margin tashqi, padding ichki bo&apos;shliq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Margin ichki, padding tashqi bo&apos;shliq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham butunlay bir xil</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Margin rang, padding shrift beradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#58. border-radius xususiyati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element burchaklarini yumaloqlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element chegarasini o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element rangini o&apos;zgartiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element matnini kattalashtiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#59. Element ichidagi matn bilan chegara orasidagi masofani nima belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>padding</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>margin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>border</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>width</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#60. Ikki element orasidagi masofani nima belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>margin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>padding</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-size</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#61. display: none qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementni butunlay yashiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni kattalashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni qizil qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni boshqa joyga ko&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#62. text-align xususiyati nimani boshqaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnning gorizontal joylashuvini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnning rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnning shrift turini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnning fon rasmini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#63. CSS da o&apos;lcham uchun foiz (%) qiymati nimaga nisbatan hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ota elementning o&apos;lchamiga nisbatan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun ekran diagonaliga nisbatan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmiga bog&apos;liq nisbatan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligiga bog&apos;liq nisbatan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#64. Elementni sahifada markazga joylashtirishning bir usuli qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>margin qiymatini avtomatik (auto) qilish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element border qiymatini o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element color qiymatini o&apos;zgartirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element font qiymatini kattalashtirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#65. box-sizing xususiyati nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element o&apos;lchamini hisoblash usulini belgilash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi element rangini o&apos;zgartirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi element shriftini almashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi element matnini o&apos;chirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#66. Web dizayn nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Web sahifaning ko&apos;rinishini rejalashtirish san&apos;ati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Web sahifaning barcha mazmunini butunlay o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Buzilgan kompyuterni ta&apos;mirlash jarayoni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet tarmog&apos;iga ulanishni sozlash usuli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#67. Yaxshi web dizaynning asosiy belgisi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Foydalanuvchi uchun qulay va tushunarli bo&apos;lishi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Juda ko&apos;p sonli rangdan iborat bo&apos;lishi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat oddiy matndan tashkil topishi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning haddan tashqari sekin ochilishi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#68. Foydalanuvchiga qulay interfeys nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifadan oson foydalanish imkonini beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter jihozi narxini oshiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarflanadigan internet trafigini ko&apos;paytiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Muhim faylni doimiy o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#69. Sahifada bo&apos;sh joy (bo&apos;shliq) qoldirish nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementlarni ajratib, ko&apos;rinishni yaxshilash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning umumiy hajmini kichraytirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qizib turgan kompyuterni sovutish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmini siqish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#70. Rang uyg&apos;unligi (kombinatsiyasi) nimani anglatadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ranglarning bir-biriga mos tanlanishini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ranglarning tasodifiy aralashtirilishini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qora rangdan foydalanishni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ranglarni butunlay ishlatmaslikni</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#71. Web dizaynda kontrast nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn fonda aniq ko&apos;rinishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifani sekinlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylni yo&apos;qotish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishini uzish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#72. Sahifada juda ko&apos;p rang ishlatish qanday oqibatga olib keladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa chalkash va noqulay ko&apos;rinadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa biroz tezroq ochiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter tezlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati arzonlashadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#73. Matn va fon rangini tanlashda nimaga e&apos;tibor beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ular bir-biridan yaxshi ajralib turishiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ular ranglari butunlay bir xil bo&apos;lishiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tanlangan ranglar ko&apos;rinmas bo&apos;lishiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta qizil rang ishlatilishiga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#74. Web dizaynda oddiylik (sodda ko&apos;rinish) nima uchun qadrlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa tushunarli va toza ko&apos;rinadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa murakkab bo&apos;lib qoladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter sekinlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Muhim fayllar yo&apos;qoladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#75. Sahifa dizaynida bir xil uslubni saqlash nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa yaxlit va tartibli ko&apos;rinishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa turli-tuman bo&apos;lishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter qizishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishi uzilishi uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#76. CSS orqali sahifaning umumiy ko&apos;rinishini boshqarish nima beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Barcha elementlarni bir joydan tartibga solish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa mazmunini butunlay o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter tezligini pasaytirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarflanadigan internet trafigini oshirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#77. Bir CSS fayl bir nechta HTML sahifaga ulanishi mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, bitta fayl ko&apos;p sahifaga ulanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, har sahifaga alohida fayl kerak</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm bor sahifalarga ulanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat forma bor sahifalarga ulanadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#78. Tashqi CSS faylning afzalligi nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kodni bir joyda saqlab, qayta ishlatish qulay</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning umumiy hajmini keskin oshiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini sekinlashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishini uzib qo&apos;yadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#79. CSS kodini tartibli yozish nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kodni o&apos;qish va tuzatish osonlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning ishlash tezligi oshadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati narxi tushadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylning umumiy hajmi kattalashadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#80. cursor xususiyati nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sichqoncha ko&apos;rsatkichi ko&apos;rinishini o&apos;zgartirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi asosiy matn rangini o&apos;zgartirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementiga fon rasmini qo&apos;yish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi chegarasi qalinligini belgilash uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#81. opacity xususiyati nimani boshqaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementning shaffofligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementning kengligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementning shriftini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementning saqlangan manzilini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#82. CSS da :hover nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sichqoncha element ustiga kelganda uslub berish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni butunlay o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq turgan sahifani yopish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmini siqish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#83. list-style-type xususiyati nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ro&apos;yxat belgisi ko&apos;rinishini o&apos;zgartirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yaratilgan ro&apos;yxatni butunlay o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ro&apos;yxatni butunlay rasmga aylantirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ro&apos;yxatni butunlay jadval qilish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#84. CSS da elementga soya (shadow) qo&apos;shuvchi xususiyat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>box-shadow</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>element-shadow</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>shadow-box</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>border-shadow</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#85. font-family da bir nechta shrift yozish nima uchun foydali?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Birinchisi bo&apos;lmasa, keyingisi ishlatiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha shriftlar bir vaqtning o&apos;zida chiqadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa biroz tezroq ochiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter sovuydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#86. CSS da o&apos;lchov birligi &quot;em&quot; nimaga bog&apos;liq?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ota elementning shrift o&apos;lchamiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun ekran diagonaliga bog&apos;liq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmiga bog&apos;liq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligiga bog&apos;liq</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#87. text-align: right qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni o&apos;ng tomonga joylashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni chap tomonga joylashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni markazga joylashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni ko&apos;rinmas qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#88. background-color: yellow qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Fon rangini sariq qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matn rangini sariq qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element chegarasini sariq qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qo&apos;yilgan rasmni sariq qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#89. CSS da bir elementga bir nechta xususiyat berish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, ularni nuqta-vergul bilan ajratib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, faqat bitta xususiyat berish mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasmga ko&apos;p xususiyat mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa havolasiga ko&apos;p xususiyat mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#90. margin: 0 auto qoidasi ko&apos;pincha nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementni gorizontal markazga joylashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi kerakli elementni o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni qizil qilish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni yashirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#91. CSS da rangni RGB usulida yozish namunasi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>rgb(255, 0, 0)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color(255-0-0)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>red(255, 0, 0)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>rgb[255; 0; 0]</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#92. HEX rang kodi qaysi belgi bilan boshlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Panjara ( # ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqta ( . ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Foiz ( % ) belgisi bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yulduzcha ( * ) belgisi bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#93. font-weight: bold qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni qalin qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni qiya qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni kichraytiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#94. CSS da bir elementni yashirishning bir usuli qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>display: none qo&apos;llash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color: none qo&apos;llash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font: none qo&apos;llash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>width: none qo&apos;llash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#95. Elementga fon rangi va matn rangi birga berilishi mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, ikkalasini alohida yozib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, faqat bittasi mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmlarda mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat jadvalda mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#96. CSS da xususiyat nomini noto&apos;g&apos;ri yozish nimaga olib keladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>O&apos;sha uslub ishlamay qoladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter o&apos;chib qoladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishi uziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Diskdagi fayl o&apos;chiriladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#97. Sahifadagi barcha paragrafga bir xil rang berish uchun qaysi selektor qulay?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element selektori ( p )</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat id selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat yulduzcha selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat vergul selektori</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#98. Bir nechta elementga bir xil uslub berishning eng qulay usuli qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ularga bir xil class berish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har biriga alohida id berish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har birini o&apos;chirib qo&apos;yish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmga aylantirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#99. CSS da uslublar to&apos;qnashganda qaysi qoida ko&apos;proq kuchga ega?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Aniqroq (spetsifik) selektor</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har doim birinchi yozilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har doim eng qisqa qoida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har doim rangli qoida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#100. text-decoration: none ko&apos;pincha nimaga ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Havola ostidagi chiziqni olib tashlashga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni o&apos;chirishga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fonini bo&apos;yashga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga rasm qo&apos;shishga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#101. p { color: blue; } kodida &quot;p&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Selektorni (qaysi elementga uslub berilishini)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>CSS xususiyati nomini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Berilgan rang qiymatini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl manzilini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#102. p { color: blue; } kodida &quot;color&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Xususiyat nomini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Selektorni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayl nomini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa sarlavhasini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#103. p { color: blue; } kodida &quot;blue&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Xususiyatning qiymatini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Selektor nomini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayl kengaytmasini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa tuzilmasini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#104. .menu { color: green; } kodida &quot;.menu&quot; qanday selektor?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Class selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Id selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Universal selektor</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#105. #header { color: red; } kodida &quot;#header&quot; qanday selektor?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Id selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Class selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Universal selektor</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#106. &lt;p class=&quot;katta&quot;&gt; elementiga qaysi CSS qoidasi ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>.katta { font-size: 20px; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>#katta { font-size: 20px; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>p#katta { font-size: 20px; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>*katta { font-size: 20px; }</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#107. &lt;div id=&quot;asosiy&quot;&gt; elementiga qaysi CSS qoidasi ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>#asosiy { color: blue; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.asosiy { color: blue; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>div.asosiy { color: blue; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>*asosiy { color: blue; }</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#108. h1 { color: red; } qoidasi qaysi elementlarga ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Barcha h1 sarlavhalariga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat birinchi h1 ga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha paragraflarga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha rasmlarga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#109. body { background-color: gray; } qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Butun sahifa fonini kulrang qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matnni kulrang qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmni kulrang qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat havolani kulrang qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#110. Quyidagi CSS kodda xato bor: p { color red; }. Xato nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Xususiyat va qiymat orasida ikki nuqta yo&apos;q</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qoidadagi selektor noto&apos;g&apos;ri yozilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Berilgan rang nomi noto&apos;g&apos;ri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bitta qavs ortiqcha qo&apos;yilgan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#111. Quyidagi kodda xato bor: p { color: red }. Xato nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>E&apos;lon oxirida nuqta-vergul qo&apos;yilmagan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qoidadagi selektor noto&apos;g&apos;ri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Berilgan rang qiymati noto&apos;g&apos;ri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochilgan qavs yopilmagan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#112. div { width: 200px; height: 100px; } qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Div elementiga en va balandlik beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi div elementini o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi div matnini qizil qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi div fonini yashiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#113. margin: 10px; qoidasi nimani belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element atrofidagi tashqi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi ichidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi chegarasi rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi matni o&apos;lchamini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#114. padding: 10px; qoidasi nimani belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Element ichidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element tashqarisidagi bo&apos;shliqni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element shrift turini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#115. border: 1px solid black; qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementga qora rangli chegara chizadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi matnini qora qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi fonini qora qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#116. font-size: 24px; qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn o&apos;lchamini 24 piksel qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matn rangini o&apos;zgartiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matn shriftini almashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#117. text-align: center; qoidasi matnni qanday joylashtiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Markazga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Chapga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>O&apos;ngga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Pastga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#118. background-image: url(&quot;fon.jpg&quot;); qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementga fon rasmini qo&apos;yadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni rasmga aylantiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element matnini o&apos;zgartiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#119. Quyidagilardan qaysi biri to&apos;g&apos;ri CSS qoidasi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>h1 { color: red; }</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>h1 [ color: red ]</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>h1 ( color = red )</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>h1 &lt; color: red &gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#120. a { text-decoration: none; } qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Havola ostidagi chiziqni olib tashlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi havolani o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi havolani qizil qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi havolani yashiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#121. Ichki (inline) uslub HTML da qanday yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;p style=&quot;color: red;&quot;&gt;Matn&lt;/p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p css=&quot;color: red;&quot;&gt;Matn&lt;/p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p link=&quot;color: red;&quot;&gt;Matn&lt;/p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;style p=&quot;color: red;&quot;&gt;Matn&lt;/style&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#122. Tashqi CSS faylni ulash kodi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;link rel=&quot;stylesheet&quot; href=&quot;uslub.css&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;style src=&quot;uslub.css&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;css file=&quot;uslub.css&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;link css=&quot;uslub.css&quot;&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#123. Uch xil CSS ulash usulidan qaysi biri eng qulay hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tashqi CSS fayl usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har elementga inline usul</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat yashirin kodlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat vaqtinchalik usul</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#124. Bir elementga ham class, ham id berilishi mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, ikkalasini birga berish mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, faqat bittasi mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmga mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat havolaga mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#125. ul li { color: blue; } qoidasi nimani anglatadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>ul ichidagi li elementlarini tanlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat tashqi ul ni tanlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat alohida li ni tanlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha elementni tanlaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#126. .box { margin: 20px; } qoidasi qaysi elementlarga ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>class=&quot;box&quot; bo&apos;lgan elementlarga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>id=&quot;box&quot; bo&apos;lgan elementga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha div elementiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha rasmga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#127. CSS da xususiyatlar qanday tartibda yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Xususiyat: qiymat; ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qiymat: xususiyat; ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Xususiyat = qiymat ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qiymat - xususiyat ko&apos;rinishida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#128. Quyidagi kod nechta xususiyat belgilaydi: p { color: red; font-size: 16px; }?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>4 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#129. Sahifadagi barcha matnni bir xil shriftga o&apos;tkazish uchun qaysi selektor qulay?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>body selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat id selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat vergul selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat panjara selektori</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#130. .btn:hover { color: red; } qoidasi qachon ishlaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sichqoncha element ustiga kelganda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq sahifa yopilganda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter o&apos;chganda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq fayl saqlanganda</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#131. color: #00FF00; qiymati qaysi rangni beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yashil rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qizil rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ko&apos;k rangni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qora rangni</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#132. font-style: italic; qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni qiya (kursiv) qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni qalin qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matn ostiga chiziq chizadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni katta qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#133. Quyidagi ikki qoidadan qaysi biri kuchliroq: p { color: red; } yoki #maxsus { color: blue; }?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>#maxsus, chunki id aniqroq selektor</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>p, chunki element selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ular teng kuchga ega</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har doim birinchisi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#134. line-height: 1.5; qoidasi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qatorlar orasidagi masofani belgilaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matndagi harflar orasini kengaytiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni qalin qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rangini o&apos;zgartiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#135. Quyidagi kodda nechta selektor bor: h1, h2, p { color: red; }?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>4 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#136. div { border: 2px dashed blue; } qoidasidagi &quot;dashed&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Chegara chizig&apos;i turini (uzuq chiziq)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element chegarasi rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element chegarasi qalinligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementi o&apos;lchamini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#137. background: url(&quot;rasm.png&quot;) no-repeat; qoidasidagi &quot;no-repeat&quot; nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Fon rasmini takrorlamaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini kattalashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini qizil qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#138. Element ekranning o&apos;ng tomoniga suriladi, buni qaysi xususiyat qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>float: right</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>align: right</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>move: right</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>side: right</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#139. display: block va display: inline o&apos;rtasidagi farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Block butun qatorni, inline qatorning bir qismini egallaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham butunlay bir xil</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Block matnni, inline esa rasmni beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Inline sahifani, block esa matnni o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#140. CSS da rangni tanlashda kontrast past bo&apos;lsa nima bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn o&apos;qishga qiyin bo&apos;lib qoladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa biroz tezroq ochiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter tezlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati arzonlashadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#141. Web sahifa dizaynini yaratishda birinchi qadam nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa tuzilmasi va ranglarini rejalashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qattiq diskni formatlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishini uzish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#142. CSS bilan bezatilgan sahifani qanday tekshirish mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Brauzerda ochib ko&apos;rish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayl hajmini siqib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qattiq diskni formatlab</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#143. Sahifada uslub qo&apos;llanmasa, birinchi nima tekshiriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>CSS fayl to&apos;g&apos;ri ulanganmi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter monitori rangi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter klaviaturasi tili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati narxi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#144. CSS xususiyati ishlamasa, mumkin bo&apos;lgan sabab qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Xususiyat nomi noto&apos;g&apos;ri yozilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlatilayotgan kompyuter eski</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter monitori kichik</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishi sekin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#145. Bir necha brauzerda sahifani tekshirish nima uchun foydali?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa hamma joyda to&apos;g&apos;ri ko&apos;rinishini bilish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmini siqish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishini uzish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#146. Sahifa dizayni uyg&apos;unligini qanday aniqlash mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementlar mos va tartibli ko&apos;rinishini kuzatib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Keraksiz faylni o&apos;chirib</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishini tekshirib</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#147. Responsive (moslashuvchan) dizayn nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Turli ekranlarga moslashadigan sahifa dizayni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta ekran o&apos;lchamiga mos dizayn</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ranglari bo&apos;lmagan oddiy dizayn</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matndan iborat dizayn</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#148. Moslashuvchan dizayn nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa telefon va kompyuterda yaxshi ko&apos;rinishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa faqat bitta kompyuterda ochilishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter sekinlashishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishi uzilishi uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#149. CSS da @media nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ekran o&apos;lchamiga qarab uslub berish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga rasm qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada havola yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada jadval chizish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#150. Sahifada matn juda kichik bo&apos;lsa, foydalanuvchi uchun qanday muammo bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni o&apos;qish qiyinlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa biroz tezroq ochiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter tezlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati arzonlashadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#151. .card { background-color: white; } qoidasi qanday elementlarga ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>class=&quot;card&quot; bo&apos;lgan barcha elementlarga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>id nomi card bo&apos;lgan elementga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha div elementiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha havolaga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#152. CSS da bir xususiyatni bir necha elementda takrorlamaslik uchun nima qilinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Umumiy class yaratib, unga uslub berish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har bir elementga alohida yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har bir elementni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni rasmga aylantirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#153. p { color: red; } dan keyin p { color: blue; } yozilsa, natija qanday?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn ko&apos;k bo&apos;ladi (keyingisi ustun keladi)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada matn qizil bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada matn yashil bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada matn ko&apos;rinmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#154. Inline uslub, ichki uslub va tashqi uslubdan qaysi biri ko&apos;proq ustun keladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Inline (element ichidagi) uslub</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tashqi ulangan CSS fayl</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ichki yozilgan &lt;style&gt; uslubi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ularning hammasi teng ustun keladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#155. CSS da bo&apos;sh joy (probel) qoidaga ta&apos;sir qiladimi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yo&apos;q, ortiqcha bo&apos;shliqlar e&apos;tiborga olinmaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, ortiqcha bo&apos;shliq qoidani buzadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, faqat rang qiymati uchun ta&apos;sir qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, faqat shrift turi uchun ta&apos;sir qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#156. font-family: Arial, sans-serif; kodida sans-serif nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Arial bo&apos;lmasa ishlatiladigan zaxira shrift</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Eng asosiy tanlangan shrift</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Belgilangan rang qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#157. CSS da rangni HEX kodida yozish namunasi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>#FF5733</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>rgb#FF5733</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color:FF5733</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>hex(FF5733)</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#158. width: 50%; qoidasi elementga qanday kenglik beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ota elementning yarmi kengligida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim 50 piksel kenglikda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun ekran kengligida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Eng kichik kenglikda</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#159. Element ko&apos;rinmay qolsa-yu, joyi saqlansa, qaysi xususiyat ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>visibility: hidden</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>display: none</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color: none</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>width: none</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#160. display: none va visibility: hidden o&apos;rtasidagi farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>display: none joyni ham olib tashlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham butunlay bir xil</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>visibility: hidden elementni o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>display: none elementni ko&apos;rsatadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#161. CSS da matnni bosh harfga o&apos;tkazuvchi qiymat qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>text-transform: uppercase</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-case: big</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-case: upper</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>letter-transform: high</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#162. text-transform: lowercase qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni kichik harfga o&apos;tkazadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni bosh harfga o&apos;tkazadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi matnni qalin qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#163. background-repeat: repeat-x qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Fon rasmini gorizontal takrorlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini vertikal takrorlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Element fon rasmini kattalashtiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#164. CSS da soya effekti matn uchun qaysi xususiyat orqali beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>text-shadow</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font-shadow</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>shadow-text</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>letter-shadow</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#165. z-index xususiyati nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementlarning ustma-ust joylashuv tartibini belgilash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi element rangini o&apos;zgartirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi element shriftini almashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi element matnini o&apos;chirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#166. position: absolute xususiyati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementni aniq joyga joylashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni qizil qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni yashiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#167. CSS da elementga o&apos;tish (silliq o&apos;zgarish) effekti qaysi xususiyat bilan beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>transition</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>change</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>effect</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>move</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#168. :hover, :active kabi belgilar CSS da nima deb ataladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Psevdo-klasslar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Selektorlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Xususiyatlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qiymatlar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#169. CSS da o&apos;lchov birligi &quot;rem&quot; nimaga bog&apos;liq?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Asosiy (root) element shrift o&apos;lchamiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun ekran diagonaliga bog&apos;liq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmiga bog&apos;liq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligiga bog&apos;liq</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#170. Sahifada elementlarni yonma-yon joylashtirishning zamonaviy usuli qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Flexbox (display: flex)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ko&apos;p bo&apos;shliq qo&apos;yish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm ishlatish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat jadval ichida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#171. display: flex qanday imkoniyat beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementlarni moslashuvchan joylashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementlarini butunlay o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq turgan sahifani yopish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmini siqish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#172. justify-content xususiyati flexbox da nimani boshqaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementlarni gorizontal joylashtirishni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementlarining rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementlarining shriftini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementlarining fon rasmini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#173. CSS da grid nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementlarni katak (to&apos;r) shaklida joylashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa elementlarini o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga rasm qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada havola yaratish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#174. Quyidagi kodda nechta qoida bor: h1 { color: red; } p { color: blue; }?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>4 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#175. Element hajmini o&apos;zgarganda silliq harakat berish uchun nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>transition xususiyati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>color xususiyati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>font xususiyati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>border xususiyati</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#176. CSS faylni HTML ga ulashda rel=&quot;stylesheet&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ulanayotgan fayl uslublar fayli ekanligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ulanayotgan faylning rasm ekanligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ulanayotgan faylning video ekanligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ulanayotgan faylning sahifa ekanligini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#177. h1 { text-align: center; color: green; } qoidasi nechta narsani boshqaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ikkitani: joylashuv va rang</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bittani: faqat rang</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Uchtani: rang, shrift, fon</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech narsani boshqarmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#178. Sahifada tugmani chiroyli qilish uchun qaysi xususiyatlar birga ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>background-color, padding va border-radius</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat width xususiyati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat color xususiyati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat height xususiyati</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#179. CSS da element burchagini yumaloqlash darajasini nima belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>border-radius qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>border-width qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>border-color qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>margin qiymati</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#180. Sahifa dizaynida &quot;oq bo&apos;shliq&quot; (bo&apos;sh maydon) nima uchun foydali?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ko&apos;zni charchatmaydi va tartib beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa yuklanishini sekinlashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni qizdiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishini uzadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#181. CSS da matnni oxiridan kesib nuqta qo&apos;yish (...) qaysi xususiyat bilan bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>text-overflow: ellipsis</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-cut: dots</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>overflow-text: end</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text-end: dots</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#182. Rasmni elementga to&apos;liq sig&apos;dirish uchun qaysi xususiyat ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>object-fit</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>image-fit</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>picture-size</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>img-scale</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#183. CSS da bir elementni boshqasidan ustun ko&apos;rsatish uchun nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yuqori z-index qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Katta font qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qizil color qiymati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Keng width qiymati</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#184. Quyidagi kod xatosini toping: p { color: ; }. Xato nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>color xususiyatiga qiymat berilmagan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qoidadagi selektor noto&apos;g&apos;ri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochilgan qavs yopilmagan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bitta nuqta-vergul ortiqcha</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#185. h1 { font-size: 40px; } dagi 40px nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sarlavha matni o&apos;lchami</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarlavha rangi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarlavha shrifti</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarlavha fon rasmi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#186. Web sahifada bir xil ko&apos;rinishdagi tugmalarni qanday yaratish qulay?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ularga umumiy class berib, CSS yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har biriga alohida uslub yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har birini rasmga aylantirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har birini o&apos;chirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#187. CSS da nima uchun class selektori ko&apos;p ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Bir uslubni ko&apos;p elementga qo&apos;llash qulay</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta elementga tegishli bo&apos;lgani uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmga tegishli bo&apos;lgani uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat havolaga tegishli bo&apos;lgani uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#188. Sahifadagi barcha havolalar rangini o&apos;zgartirish uchun qaysi selektor ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>a selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>p selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>img selektori</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>div selektori</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#189. CSS da :first-child nimani tanlaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ota element ichidagi birinchi bolani</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ota elementning o&apos;zini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi barcha elementlarni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ota elementdagi oxirgi bolani</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#190. Sahifada shriftni butun sahifa uchun bir marta belgilash qulaymi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, body selektoriga yozish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, har elementga alohida yozish kerak</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm bilan mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat jadval bilan mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#191. CSS da rangni RGBA usulida yozishda &quot;A&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Shaffoflik darajasini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rang nomini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayl hajmini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Shrift turini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#192. background-color: transparent qiymati nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Fonni shaffof qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fonni qora qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fonni oq qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fonni rasm qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#193. CSS da xususiyatlarni qisqartirib bitta qatorda yozish qanday ataladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qisqa (shorthand) yozuv</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Uzun (to&apos;liq) yozuv</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yashirin (ko&apos;rinmas) yozuv</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bo&apos;sh (mazmunsiz) yozuv</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#194. margin: 10px 20px; qoidasida ikki qiymat nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yuqori-past va o&apos;ng-chap bo&apos;shliqlarni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rang va shrift qiymatini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat en va balandlik qiymatini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat chegara va fon qiymatini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#195. Sahifa yuklanganda uslub ko&apos;rinmasa, avval nima tekshiriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>link tegidagi CSS fayl manzili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter monitori o&apos;lchami</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter klaviaturasi tili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati narxi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#196. Web dizaynda foydalanuvchi tajribasi (qulaylik) nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Foydalanuvchi sahifada oson harakatlanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa yuklanishi sekinlashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter qiziydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanishi uziladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#197. CSS uslublarini tartibli va izohli yozish nima beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kodni keyinchalik oson tuzatish imkonini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati narxini tushiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Saqlangan fayl hajmini oshiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#198. Sahifa dizaynida ranglar sonini cheklash nima uchun tavsiya etiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa toza va uyg&apos;un ko&apos;rinishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa sekinlashishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter qizishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar yo&apos;qolishi uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#199. HTML va CSS birga qanday natija beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Mazmunli va chiroyli web sahifa</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bo&apos;m-bo&apos;sh oq sahifa</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bezaksiz kodli matn</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmsiz oddiy jadval</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#200. CSS asoslarini o&apos;rganish nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Chiroyli va qulay web sahifalar yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat kompyuter o&apos;yini o&apos;ynash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matnlarni tarjima qilish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ekranda rasm chizish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+			</Tasks>
+		</Group>
+	</Groups>
+</MyTestX>

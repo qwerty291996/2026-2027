@@ -1,0 +1,3813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyTestX>
+	<Version Editor="Text1ToXML">11.0</Version>
+	<SaveDate>2026-07-16T11:41:28Z</SaveDate>
+	<TestOptions/>
+	<Groups>
+		<Group>
+			<Title>HTML_asoslari_mytest_200.txt</Title>
+			<Tasks>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#1. HTML nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Web sahifa yaratish uchun ishlatiladigan belgilash tili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni boshqaruvchi operatsion tizim</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumot saqlash uchun tashqi qattiq disk</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni internetga ulash uchun tarmoq qurilmasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#2. HTML qisqartmasi qanday ochiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>HyperText Markup Language</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>High Technology Modern Language</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Home Text Making Language</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hard Text Management Layout</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#3. HTML fayllar odatda qanday kengaytma bilan saqlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>.html</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.exe</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.docx</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>.mp3</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#4. HTML sahifa qaysi dastur orqali ko&apos;riladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Brauzer orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kalkulyator orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Videopleer orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Arxivator orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#5. HTML tili nima uchun mo&apos;ljallangan?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Web sahifaning tuzilmasini yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter viruslarini tozalash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Musiqa fayllarini tahrirlash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllarni siqib saqlash uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#6. HTML hujjati qaysi teg bilan boshlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;html&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;start&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;begin&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;open&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#7. HTML hujjatining asosiy ikki qismi qaysilar?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;head&gt; va &lt;body&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;top&gt; va &lt;bottom&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;start&gt; va &lt;end&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;left&gt; va &lt;right&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#8. &lt;head&gt; teg ichida odatda nima joylashadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa haqidagi xizmatchi ma&apos;lumotlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada ko&apos;rinadigan asosiy matn</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifadagi rasmlar va videolar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat foydalanuvchi parollari</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#9. &lt;body&gt; teg ichida nima joylashadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifada ko&apos;rinadigan asosiy mazmun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa sarlavhasi ma&apos;lumoti</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning tizim sozlamalari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Brauzer versiyasi haqidagi ma&apos;lumot</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#10. Sahifa sarlavhasini (brauzer ilovasida ko&apos;rinadigan) belgilovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;title&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;header&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;caption&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;name&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#11. &lt;title&gt; teg qayerga yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;head&gt; teg ichiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;body&gt; teg ichiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;footer&gt; teg ichiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;table&gt; teg ichiga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#12. HTML hujjat turini bildiruvchi qator qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;!DOCTYPE html&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;!TYPE html&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;!HTML doc&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;!START html&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#13. HTML sahifadagi teglar odatda qanday ko&apos;rinishda bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Burchak qavslar ichida yoziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yumaloq qavslar ichida yoziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qo&apos;shtirnoq ichida yoziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kvadrat qavslar ichida yoziladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#14. HTML tili katta-kichik harfga sezgirmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yo&apos;q, teglar katta yoki kichik yozilishi mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, teglar faqat katta harfda ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, teglar faqat kichik harfda ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, teglarda faqat raqamlar ishlaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#15. HTML sahifa tuzilmasini yaratish nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Mazmunni tartibli va to&apos;g&apos;ri ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligini oshirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Muhim faylni yo&apos;qotib qo&apos;ymaslik uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#16. Teg (teg) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>HTML elementini belgilovchi maxsus buyruq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterga tashqaridan ulanadigan qurilma</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar saqlanadigan papkaning turi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet sayt manzilining bir qismi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#17. Ko&apos;pchilik HTML teglari qanday tuzilishga ega?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ochiluvchi va yopiluvchi tegdan iborat</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta ochiluvchi tegdan iborat</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat raqamlardan tashkil topgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmli elementlardan iborat</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#18. Yopiluvchi teg qanday belgi bilan yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ichida qiya chiziq (/) bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ichida yulduzcha (*) bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ichida foiz (%) bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ichida panjara (#) bo&apos;ladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#19. &lt;p&gt; tegining yopiluvchi ko&apos;rinishi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;/p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p/&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;\p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p end&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#20. Atribut (atribut) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tegga qo&apos;shimcha xususiyat beruvchi ko&apos;rsatma</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi asosiy sarlavha yozuvidir</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning ichki apparat qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayl kengaytmasini bildiruvchi belgi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#21. Atribut tegning qayerida yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ochiluvchi teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yopiluvchi teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Teglardan tashqarida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifaning eng oxirida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#22. Atribut qiymati odatda qanday yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qo&apos;shtirnoq ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Burchak qavs ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yulduzcha bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Panjara bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#23. Quyidagilardan qaysi biri to&apos;g&apos;ri yozilgan atribut?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>href=&quot;sahifa.html&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>href=sahifa.html&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;href&gt;sahifa.html</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>href-sahifa.html</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#24. Bo&apos;sh (yopiluvchi teg talab qilmaydigan) tegga misol qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;br&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;div&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;span&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#25. HTML sintaksisidagi xatolik nimaga olib kelishi mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa noto&apos;g&apos;ri ko&apos;rsatilishiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning o&apos;chib qolishiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetning uzilishiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printerning buzilishiga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#26. Bir teg ichiga boshqa teg joylashtirilishi qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Teglarni ichma-ich joylashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yozilgan teglarni butunlay o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Teglarni boshqa joyga ko&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Teglarni qog&apos;ozga chop etish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#27. HTML kodiga izoh (comment) qanday yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;!-- izoh --&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>// izoh</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>/* izoh */</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText># izoh</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#28. HTML izohlari brauzerda ko&apos;rinadimi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yo&apos;q, ko&apos;rinmaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, qizil rangda ko&apos;rinadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, sarlavha sifatida ko&apos;rinadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, jadval ichida ko&apos;rinadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#29. &lt;b&gt; tegi nima vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni qalin (semiz) qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni qiya qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matn ostiga chiziq chizadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#30. &lt;i&gt; tegi nima vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni qiya (kursiv) qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni qalin qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni kattaroq qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni ko&apos;rinmas qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#31. &lt;u&gt; tegi nima vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn ostiga chiziq chizadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni qalin qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni qiya qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#32. Eng katta sarlavha tegi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;h1&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;h6&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;hd&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;head&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#33. Eng kichik sarlavha tegi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;h6&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;h1&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;h9&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;hmin&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#34. HTML da nechta darajadagi sarlavha tegi mavjud?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>6 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>9 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>12 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#35. Paragraf (matn qatori) yaratuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;par&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;text&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;line&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#36. Yangi qatorga o&apos;tish uchun qaysi teg ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;br&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;nl&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;next&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;line&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#37. Gorizontal ajratuvchi chiziq qo&apos;yuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;hr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;line&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;hz&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;div&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#38. Matnni ekranda o&apos;z holicha (yozilganidek) ko&apos;rsatuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;pre&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;raw&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;text&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;fix&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#39. &lt;strong&gt; tegi matnga qanday ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni ahamiyatli qilib qalin ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni yashirin qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni kichraytirib ko&apos;rsatadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#40. &lt;em&gt; tegi matnga qanday ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni urg&apos;u berib qiya ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni qalin qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matn ostiga chiziq chizadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni butunlay yo&apos;qotadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#41. Matnni pastki indeks (past yozuv) qiluvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;sub&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;sup&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;low&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;down&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#42. Matnni yuqori indeks (yuqori yozuv) qiluvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;sup&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;sub&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;top&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;up&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#43. Sarlavha teglari matnni qanday ko&apos;rsatadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qalin va kattaroq shriftda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim qiya shriftda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim juda kichik shriftda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim qizil rangda</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#44. &lt;mark&gt; tegi matnga qanday ta&apos;sir qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni belgilab (rangli fon bilan) ajratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni ko&apos;rinmas qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni kichraytirib ko&apos;rsatadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#45. Matnni markazga joylashtirishda ko&apos;pincha qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>align=&quot;center&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>align=&quot;middle&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>place=&quot;center&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>set=&quot;center&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#46. Bir nechta paragraf yozish uchun nima qilish kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Har birini alohida &lt;p&gt; tegiga olish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hammasini bitta &lt;br&gt; ichiga yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat probellar qo&apos;yish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sarlavha ishlatish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#47. Matn elementlari bilan ishlashda asosiy maqsad nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni tartibli va o&apos;qishga qulay joylashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar hajmini siqib kichraytirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni internetga ulash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#48. Havola (havola) yaratuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;a&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;link&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;href&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;url&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#49. &lt;a&gt; tegida havola manzili qaysi atribut orqali beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>href</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>src</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>link</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>url</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#50. Havola matnini foydalanuvchi qayerda ko&apos;radi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ochiluvchi va yopiluvchi &lt;a&gt; teg orasida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifaning &lt;head&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifaning eng oxirida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasm ustida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#51. Boshqa saytga o&apos;tuvchi havola qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tashqi havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ichki havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yashirin havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yopiq havola</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#52. Bir sayt ichidagi boshqa sahifaga o&apos;tuvchi havola qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ichki havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tashqi havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Uzoq havola</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#53. Havolani yangi ilovada (oynada) ochish uchun qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>target=&quot;_blank&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>open=&quot;new&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>target=&quot;new&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>window=&quot;open&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#54. Elektron pochtaga havola yaratishda nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>mailto:</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>email:</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>mail:</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>send:</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#55. Havola bosilganda nima sodir bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ko&apos;rsatilgan sahifa yoki manzilga o&apos;tiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuter darhol o&apos;chadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Diskdagi keraksiz fayl o&apos;chiriladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan brauzer birdan yopiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#56. Rasmlarga ham havola qo&apos;yish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, rasmni &lt;a&gt; teg ichiga olish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, rasmga havola qo&apos;yib bo&apos;lmaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matnlarga havola qo&apos;yiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat jadvallarga havola qo&apos;yiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#57. Havolaning ko&apos;rinishi odatda qanday bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ko&apos;k rangda va ostiga chizilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim qizil rangda va katta shriftda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim yashil rangda va qalin shriftda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doim qora rangda va yashirin holatda</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#58. Navigatsiya elementlari nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifalar orasida qulay o&apos;tish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni sovutish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar hajmini siqib kichraytirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda turli rasm chizish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#59. Havolalar web sahifada qanday foyda beradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifalarni o&apos;zaro bog&apos;lash imkonini beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlash tezligini oshiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sarflanadigan elektr energiyasini tejaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni viruslardan himoya qiladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#60. Sahifaning muayyan qismiga o&apos;tuvchi havola nimadan foydalanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Belgi (#) va element identifikatoridan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasm manzilidan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifadagi jadval nomidan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat belgilangan rang kodidan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#61. Web sahifaga rasm qo&apos;shuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;img&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;image&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;pic&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;photo&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#62. &lt;img&gt; tegida rasm manzili qaysi atribut orqali beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>src</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>href</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>link</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>file</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#63. &lt;img&gt; tegi yopiluvchi tegga muhtojmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yo&apos;q, u bo&apos;sh teg hisoblanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, &lt;/img&gt; yozish shart</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, &lt;img end&gt; yoziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, &lt;close img&gt; yoziladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#64. Rasm ko&apos;rinmay qolganda o&apos;rniga matn ko&apos;rsatuvchi atribut qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>alt</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>src</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>text</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>name</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#65. alt atributi nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasm yuklanmasa, o&apos;rniga matn ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi rasmni o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni ekranda katta qilib ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni qog&apos;ozga chop etish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#66. Rasm o&apos;lchamini belgilovchi atributlar qaysilar?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>width va height</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>size va scale</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>big va small</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>long va tall</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#67. width atributi rasmning nimasini belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Enini (kengligini)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Balandligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Manzilini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#68. height atributi rasmning nimasini belgilaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Balandligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Enini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nomini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#69. Rasm fayllari qaysi formatlarda bo&apos;lishi mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>JPG, PNG, GIF</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>DOCX, XLSX, PPTX</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>MP3, WAV, MP4</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>EXE, BAT, COM</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#70. Multimedia deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasm, ovoz va video kabi elementlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat oddiy matnli hujjatlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat o&apos;rnatilgan kompyuter dasturlari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ulanuvchi tarmoq qurilmalari</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#71. Web sahifaga video qo&apos;shuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;video&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;movie&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;film&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;play&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#72. Web sahifaga ovoz qo&apos;shuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;audio&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;sound&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;music&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;voice&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#73. Rasmni to&apos;g&apos;ri joylashtirishda nimaga e&apos;tibor berish kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>O&apos;lcham va joylashuvni to&apos;g&apos;ri sozlashga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasm rangiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm faylining nomiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm yaratilgan sanasiga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#74. src atributi nimani ko&apos;rsatadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasm faylining manzilini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmning rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmning sanasini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmning egasini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#75. Rasm sahifada juda katta chiqmasligi uchun nima qilinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>width va height qiymatlarini belgilash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq turgan sahifani yopish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlatilayotgan brauzerni almashtirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#76. Tartibsiz ro&apos;yxat yaratuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;ul&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;ol&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;li&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;list&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#77. Tartibli (raqamli) ro&apos;yxat yaratuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;ol&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;ul&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;li&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;num&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#78. Ro&apos;yxat elementini (bandini) belgilovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;li&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;ul&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;ol&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;item&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#79. Tartibsiz ro&apos;yxat bandlari oldida odatda nima ko&apos;rinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Nuqta yoki belgi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tartib raqami</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Katta harf</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#80. Tartibli ro&apos;yxat bandlari oldida nima ko&apos;rinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tartib raqami</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat nuqta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat belgi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech narsa</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#81. &lt;li&gt; teg qaysi teglar ichida ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;ul&gt; yoki &lt;ol&gt; ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;table&gt; ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img&gt; ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;head&gt; ichida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#82. Jadval yaratuvchi asosiy teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;table&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;grid&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;board&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;box&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#83. Jadvaldagi qatorni belgilovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;tr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;td&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;th&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;row&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#84. Jadvaldagi katakni (yacheykani) belgilovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;td&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;tr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;cell&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;box&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#85. Jadval sarlavha katagini belgilovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;th&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;td&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;tr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;title&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#86. &lt;th&gt; katagidagi matn qanday ko&apos;rinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qalin va markazda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qiya va chapda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kichik va o&apos;ngda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yashirin holatda</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#87. Jadvalga chegara (ramka) qo&apos;shishda ko&apos;pincha nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>border atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>line atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>edge atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>frame atributi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#88. Jadval nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlarni qator va ustunlarda ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda turli rasm chizish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga ovozli fayl qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada bosiladigan havola yaratish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#89. Ro&apos;yxatlar nima uchun foydali?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlarni tartibli sanab ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni internetga ulash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar hajmini siqib kichraytirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#90. Ikkita katakni bitta qilib birlashtirishda qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>colspan yoki rowspan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>mergecell atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>joincell atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>unioncell atributi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#91. Forma (forma) yaratuvchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;form&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;input&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;field&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;box&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#92. Foydalanuvchidan ma&apos;lumot kirituvchi asosiy teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;input&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;enter&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;data&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;get&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#93. Ko&apos;p qatorli matn kiritish uchun qaysi teg ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;textarea&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;input&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;text&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;longtext&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#94. Matn kiritish maydonini yaratish uchun input turi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>type=&quot;text&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;line&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;string&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;word&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#95. Parol kiritish maydonini yaratuvchi input turi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>type=&quot;password&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;secret&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;hidden&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;key&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#96. Tugma (knopka) yaratuvchi input turi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>type=&quot;submit&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;button2&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;click&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;press&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#97. Bittasini tanlash uchun dumaloq belgili element turi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>type=&quot;radio&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;circle&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;dot&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;round&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#98. Bir nechtasini belgilash uchun katakcha element turi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>type=&quot;checkbox&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;check&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;tick&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;box&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#99. Forma nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Foydalanuvchidan ma&apos;lumot yig&apos;ish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda turli rasm chizish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar hajmini siqib kichraytirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#100. &lt;label&gt; teg nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Forma elementiga izoh (nom) berish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada bosiladigan havola yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada ma&apos;lumot jadvalini chizish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#101. Quyidagi kodda xato bor: &lt;p&gt;Salom&lt;/b&gt;. Xato nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ochilgan va yopilgan teglar mos emas</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yozilgan matn juda uzun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kodda katta harf ishlatilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jumla oxiriga nuqta qo&apos;yilmagan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#102. &lt;a href=&quot;https://uz.wikipedia.org&quot;&gt;Vikipediya&lt;/a&gt; kodi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&quot;Vikipediya&quot; so&apos;zini bosiladigan havolaga aylantiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga Wikipedia rasmini qo&apos;shadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada yangi jadval yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochiq turgan sahifani o&apos;chiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#103. &lt;img src=&quot;rasm.png&quot; alt=&quot;Manzara&quot;&gt; kodida &quot;Manzara&quot; nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasm ko&apos;rinmaganda chiqadigan matnni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qo&apos;yilgan rasm faylining o&apos;lchamini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qo&apos;yilgan rasmning umumiy rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm faylining saqlangan manzilini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#104. &lt;ol&gt; ichida uchta &lt;li&gt; bo&apos;lsa, brauzer nimani ko&apos;rsatadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>1, 2, 3 tartib raqamli ro&apos;yxatni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Uchta nuqta belgili ro&apos;yxatni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ketma-ket uchta rasmni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ketma-ket uchta havolani</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#105. &lt;ul&gt; va &lt;ol&gt; o&apos;rtasidagi asosiy farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;ul&gt; belgili, &lt;ol&gt; raqamli ro&apos;yxat yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;ul&gt; raqamli, &lt;ol&gt; belgili ro&apos;yxat yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi butunlay bir xil ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham jadval yaratadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#106. &lt;br&gt; va &lt;p&gt; o&apos;rtasidagi farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;br&gt; yangi qator, &lt;p&gt; yangi paragraf ochadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi butunlay bir xil ishlaydi ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;br&gt; jadval, &lt;p&gt; ro&apos;yxat yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;br&gt; rasm, &lt;p&gt; havola qo&apos;shadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#107. Quyidagi kodning natijasi qanday: &lt;h1&gt;Salom&lt;/h1&gt;?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&quot;Salom&quot; so&apos;zi katta sarlavha bo&apos;lib chiqadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&quot;Salom&quot; so&apos;zi kichik matn bo&apos;lib chiqadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&quot;Salom&quot; so&apos;zi havolaga aylanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&quot;Salom&quot; so&apos;zi ko&apos;rinmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#108. &lt;input type=&quot;text&quot;&gt; kodi nimani hosil qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn kiritish maydonini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bosiladigan tugmani</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm ustidagi bosiladigan havolani</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tartibli ro&apos;yxatni</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#109. Formada ma&apos;lumot yuboruvchi tugma qanday yaratiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;input type=&quot;submit&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;input type=&quot;send&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;button type=&quot;go&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;input type=&quot;ok&quot;&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#110. Quyidagilardan qaysi biri to&apos;g&apos;ri havola kodi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;a href=&quot;index.html&quot;&gt;Bosh sahifa&lt;/a&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;a src=&quot;index.html&quot;&gt;Bosh sahifa&lt;/a&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;link href=&quot;index.html&quot;&gt;Bosh sahifa&lt;/link&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;href a=&quot;index.html&quot;&gt;Bosh sahifa&lt;/a&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#111. &lt;table&gt; ichida qatorlar qaysi teg bilan yaratiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;tr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;td&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;th&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;table&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#112. &lt;tr&gt; ichida kataklar qaysi teg bilan yaratiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;td&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;tr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;table&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;cell&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#113. Ikki ustunli, bir qatorli jadval uchun nechta &lt;td&gt; kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>4 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>6 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#114. &lt;a href=&quot;#bolim2&quot;&gt;O&apos;tish&lt;/a&gt; kodi qanday havola?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa ichidagi belgilangan qismga o&apos;tuvchi havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butunlay boshqa saytga o&apos;tuvchi havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektron pochta manziliga havola</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm ustidagi bosiladigan havola</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#115. Nima uchun har bir &lt;img&gt; tegiga alt atributini yozish tavsiya etiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasm yuklanmaganda ma&apos;lumot ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni tezroq yuklash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni ekranda katta qilib ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi rasmni o&apos;chirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#116. &lt;p style=&quot;color:red&quot;&gt;Matn&lt;/p&gt; kodi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnni qizil rangda ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni kattaroq qilib ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matnni havolaga aylantiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#117. HTML da rang qiymatlari qanday berilishi mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Nomi yoki maxsus kod orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat raqamli qiymat orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasm orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta harf orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#118. #FF0000 rang kodi qaysi rangni bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qizil</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ko&apos;k</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yashil</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sariq</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#119. style atributi nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elementga ko&apos;rinish (bezak) berish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi elementni o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni boshqa joyga ko&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elementni qog&apos;ozga chop etish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#120. Quyidagi koddan qaysi biri rasmni to&apos;g&apos;ri qo&apos;shadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;img src=&quot;tabiat.jpg&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img href=&quot;tabiat.jpg&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;image src=&quot;tabiat.jpg&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img&gt;tabiat.jpg&lt;/img&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#121. &lt;div&gt; teg nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa qismlarini bo&apos;limlarga ajratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada bosiladigan havola yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga ovozli fayl qo&apos;shish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#122. &lt;span&gt; teg qanday element hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn ichidagi kichik qismni belgilash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun sahifani o&apos;rab olish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada ma&apos;lumot jadvalini yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga videoyozuv qo&apos;shish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#123. &lt;div&gt; va &lt;span&gt; o&apos;rtasidagi asosiy farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;div&gt; katta blok, &lt;span&gt; matn ichidagi kichik qism</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi butunlay bir xil ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;div&gt; rasm, &lt;span&gt; ovoz qo&apos;shadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;span&gt; jadval, &lt;div&gt; ro&apos;yxat yaratadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#124. Quyidagi kod nechta ro&apos;yxat bandini hosil qiladi: &lt;ul&gt;&lt;li&gt;A&lt;/li&gt;&lt;li&gt;B&lt;/li&gt;&lt;/ul&gt;?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>4 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#125. HTML sahifada bo&apos;sh joy (probel) qanday qo&apos;shiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&amp;nbsp; belgisi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;space&gt; teg orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;gap&gt; teg orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;empty&gt; teg orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#126. &quot;Kichikroq&quot; (&lt;) belgisini matnda ko&apos;rsatish uchun nima yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&amp;lt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&amp;gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&amp;amp;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&amp;sp;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#127. &quot;Kattaroq&quot; (&gt;) belgisini matnda ko&apos;rsatish uchun nima yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&amp;gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&amp;lt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&amp;amp;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&amp;big;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#128. &lt;a&gt; tegisiz havola yaratish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yo&apos;q, havola uchun &lt;a&gt; teg zarur</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, &lt;link&gt; teg bilan yaratiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, &lt;href&gt; teg bilan yaratiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, hech qanday teg kerak emas</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#129. Quyidagi kod xatoligini toping: &lt;img src=&quot;rasm.jpg&quot; alt=Manzara&gt;. Xato nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>alt qiymati qo&apos;shtirnoqqa olinmagan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>src atributi noto&apos;g&apos;ri yozilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochilgan teg yopilmagan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm faylining nomi juda uzun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#130. Formadagi &lt;input&gt; elementiga nom berish uchun qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>name</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>title</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>alt</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>src</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#131. &lt;textarea&gt; va &lt;input type=&quot;text&quot;&gt; o&apos;rtasidagi farq nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;textarea&gt; ko&apos;p qatorli matnga mo&apos;ljallangan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi butunlay bir xil ishlaydi ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;textarea&gt; faqat rasm uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;input&gt; faqat parol uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#132. placeholder atributi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Maydonda ko&apos;rsatma matn (namuna) ko&apos;rsatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritish maydonini butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritish maydonini ko&apos;rinmas qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritish maydonini kattalashtiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#133. Quyidagi kod natijasi qanday: &lt;b&gt;&lt;i&gt;Matn&lt;/i&gt;&lt;/b&gt;?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn ham qalin, ham qiya bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda matn faqat qalin bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda matn faqat qiya bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekrandagi matn o&apos;chib ketadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#134. HTML da izohlar nima uchun yoziladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kodni tushuntirish va eslatma qoldirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifani bezash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada bosiladigan havola yaratish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#135. &lt;head&gt; ichida sahifa kodlashini belgilovchi teg qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;meta charset=&quot;UTF-8&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;code charset=&quot;UTF-8&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;lang=&quot;UTF-8&quot;&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;encoding=&quot;UTF-8&quot;&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#136. UTF-8 kodlashi nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Turli tillardagi harflarni to&apos;g&apos;ri ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa yuklanishini tezlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi rasmlarni siqish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi havolalarni ochish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#137. Quyidagi teglardan qaysi biri sarlavha uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;h2&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;a&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;li&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#138. &lt;ol type=&quot;A&quot;&gt; kodi ro&apos;yxatni qanday raqamlaydi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>A, B, C harflari bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1, 2, 3 raqamlari bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Nuqtalar bilan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Belgilar bilan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#139. Ichma-ich (bir-birining ichida) ro&apos;yxat yaratish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, &lt;ul&gt; yoki &lt;ol&gt; ichiga yana ro&apos;yxat qo&apos;yiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, bunday qilish mumkin emas</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa jadvali ichida mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa formasi ichida mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#140. &lt;a href=&quot;tel:998901234567&quot;&gt; kodi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Telefon raqamiga qo&apos;ng&apos;iroq havolasi yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektron pochta oynasini ochadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) yuklaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jadval yaratadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#141. Web sahifada rasmni havolaga aylantirish uchun nima qilinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;img&gt; tegini &lt;a&gt; teg ichiga joylashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img&gt; tegining o&apos;ziga href qo&apos;shish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;a&gt; tegining o&apos;ziga src qo&apos;shish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni sahifa jadvaliga qo&apos;yish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#142. HTML sahifada qanday qilib bir nechta ustunli jadval yaratiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Har &lt;tr&gt; ichiga bir nechta &lt;td&gt; qo&apos;yish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ketma-ket bir nechta &lt;table&gt; qo&apos;yish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ketma-ket bir nechta &lt;br&gt; qo&apos;yish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ketma-ket bir nechta &lt;p&gt; qo&apos;yish orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#143. Formani qayerga yuborishni belgilovchi atribut qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>action</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>send</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>target</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>post</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#144. Ma&apos;lumot yuborish usulini belgilovchi atribut qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>method</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>send</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>mode</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#145. &lt;select&gt; teg nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ochiladigan tanlov ro&apos;yxatini yaratish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Foydalanuvchidan matn kiritish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada bosiladigan havola yaratish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#146. &lt;option&gt; teg qayerda ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;select&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;input&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;table&gt; teg ichida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#147. Quyidagilardan qaysi biri to&apos;g&apos;ri jadval tuzilmasi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;table&gt;&lt;tr&gt;&lt;td&gt;A&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;table&gt;&lt;td&gt;&lt;tr&gt;A&lt;/tr&gt;&lt;/td&gt;&lt;/table&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;tr&gt;&lt;table&gt;&lt;td&gt;A&lt;/td&gt;&lt;/table&gt;&lt;/tr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;td&gt;&lt;table&gt;&lt;tr&gt;A&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#148. required atributi formada nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Maydonni to&apos;ldirishni majburiy qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritish maydonini butunlay o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritish maydonini ko&apos;rinmas qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritish maydonini ekranda kattalashtiradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#149. HTML da bo&apos;sh (tarkibsiz) teglar nima deb ataladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yopiluvchi teg talab qilmaydigan teglar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matn sarlavha teglari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat jadval tuzuvchi teglar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat forma tuzuvchi teglar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#150. Quyidagilardan qaysi biri bo&apos;sh teg emas?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;br&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;hr&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#151. Web sahifa tuzilmasini tekshirish uchun nima qilinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifani brauzerda ochib ko&apos;rish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar hajmini siqib kichraytirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qattiq diskni to&apos;liq formatlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#152. HTML faylni brauzerda ochish uchun eng oddiy usul qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Faylni ikki marta bosish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylni qog&apos;ozga chop etish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Keraksiz faylni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylni arxivga siqib saqlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#153. Sahifada matn ko&apos;rinmasa, birinchi nima tekshiriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matn &lt;body&gt; ichida yozilganmi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter korpusining rangi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturaning kirish tili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet ulanish tezligi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#154. Havola ishlamasa, birinchi nima tekshiriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>href atributidagi manzil to&apos;g&apos;rimi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochilgan sahifaning rangi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitor ekranining o&apos;lchami</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlatilayotgan brauzer nomi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#155. Rasm ko&apos;rinmasa, birinchi nima tekshiriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>src atributidagi fayl manzili to&apos;g&apos;rimi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qo&apos;yilgan rasmning rangi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochilgan sahifa sarlavhasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ulangan internet provayderi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#156. Brauzerda sahifa manba kodini ko&apos;rish uchun ko&apos;pincha qaysi tugma bosiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sichqonchaning o&apos;ng tugmasi orqali &quot;manba kodi&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat klaviaturadagi Enter tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat klaviaturadagi Delete tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat klaviaturadagi Escape tugmasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#157. HTML kodini yozish uchun qaysi dasturdan foydalanish mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Oddiy matn muharriri (Bloknot)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat maxsus rasm muharriri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat oddiy kalkulyator dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat video ijro etuvchi pleer</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#158. Sahifada bir necha rasm qo&apos;yish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, har biri uchun alohida &lt;img&gt; teg yoziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, sahifada faqat bitta rasm mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa jadvali ichida mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa formasi ichida mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#159. Web sahifa yaratishda birinchi qadam nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>HTML hujjat tuzilmasini yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni chop etish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qattiq diskni to&apos;liq formatlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#160. Tayyor HTML sahifani boshqa kompyuterda ko&apos;rsa bo&apos;ladimi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, brauzeri bor har qanday kompyuterda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, faqat yaratilgan kompyuterda</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat internet ulanmagan bo&apos;lsa</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat printer ulangan bo&apos;lsa</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#161. &lt;a href=&quot;rasm.jpg&quot; download&gt;Yuklab olish&lt;/a&gt; kodi nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasmni yuklab olish havolasini yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi rasmni o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni ekranda kattalashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasmni qog&apos;ozga chop etadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#162. Sahifada sarlavhalarni to&apos;g&apos;ri tartibda ishlatish nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Mazmun tuzilmasini aniq ko&apos;rsatish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlashini tezlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllar hajmini siqib kichraytirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) qo&apos;shish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#163. &lt;p&gt; tegining ichiga &lt;h1&gt; teg qo&apos;yish to&apos;g&apos;rimi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yo&apos;q, sarlavhani paragraf ichiga qo&apos;yish noto&apos;g&apos;ri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, bunday yozish tavsiya etiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, faqat shunday tartibda yoziladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ha, bundan boshqa yo&apos;l yo&apos;q</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#164. Quyidagi kodda nechta havola bor: &lt;a href=&quot;a.html&quot;&gt;A&lt;/a&gt; &lt;a href=&quot;b.html&quot;&gt;B&lt;/a&gt;?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>0 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#165. HTML sahifada matnni tartibli ko&apos;rsatish uchun asosan nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sarlavha, paragraf va ro&apos;yxat teglari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm qo&apos;yuvchi teglar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat forma tuzuvchi teglar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat video qo&apos;yuvchi teglar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#166. Formada tanlangan qiymat serverga qanday yuboriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>name va qiymat juftligi ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasm ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat belgilangan rang ko&apos;rinishida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat kiritilgan sana ko&apos;rinishida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#167. &lt;input type=&quot;email&quot;&gt; maydoni nimani tekshiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kiritilgan matn pochta manzili ko&apos;rinishidami</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritilgan matn uzunligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritilgan matn rangini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kiritilgan matn shriftini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#168. &lt;input type=&quot;number&quot;&gt; maydoni nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Faqat raqam kiritish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat harf kiritish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat havola yaratish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#169. Sana kiritish maydonini yaratuvchi input turi qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>type=&quot;date&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;day&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;calendar&quot;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>type=&quot;time2&quot;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#170. Quyidagi kod xatosini toping: &lt;ul&gt;&lt;li&gt;Olma&lt;li&gt;Anor&lt;/ul&gt;. Xato nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;li&gt; teglari yopilmagan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;ul&gt; tegi noto&apos;g&apos;ri yozilgan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yozilgan matn juda qisqa</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yaratilgan ro&apos;yxat bo&apos;sh</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#171. Nested (ichma-ich) jadval nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Bir jadval katagi ichidagi boshqa jadval</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikki alohida jadval</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jadvalsiz ro&apos;yxat</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm ustidagi bosiladigan havola</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#172. Jadvalda ustunlarni birlashtirish uchun qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>colspan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>rowspan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>mergecol</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>joincol</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#173. Jadvalda qatorlarni birlashtirish uchun qaysi atribut ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>rowspan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>colspan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>mergerow</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>joinrow</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#174. &lt;caption&gt; teg jadvalda nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Jadvalga sarlavha (nom) berish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yaratilgan jadvalni o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jadval fonini bo&apos;yash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Jadvalni boshqa joyga ko&apos;chirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#175. Web sahifada asosiy matn qaysi teg ichida bo&apos;lishi kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;body&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;head&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;title&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;meta&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#176. Quyidagilardan qaysi biri &lt;head&gt; ichida bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;title&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;p&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;h1&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;img&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#177. Bir HTML faylda nechta &lt;body&gt; teg bo&apos;lishi kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Bitta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkita</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Uchta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Cheksiz ko&apos;p</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#178. Sahifa tili qaysi atribut orqali belgilanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>lang atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>language atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>tongue atributi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>speak atributi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#179. &lt;html lang=&quot;uz&quot;&gt; kodi nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa tili o&apos;zbek tilida ekanligini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ochilgan sahifaning rangi o&apos;zgarganini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning umumiy hajmini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa yaratilgan sanasini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#180. Quyidagi kod natijasini toping: &lt;p&gt;1&lt;/p&gt;&lt;p&gt;2&lt;/p&gt;. Ular qanday ko&apos;rinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ikki alohida qatorda 1 va 2 chiqadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bitta qatorda 12 raqami chiqadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda faqat 1 chiqadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranda hech narsa chiqmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#181. HTML da &lt;hr&gt; teg qanday element hosil qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Gorizontal ajratuvchi chiziq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada vertikal ustun chizig&apos;i</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yangi jadval</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm ustidagi bosiladigan havola</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#182. Formada bir nechta radio tugma bir guruhga qanday birlashtiriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Bir xil name qiymati berish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bir xil rang berish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bir xil o&apos;lcham berish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bir xil src berish orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#183. Nima uchun radio tugmalarga bir xil name beriladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Faqat bittasini tanlash imkonini berish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tugmalar rangini o&apos;zgartirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha tugmalarni o&apos;chirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha tugmalarni yashirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#184. &lt;fieldset&gt; teg formada nima qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Forma elementlarini guruhga ajratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yaratilgan formani o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Formaga rasm qo&apos;shadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Formada havola yaratadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#185. Web sahifada eng ko&apos;p uchraydigan xatolardan biri qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Teglarni yopishni unutish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishlab turgan kompyuterni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Diskni to&apos;ldirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetni uzish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#186. Bir sahifada matn, rasm va havolani birga ishlatish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, ularni birga joylashtirsa bo&apos;ladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, faqat bittasigina ishlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa jadvalida mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifa formasida mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#187. Oddiy bir sahifali web sahifa qanday elementlardan iborat bo&apos;lishi mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sarlavha, matn, rasm va havoladan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;yilgan rasmdan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat murakkab kompyuter kodidan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat maxfiy parollardan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#188. HTML kodini o&apos;qishga qulay qilish uchun nima qilinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Teglarni tartibli va bo&apos;shliqlar bilan yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun kodni bitta qatorga yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kodda faqat katta harf ishlatish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Koddagi barcha izohlarni o&apos;chirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#189. Quyidagilardan qaysi biri to&apos;g&apos;ri HTML tuzilmasi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;body&gt;&lt;html&gt;&lt;/html&gt;&lt;/body&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;head&gt;&lt;html&gt;&lt;/html&gt;&lt;/head&gt;</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;html&gt;&lt;body&gt;&lt;/head&gt;&lt;/body&gt;&lt;/html&gt;</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#190. Sahifada tugma bosilganda ma&apos;lumot yuborilishi uchun element qayerda bo&apos;lishi kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;form&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;head&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;title&gt; teg ichida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>&lt;meta&gt; teg ichida</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#191. &lt;button&gt; va &lt;input type=&quot;submit&quot;&gt; o&apos;rtasidagi umumiylik nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ikkalasi ham bosiladigan tugma yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham sahifaga rasm qo&apos;shadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham sahifada havola yaratadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ikkalasi ham sahifada jadval chizadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#192. HTML sahifasida havola rangini o&apos;zgartirish mumkinmi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ha, style atributi orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yo&apos;q, rang o&apos;zgarmaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm bilan mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat jadval bilan mumkin</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#193. Katta hajmli sahifani tartibli qilish uchun nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&lt;div&gt; yordamida bo&apos;limlarga ajratish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ko&apos;p sonli &lt;br&gt; teglari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ko&apos;p sonli bo&apos;shliqlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat sahifadagi rasmlar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#194. Quyidagi kod nechta katak hosil qiladi: &lt;tr&gt;&lt;td&gt;A&lt;/td&gt;&lt;td&gt;B&lt;/td&gt;&lt;td&gt;C&lt;/td&gt;&lt;/tr&gt;?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>3 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>2 ta</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>6 ta</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#195. Web sahifa yaratishda teglarni to&apos;g&apos;ri yopish nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa to&apos;g&apos;ri ko&apos;rinishi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter ishlash tezligi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet xizmati narxi uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Chop etish printeri sifati uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#196. HTML5 nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>HTML tilining zamonaviy versiyasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter uchun yangi operatsion tizim</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Zararli dasturga qarshi antivirus dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ulanish uchun tarmoq qurilmasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#197. Semantik teglar (masalan &lt;header&gt;, &lt;footer&gt;) nima uchun foydali?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sahifa qismlarini ma&apos;noli belgilash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifa yuklanishini tezlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifadagi rasmlarni siqish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni internetga ulash uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#198. &lt;nav&gt; teg odatda nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Navigatsiya havolalarini joylashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga tasvir (rasm) qo&apos;shish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifada ma&apos;lumot jadvalini chizish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaga ovozli fayl qo&apos;shish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#199. &lt;footer&gt; teg sahifaning qaysi qismini bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Pastki (yakuniy) qismini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning yuqori qismini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning o&apos;rta qismini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sahifaning chap qismini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#200. HTML asoslarini o&apos;rganish nima uchun muhim?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Web sahifa yaratish ko&apos;nikmasini shakllantirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat kompyuter o&apos;yini o&apos;ynash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ekranda rasm chizish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matnlarni tarjima qilish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+			</Tasks>
+		</Group>
+	</Groups>
+</MyTestX>

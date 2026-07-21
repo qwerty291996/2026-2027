@@ -1,0 +1,1199 @@
+CSS nima?
++ Web sahifa ko'rinishini bezovchi uslublar tili
+- Web sahifa tuzilmasini yaratuvchi belgilash tili
+- Kompyuterni boshqaruvchi maxsus operatsion tizim
+- Ma'lumot saqlovchi tashqi qattiq disk qurilmasi
+
+CSS qisqartmasi qanday ochiladi?
++ Cascading Style Sheets
+- Computer Style System
+- Central Style Source
+- Creative Style Section
+
+CSS asosan qaysi til bilan birga ishlatiladi?
++ HTML bilan birga
+- Python bilan birga
+- Excel bilan birga
+- Windows bilan birga
+
+CSS ning asosiy vazifasi nima?
++ Sahifa elementlariga ko'rinish va bezak berish
+- Sahifa mazmunini yaratish va yozish
+- Kompyuterdagi zararli viruslarni tozalash
+- Internet tarmog'iga ulanishni boshqarish
+
+HTML va CSS o'rtasidagi farq nimada?
++ HTML tuzilma, CSS esa ko'rinish beradi
+- HTML ko'rinish, CSS esa tuzilma beradi
+- Ikkalasi ham butunlay bir xil vazifani bajaradi
+- HTML rasmni, CSS esa ovozni qo'shadi
+
+CSS ishlatishning afzalligi nimada?
++ Sahifa ko'rinishini bir joydan boshqarish qulay
+- Sahifaning barcha mazmunini butunlay o'chiradi
+- Kompyuterning ishlash tezligini pasaytiradi
+- Sarflanadigan internet trafigini ko'paytiradi
+
+CSS ni HTML ga ulashning nechta asosiy usuli bor?
++ Uchta asosiy usul
+- Faqat bitta asosiy usul mavjud
+- Jami beshta asosiy usul mavjud
+- Jami yettita asosiy usul mavjud
+
+CSS kodini alohida faylda saqlash qanday nomlanadi?
++ Tashqi (external) uslub usuli
+- Element ichida matn yozish usuli
+- Sahifada yashirin kodlash usuli
+- Faylni vaqtinchalik saqlash usuli
+
+CSS fayllari qanday kengaytma bilan saqlanadi?
++ .css
+- .html
+- .exe
+- .txt
+
+Tashqi CSS faylni HTML ga ulovchi teg qaysi?
++ <link>
+- <style>
+- <css>
+- <src>
+
+HTML sahifa ichida CSS yozish uchun qaysi teg ishlatiladi?
++ <style>
+- <css>
+- <link>
+- <design>
+
+Bevosita element ichida CSS yozish qanday nomlanadi?
++ Ichki (inline) uslub usuli
+- Tashqi fayl usuli
+- Sahifada yashirin kodlash usuli
+- Umumiy bezash usuli
+
+Elementga to'g'ridan-to'g'ri uslub berish uchun qaysi atribut ishlatiladi?
++ style atributi
+- design atributi
+- format atributi
+- color atributi
+
+<link> teg odatda HTML ning qaysi qismiga yoziladi?
++ <head> qismiga
+- <body> qismiga
+- <footer> qismiga
+- <title> qismiga
+
+CSS texnologiyasi web dizaynda qanday o'rin tutadi?
++ Sahifani chiroyli va tartibli qiladi
+- Sahifa mazmunini butunlay yozadi
+- Kompyuterni turli viruslardan himoyalaydi
+- Internet ulanish tezligini oshirib beradi
+
+CSS qoidasi qaysi ikki asosiy qismdan iborat?
++ Selektor va e'lonlar bloki
+- Sarlavha va matn qatori
+- Rasm va havola manzili
+- Jadval va ro'yxat bandi
+
+Selektor (selektor) nima?
++ Qaysi elementga uslub berilishini ko'rsatadi
+- Sahifadagi eng asosiy sarlavha matni
+- Kompyuterning ichki apparat qurilmasi
+- Fayl kengaytmasini bildiruvchi bir turi
+
+CSS e'lonlari qaysi qavslar ichida yoziladi?
++ Jingalak qavslar { } ichida
+- Burchak qavslar < > ichida
+- Yumaloq qavslar ( ) ichida
+- Kvadrat qavslar [ ] ichida
+
+CSS da xususiyat va uning qiymati qanday ajratiladi?
++ Ikki nuqta ( : ) bilan
+- Nuqta-vergul ( ; ) bilan
+- Teng belgisi ( = ) bilan
+- Vergul ( , ) bilan
+
+CSS da har bir e'lon oxirida qaysi belgi qo'yiladi?
++ Nuqta-vergul ( ; )
+- Ikki nuqta ( : )
+- Vergul ( , )
+- Nuqta ( . )
+
+Element selektori qanday yoziladi?
++ To'g'ridan-to'g'ri teg nomi bilan
+- Oldiga nuqta belgisi qo'yib
+- Oldiga panjara belgisi qo'yib
+- Oldiga yulduzcha belgisi qo'yib
+
+Class selektori qaysi belgi bilan boshlanadi?
++ Nuqta ( . ) belgisi bilan
+- Panjara ( # ) belgisi bilan
+- Yulduzcha ( * ) belgisi bilan
+- Foiz ( % ) belgisi bilan
+
+Id selektori qaysi belgi bilan boshlanadi?
++ Panjara ( # ) belgisi bilan
+- Nuqta ( . ) belgisi bilan
+- Yulduzcha ( * ) belgisi bilan
+- Chiziqcha ( - ) belgisi bilan
+
+HTML elementiga class qanday beriladi?
++ class atributi orqali
+- name atributi orqali
+- src atributi orqali
+- href atributi orqali
+
+HTML elementiga id qanday beriladi?
++ id atributi orqali
+- class atributi orqali
+- type atributi orqali
+- alt atributi orqali
+
+Class va id o'rtasidagi asosiy farq nimada?
++ Class ko'p elementga, id bitta elementga tegishli
+- Class bitta, id esa ko'p elementga tegishli
+- Ikkalasi ham butunlay bir xil ishlaydi
+- Class rasm uchun, id esa havola uchun
+
+Barcha elementlarni tanlovchi selektor qaysi?
++ Yulduzcha ( * ) selektori
+- Nuqta ( . ) selektori
+- Panjara ( # ) selektori
+- Vergul ( , ) selektori
+
+Bir nechta selektorga bir xil uslub berish uchun ular qanday ajratiladi?
++ Vergul ( , ) bilan
+- Nuqta ( . ) bilan
+- Ikki nuqta ( : ) bilan
+- Bo'shliq bilan
+
+CSS da izoh (comment) qanday yoziladi?
++ /* izoh */ ko'rinishida
+- <!-- izoh --> ko'rinishida
+- // izoh ko'rinishida
+- # izoh ko'rinishida
+
+p { color: red; } qoidasi nima qiladi?
++ Barcha paragraf matnini qizil rangga bo'yaydi
+- Sahifadagi barcha paragrafni o'chirib tashlaydi
+- Sahifadagi barcha rasmni qizil qiladi
+- Sahifadagi barcha havolani yashiradi
+
+Matn rangini o'zgartiruvchi xususiyat qaysi?
++ color
+- background
+- font
+- border
+
+Fon rangini o'zgartiruvchi xususiyat qaysi?
++ background-color
+- color
+- text-color
+- fill-color
+
+Matn o'lchamini belgilovchi xususiyat qaysi?
++ font-size
+- text-size
+- word-size
+- letter-size
+
+Shrift turini belgilovchi xususiyat qaysi?
++ font-family
+- font-type
+- text-font
+- font-name
+
+Matnni qalin qiluvchi xususiyat qaysi?
++ font-weight
+- font-bold
+- text-thick
+- font-strong
+
+Matnni qiya qiluvchi xususiyat qaysi?
++ font-style
+- font-italic
+- text-slant
+- font-tilt
+
+Matnni markazga joylashtiruvchi qiymat qaysi?
++ text-align: center
+- text-place: middle
+- align-text: center
+- text-position: center
+
+CSS da rang qanday usullar bilan beriladi?
++ Nomi, HEX yoki RGB kodi bilan
+- Faqat qo'yilgan rasm orqali
+- Faqat oddiy raqam orqali
+- Faqat bitta harf orqali
+
+#FFFFFF rang kodi qaysi rangni bildiradi?
++ Oq rangni
+- Qora rangni
+- Qizil rangni
+- Ko'k rangni
+
+#000000 rang kodi qaysi rangni bildiradi?
++ Qora rangni
+- Oq rangni
+- Yashil rangni
+- Sariq rangni
+
+RGB rang modeli qaysi uch asosiy rangdan tuziladi?
++ Qizil, yashil, ko'k
+- Qora, oq, kulrang
+- Sariq, pushti, jigarrang
+- Binafsha, zangori, oltin
+
+font-size uchun ko'p ishlatiladigan o'lchov birligi qaysi?
++ piksel (px)
+- santimetr (sm)
+- kilogramm (kg)
+- litr (l)
+
+text-decoration: underline qiymati nima qiladi?
++ Matn ostiga chiziq chizadi
+- Sahifadagi matnni qalin qiladi
+- Matnni qiya qiladi
+- Matnni o'chiradi
+
+Matndagi harflar orasini kengaytiruvchi xususiyat qaysi?
++ letter-spacing
+- word-space
+- line-gap
+- char-width
+
+Qatorlar orasidagi masofani belgilovchi xususiyat qaysi?
++ line-height
+- row-height
+- line-space
+- text-gap
+
+Matnni katta yoki kichik harfga o'zgartiruvchi xususiyat qaysi?
++ text-transform
+- text-case
+- font-case
+- letter-change
+
+Fon rasmini qo'yuvchi xususiyat qaysi?
++ background-image
+- image-background
+- back-picture
+- fon-image
+
+Ranglar uyg'unligi web dizaynda nima uchun muhim?
++ Sahifani ko'zga yoqimli va o'qishga qulay qiladi
+- Sahifaning umumiy hajmini kichraytiradi
+- Kompyuter ishlashini tezlashtiradi
+- Internet ulanish tezligini oshiradi
+
+Shriftni to'g'ri tanlash nima uchun muhim?
++ Matn o'qishga qulay bo'lishi uchun
+- Sahifa hajmini oshirish uchun
+- Qizib turgan kompyuterni sovutish uchun
+- Saqlangan fayl hajmini siqish uchun
+
+background xususiyati nimani boshqaradi?
++ Elementning fon ko'rinishini
+- Elementning tarmoq manzilini
+- Elementning fayl hajmini
+- Elementning yaratilgan sanasini
+
+CSS quti (box) modeli qaysi qismlardan iborat?
++ Mazmun, padding, border va margin
+- Sarlavha, matn va rasm elementlari
+- Havola, jadval va forma qismlari
+- Selektor, qiymat va izoh bo'laklari
+
+margin xususiyati nimani belgilaydi?
++ Element tashqarisidagi bo'shliqni
+- Sahifa elementi ichidagi bo'shliqni
+- Element chegarasi qalinligini
+- Element matni rangini
+
+padding xususiyati nimani belgilaydi?
++ Element ichidagi bo'shliqni
+- Element tashqarisidagi bo'shliqni
+- Element fon rasmini
+- Element shrift turini
+
+border xususiyati nimani belgilaydi?
++ Element atrofidagi chegarani
+- Element ichidagi matnni
+- Element fon rangini
+- Element shrift o'lchamini
+
+width xususiyati elementning nimasini belgilaydi?
++ Kengligini (enini)
+- Balandligini
+- Rangini
+- Shriftini
+
+height xususiyati elementning nimasini belgilaydi?
++ Balandligini
+- Kengligini
+- Rangini
+- Manzilini
+
+margin va padding o'rtasidagi farq nimada?
++ Margin tashqi, padding ichki bo'shliq
+- Margin ichki, padding tashqi bo'shliq
+- Ikkalasi ham butunlay bir xil
+- Margin rang, padding shrift beradi
+
+border-radius xususiyati nima qiladi?
++ Element burchaklarini yumaloqlaydi
+- Element chegarasini o'chiradi
+- Element rangini o'zgartiradi
+- Element matnini kattalashtiradi
+
+Element ichidagi matn bilan chegara orasidagi masofani nima belgilaydi?
++ padding
+- margin
+- border
+- width
+
+Ikki element orasidagi masofani nima belgilaydi?
++ margin
+- padding
+- color
+- font-size
+
+display: none qiymati nima qiladi?
++ Elementni butunlay yashiradi
+- Sahifadagi elementni kattalashtiradi
+- Sahifadagi elementni qizil qiladi
+- Elementni boshqa joyga ko'chiradi
+
+text-align xususiyati nimani boshqaradi?
++ Matnning gorizontal joylashuvini
+- Sahifadagi matnning rangini
+- Sahifadagi matnning shrift turini
+- Sahifadagi matnning fon rasmini
+
+CSS da o'lcham uchun foiz (%) qiymati nimaga nisbatan hisoblanadi?
++ Ota elementning o'lchamiga nisbatan
+- Butun ekran diagonaliga nisbatan
+- Saqlangan fayl hajmiga bog'liq nisbatan
+- Internet ulanish tezligiga bog'liq nisbatan
+
+Elementni sahifada markazga joylashtirishning bir usuli qaysi?
++ margin qiymatini avtomatik (auto) qilish
+- Element border qiymatini o'chirish
+- Element color qiymatini o'zgartirish
+- Element font qiymatini kattalashtirish
+
+box-sizing xususiyati nima uchun ishlatiladi?
++ Element o'lchamini hisoblash usulini belgilash uchun
+- Sahifadagi element rangini o'zgartirish uchun
+- Sahifadagi element shriftini almashtirish uchun
+- Sahifadagi element matnini o'chirish uchun
+
+Web dizayn nima?
++ Web sahifaning ko'rinishini rejalashtirish san'ati
+- Web sahifaning barcha mazmunini butunlay o'chirish
+- Buzilgan kompyuterni ta'mirlash jarayoni
+- Internet tarmog'iga ulanishni sozlash usuli
+
+Yaxshi web dizaynning asosiy belgisi nima?
++ Foydalanuvchi uchun qulay va tushunarli bo'lishi
+- Juda ko'p sonli rangdan iborat bo'lishi
+- Faqat oddiy matndan tashkil topishi
+- Sahifaning haddan tashqari sekin ochilishi
+
+Foydalanuvchiga qulay interfeys nima uchun muhim?
++ Sahifadan oson foydalanish imkonini beradi
+- Kompyuter jihozi narxini oshiradi
+- Sarflanadigan internet trafigini ko'paytiradi
+- Muhim faylni doimiy o'chiradi
+
+Sahifada bo'sh joy (bo'shliq) qoldirish nima uchun kerak?
++ Elementlarni ajratib, ko'rinishni yaxshilash uchun
+- Sahifaning umumiy hajmini kichraytirish uchun
+- Qizib turgan kompyuterni sovutish uchun
+- Saqlangan fayl hajmini siqish uchun
+
+Rang uyg'unligi (kombinatsiyasi) nimani anglatadi?
++ Ranglarning bir-biriga mos tanlanishini
+- Ranglarning tasodifiy aralashtirilishini
+- Faqat qora rangdan foydalanishni
+- Ranglarni butunlay ishlatmaslikni
+
+Web dizaynda kontrast nima uchun kerak?
++ Matn fonda aniq ko'rinishi uchun
+- Sahifani sekinlashtirish uchun
+- Faylni yo'qotish uchun
+- Internet ulanishini uzish uchun
+
+Sahifada juda ko'p rang ishlatish qanday oqibatga olib keladi?
++ Sahifa chalkash va noqulay ko'rinadi
+- Sahifa biroz tezroq ochiladi
+- Ishlab turgan kompyuter tezlashadi
+- Internet xizmati arzonlashadi
+
+Matn va fon rangini tanlashda nimaga e'tibor beriladi?
++ Ular bir-biridan yaxshi ajralib turishiga
+- Ular ranglari butunlay bir xil bo'lishiga
+- Tanlangan ranglar ko'rinmas bo'lishiga
+- Faqat bitta qizil rang ishlatilishiga
+
+Web dizaynda oddiylik (sodda ko'rinish) nima uchun qadrlanadi?
++ Sahifa tushunarli va toza ko'rinadi
+- Sahifa murakkab bo'lib qoladi
+- Ishlab turgan kompyuter sekinlashadi
+- Muhim fayllar yo'qoladi
+
+Sahifa dizaynida bir xil uslubni saqlash nima uchun muhim?
++ Sahifa yaxlit va tartibli ko'rinishi uchun
+- Sahifa turli-tuman bo'lishi uchun
+- Ishlab turgan kompyuter qizishi uchun
+- Internet ulanishi uzilishi uchun
+
+CSS orqali sahifaning umumiy ko'rinishini boshqarish nima beradi?
++ Barcha elementlarni bir joydan tartibga solish
+- Sahifa mazmunini butunlay o'chirish
+- Kompyuter tezligini pasaytirish
+- Sarflanadigan internet trafigini oshirish
+
+Bir CSS fayl bir nechta HTML sahifaga ulanishi mumkinmi?
++ Ha, bitta fayl ko'p sahifaga ulanadi
+- Yo'q, har sahifaga alohida fayl kerak
+- Faqat rasm bor sahifalarga ulanadi
+- Faqat forma bor sahifalarga ulanadi
+
+Tashqi CSS faylning afzalligi nimada?
++ Kodni bir joyda saqlab, qayta ishlatish qulay
+- Sahifaning umumiy hajmini keskin oshiradi
+- Kompyuter ishlashini sekinlashtiradi
+- Internet ulanishini uzib qo'yadi
+
+CSS kodini tartibli yozish nima uchun muhim?
++ Kodni o'qish va tuzatish osonlashadi
+- Kompyuterning ishlash tezligi oshadi
+- Internet xizmati narxi tushadi
+- Faylning umumiy hajmi kattalashadi
+
+cursor xususiyati nima uchun ishlatiladi?
++ Sichqoncha ko'rsatkichi ko'rinishini o'zgartirish uchun
+- Sahifadagi asosiy matn rangini o'zgartirish uchun
+- Sahifa elementiga fon rasmini qo'yish uchun
+- Sahifa elementi chegarasi qalinligini belgilash uchun
+
+opacity xususiyati nimani boshqaradi?
++ Elementning shaffofligini
+- Sahifadagi elementning kengligini
+- Sahifadagi elementning shriftini
+- Elementning saqlangan manzilini
+
+CSS da :hover nima uchun ishlatiladi?
++ Sichqoncha element ustiga kelganda uslub berish uchun
+- Sahifadagi elementni butunlay o'chirish uchun
+- Ochiq turgan sahifani yopish uchun
+- Saqlangan fayl hajmini siqish uchun
+
+list-style-type xususiyati nima uchun ishlatiladi?
++ Ro'yxat belgisi ko'rinishini o'zgartirish uchun
+- Yaratilgan ro'yxatni butunlay o'chirish uchun
+- Ro'yxatni butunlay rasmga aylantirish uchun
+- Ro'yxatni butunlay jadval qilish uchun
+
+CSS da elementga soya (shadow) qo'shuvchi xususiyat qaysi?
++ box-shadow
+- element-shadow
+- shadow-box
+- border-shadow
+
+font-family da bir nechta shrift yozish nima uchun foydali?
++ Birinchisi bo'lmasa, keyingisi ishlatiladi
+- Barcha shriftlar bir vaqtning o'zida chiqadi
+- Sahifa biroz tezroq ochiladi
+- Ishlab turgan kompyuter sovuydi
+
+CSS da o'lchov birligi "em" nimaga bog'liq?
++ Ota elementning shrift o'lchamiga
+- Butun ekran diagonaliga bog'liq
+- Saqlangan fayl hajmiga bog'liq
+- Internet ulanish tezligiga bog'liq
+
+text-align: right qiymati nima qiladi?
++ Matnni o'ng tomonga joylashtiradi
+- Sahifadagi matnni chap tomonga joylashtiradi
+- Sahifadagi matnni markazga joylashtiradi
+- Sahifadagi matnni ko'rinmas qiladi
+
+background-color: yellow qoidasi nima qiladi?
++ Fon rangini sariq qiladi
+- Sahifadagi matn rangini sariq qiladi
+- Element chegarasini sariq qiladi
+- Qo'yilgan rasmni sariq qiladi
+
+CSS da bir elementga bir nechta xususiyat berish mumkinmi?
++ Ha, ularni nuqta-vergul bilan ajratib
+- Yo'q, faqat bitta xususiyat berish mumkin
+- Faqat qo'yilgan rasmga ko'p xususiyat mumkin
+- Faqat sahifa havolasiga ko'p xususiyat mumkin
+
+margin: 0 auto qoidasi ko'pincha nima uchun ishlatiladi?
++ Elementni gorizontal markazga joylashtirish uchun
+- Sahifadagi kerakli elementni o'chirish uchun
+- Sahifadagi elementni qizil qilish uchun
+- Sahifadagi elementni yashirish uchun
+
+CSS da rangni RGB usulida yozish namunasi qaysi?
++ rgb(255, 0, 0)
+- color(255-0-0)
+- red(255, 0, 0)
+- rgb[255; 0; 0]
+
+HEX rang kodi qaysi belgi bilan boshlanadi?
++ Panjara ( # ) belgisi bilan
+- Nuqta ( . ) belgisi bilan
+- Foiz ( % ) belgisi bilan
+- Yulduzcha ( * ) belgisi bilan
+
+font-weight: bold qiymati nima qiladi?
++ Matnni qalin qiladi
+- Matnni qiya qiladi
+- Matnni kichraytiradi
+- Matnni o'chiradi
+
+CSS da bir elementni yashirishning bir usuli qaysi?
++ display: none qo'llash
+- color: none qo'llash
+- font: none qo'llash
+- width: none qo'llash
+
+Elementga fon rangi va matn rangi birga berilishi mumkinmi?
++ Ha, ikkalasini alohida yozib
+- Yo'q, faqat bittasi mumkin
+- Faqat rasmlarda mumkin
+- Faqat jadvalda mumkin
+
+CSS da xususiyat nomini noto'g'ri yozish nimaga olib keladi?
++ O'sha uslub ishlamay qoladi
+- Ishlab turgan kompyuter o'chib qoladi
+- Internet ulanishi uziladi
+- Diskdagi fayl o'chiriladi
+
+Sahifadagi barcha paragrafga bir xil rang berish uchun qaysi selektor qulay?
++ Element selektori ( p )
+- Faqat id selektori
+- Faqat yulduzcha selektori
+- Faqat vergul selektori
+
+Bir nechta elementga bir xil uslub berishning eng qulay usuli qaysi?
++ Ularga bir xil class berish
+- Har biriga alohida id berish
+- Har birini o'chirib qo'yish
+- Faqat rasmga aylantirish
+
+CSS da uslublar to'qnashganda qaysi qoida ko'proq kuchga ega?
++ Aniqroq (spetsifik) selektor
+- Har doim birinchi yozilgan
+- Har doim eng qisqa qoida
+- Har doim rangli qoida
+
+text-decoration: none ko'pincha nimaga ishlatiladi?
++ Havola ostidagi chiziqni olib tashlashga
+- Sahifadagi matnni o'chirishga
+- Element fonini bo'yashga
+- Sahifaga rasm qo'shishga
+
+p { color: blue; } kodida "p" nimani bildiradi?
++ Selektorni (qaysi elementga uslub berilishini)
+- CSS xususiyati nomini
+- Berilgan rang qiymatini
+- Saqlangan fayl manzilini
+
+p { color: blue; } kodida "color" nimani bildiradi?
++ Xususiyat nomini
+- Selektorni
+- Fayl nomini
+- Sahifa sarlavhasini
+
+p { color: blue; } kodida "blue" nimani bildiradi?
++ Xususiyatning qiymatini
+- Selektor nomini
+- Fayl kengaytmasini
+- Sahifa tuzilmasini
+
+.menu { color: green; } kodida ".menu" qanday selektor?
++ Class selektori
+- Id selektori
+- Element selektori
+- Universal selektor
+
+#header { color: red; } kodida "#header" qanday selektor?
++ Id selektori
+- Class selektori
+- Element selektori
+- Universal selektor
+
+<p class="katta"> elementiga qaysi CSS qoidasi ta'sir qiladi?
++ .katta { font-size: 20px; }
+- #katta { font-size: 20px; }
+- p#katta { font-size: 20px; }
+- *katta { font-size: 20px; }
+
+<div id="asosiy"> elementiga qaysi CSS qoidasi ta'sir qiladi?
++ #asosiy { color: blue; }
+- .asosiy { color: blue; }
+- div.asosiy { color: blue; }
+- *asosiy { color: blue; }
+
+h1 { color: red; } qoidasi qaysi elementlarga ta'sir qiladi?
++ Barcha h1 sarlavhalariga
+- Faqat birinchi h1 ga
+- Barcha paragraflarga
+- Barcha rasmlarga
+
+body { background-color: gray; } qoidasi nima qiladi?
++ Butun sahifa fonini kulrang qiladi
+- Faqat matnni kulrang qiladi
+- Faqat rasmni kulrang qiladi
+- Faqat havolani kulrang qiladi
+
+Quyidagi CSS kodda xato bor: p { color red; }. Xato nimada?
++ Xususiyat va qiymat orasida ikki nuqta yo'q
+- Qoidadagi selektor noto'g'ri yozilgan
+- Berilgan rang nomi noto'g'ri
+- Bitta qavs ortiqcha qo'yilgan
+
+Quyidagi kodda xato bor: p { color: red }. Xato nimada?
++ E'lon oxirida nuqta-vergul qo'yilmagan
+- Qoidadagi selektor noto'g'ri
+- Berilgan rang qiymati noto'g'ri
+- Ochilgan qavs yopilmagan
+
+div { width: 200px; height: 100px; } qoidasi nima qiladi?
++ Div elementiga en va balandlik beradi
+- Sahifadagi div elementini o'chiradi
+- Sahifadagi div matnini qizil qiladi
+- Sahifadagi div fonini yashiradi
+
+margin: 10px; qoidasi nimani belgilaydi?
++ Element atrofidagi tashqi bo'shliqni
+- Sahifa elementi ichidagi bo'shliqni
+- Sahifa elementi chegarasi rangini
+- Sahifa elementi matni o'lchamini
+
+padding: 10px; qoidasi nimani belgilaydi?
++ Element ichidagi bo'shliqni
+- Element tashqarisidagi bo'shliqni
+- Element fon rasmini
+- Element shrift turini
+
+border: 1px solid black; qoidasi nima qiladi?
++ Elementga qora rangli chegara chizadi
+- Sahifadagi elementni butunlay o'chiradi
+- Sahifa elementi matnini qora qiladi
+- Sahifa elementi fonini qora qiladi
+
+font-size: 24px; qoidasi nima qiladi?
++ Matn o'lchamini 24 piksel qiladi
+- Matn rangini o'zgartiradi
+- Matn shriftini almashtiradi
+- Matnni o'chiradi
+
+text-align: center; qoidasi matnni qanday joylashtiradi?
++ Markazga
+- Chapga
+- O'ngga
+- Pastga
+
+background-image: url("fon.jpg"); qoidasi nima qiladi?
++ Elementga fon rasmini qo'yadi
+- Elementni rasmga aylantiradi
+- Elementni o'chiradi
+- Element matnini o'zgartiradi
+
+Quyidagilardan qaysi biri to'g'ri CSS qoidasi?
++ h1 { color: red; }
+- h1 [ color: red ]
+- h1 ( color = red )
+- h1 < color: red >
+
+a { text-decoration: none; } qoidasi nima qiladi?
++ Havola ostidagi chiziqni olib tashlaydi
+- Sahifadagi havolani o'chiradi
+- Sahifadagi havolani qizil qiladi
+- Sahifadagi havolani yashiradi
+
+Ichki (inline) uslub HTML da qanday yoziladi?
++ <p style="color: red;">Matn</p>
+- <p css="color: red;">Matn</p>
+- <p link="color: red;">Matn</p>
+- <style p="color: red;">Matn</style>
+
+Tashqi CSS faylni ulash kodi qaysi?
++ <link rel="stylesheet" href="uslub.css">
+- <style src="uslub.css">
+- <css file="uslub.css">
+- <link css="uslub.css">
+
+Uch xil CSS ulash usulidan qaysi biri eng qulay hisoblanadi?
++ Tashqi CSS fayl usuli
+- Har elementga inline usul
+- Faqat yashirin kodlash
+- Faqat vaqtinchalik usul
+
+Bir elementga ham class, ham id berilishi mumkinmi?
++ Ha, ikkalasini birga berish mumkin
+- Yo'q, faqat bittasi mumkin
+- Faqat rasmga mumkin
+- Faqat havolaga mumkin
+
+ul li { color: blue; } qoidasi nimani anglatadi?
++ ul ichidagi li elementlarini tanlaydi
+- Faqat tashqi ul ni tanlaydi
+- Faqat alohida li ni tanlaydi
+- Sahifadagi barcha elementni tanlaydi
+
+.box { margin: 20px; } qoidasi qaysi elementlarga ta'sir qiladi?
++ class="box" bo'lgan elementlarga
+- id="box" bo'lgan elementga
+- Sahifadagi barcha div elementiga
+- Barcha rasmga
+
+CSS da xususiyatlar qanday tartibda yoziladi?
++ Xususiyat: qiymat; ko'rinishida
+- Qiymat: xususiyat; ko'rinishida
+- Xususiyat = qiymat ko'rinishida
+- Qiymat - xususiyat ko'rinishida
+
+Quyidagi kod nechta xususiyat belgilaydi: p { color: red; font-size: 16px; }?
++ 2 ta
+- 1 ta
+- 3 ta
+- 4 ta
+
+Sahifadagi barcha matnni bir xil shriftga o'tkazish uchun qaysi selektor qulay?
++ body selektori
+- Faqat id selektori
+- Faqat vergul selektori
+- Faqat panjara selektori
+
+.btn:hover { color: red; } qoidasi qachon ishlaydi?
++ Sichqoncha element ustiga kelganda
+- Ochiq sahifa yopilganda
+- Ishlab turgan kompyuter o'chganda
+- Ochiq fayl saqlanganda
+
+color: #00FF00; qiymati qaysi rangni beradi?
++ Yashil rangni
+- Qizil rangni
+- Ko'k rangni
+- Qora rangni
+
+font-style: italic; qoidasi nima qiladi?
++ Matnni qiya (kursiv) qiladi
+- Sahifadagi matnni qalin qiladi
+- Matn ostiga chiziq chizadi
+- Matnni katta qiladi
+
+Quyidagi ikki qoidadan qaysi biri kuchliroq: p { color: red; } yoki #maxsus { color: blue; }?
++ #maxsus, chunki id aniqroq selektor
+- p, chunki element selektori
+- Ular teng kuchga ega
+- Har doim birinchisi
+
+line-height: 1.5; qoidasi nima qiladi?
++ Qatorlar orasidagi masofani belgilaydi
+- Matndagi harflar orasini kengaytiradi
+- Sahifadagi matnni qalin qiladi
+- Element fon rangini o'zgartiradi
+
+Quyidagi kodda nechta selektor bor: h1, h2, p { color: red; }?
++ 3 ta
+- 1 ta
+- 2 ta
+- 4 ta
+
+div { border: 2px dashed blue; } qoidasidagi "dashed" nimani bildiradi?
++ Chegara chizig'i turini (uzuq chiziq)
+- Element chegarasi rangini
+- Element chegarasi qalinligini
+- Sahifa elementi o'lchamini
+
+background: url("rasm.png") no-repeat; qoidasidagi "no-repeat" nima qiladi?
++ Fon rasmini takrorlamaydi
+- Element fon rasmini o'chiradi
+- Element fon rasmini kattalashtiradi
+- Element fon rasmini qizil qiladi
+
+Element ekranning o'ng tomoniga suriladi, buni qaysi xususiyat qiladi?
++ float: right
+- align: right
+- move: right
+- side: right
+
+display: block va display: inline o'rtasidagi farq nimada?
++ Block butun qatorni, inline qatorning bir qismini egallaydi
+- Ikkalasi ham butunlay bir xil
+- Block matnni, inline esa rasmni beradi
+- Inline sahifani, block esa matnni o'chiradi
+
+CSS da rangni tanlashda kontrast past bo'lsa nima bo'ladi?
++ Matn o'qishga qiyin bo'lib qoladi
+- Sahifa biroz tezroq ochiladi
+- Ishlab turgan kompyuter tezlashadi
+- Internet xizmati arzonlashadi
+
+Web sahifa dizaynini yaratishda birinchi qadam nima?
++ Sahifa tuzilmasi va ranglarini rejalashtirish
+- Ishlab turgan kompyuterni o'chirish
+- Qattiq diskni formatlash
+- Internet ulanishini uzish
+
+CSS bilan bezatilgan sahifani qanday tekshirish mumkin?
++ Brauzerda ochib ko'rish orqali
+- Ishlab turgan kompyuterni o'chirib
+- Fayl hajmini siqib
+- Qattiq diskni formatlab
+
+Sahifada uslub qo'llanmasa, birinchi nima tekshiriladi?
++ CSS fayl to'g'ri ulanganmi
+- Kompyuter monitori rangi
+- Kompyuter klaviaturasi tili
+- Internet xizmati narxi
+
+CSS xususiyati ishlamasa, mumkin bo'lgan sabab qaysi?
++ Xususiyat nomi noto'g'ri yozilgan
+- Ishlatilayotgan kompyuter eski
+- Kompyuter monitori kichik
+- Internet ulanishi sekin
+
+Bir necha brauzerda sahifani tekshirish nima uchun foydali?
++ Sahifa hamma joyda to'g'ri ko'rinishini bilish uchun
+- Kompyuter ishlashini tezlashtirish uchun
+- Saqlangan fayl hajmini siqish uchun
+- Internet ulanishini uzish uchun
+
+Sahifa dizayni uyg'unligini qanday aniqlash mumkin?
++ Elementlar mos va tartibli ko'rinishini kuzatib
+- Ishlab turgan kompyuterni o'chirib
+- Keraksiz faylni o'chirib
+- Internet ulanishini tekshirib
+
+Responsive (moslashuvchan) dizayn nima?
++ Turli ekranlarga moslashadigan sahifa dizayni
+- Faqat bitta ekran o'lchamiga mos dizayn
+- Ranglari bo'lmagan oddiy dizayn
+- Faqat matndan iborat dizayn
+
+Moslashuvchan dizayn nima uchun kerak?
++ Sahifa telefon va kompyuterda yaxshi ko'rinishi uchun
+- Sahifa faqat bitta kompyuterda ochilishi uchun
+- Ishlab turgan kompyuter sekinlashishi uchun
+- Internet ulanishi uzilishi uchun
+
+CSS da @media nima uchun ishlatiladi?
++ Ekran o'lchamiga qarab uslub berish uchun
+- Sahifaga rasm qo'shish uchun
+- Sahifada havola yaratish uchun
+- Sahifada jadval chizish uchun
+
+Sahifada matn juda kichik bo'lsa, foydalanuvchi uchun qanday muammo bo'ladi?
++ Matnni o'qish qiyinlashadi
+- Sahifa biroz tezroq ochiladi
+- Ishlab turgan kompyuter tezlashadi
+- Internet xizmati arzonlashadi
+
+.card { background-color: white; } qoidasi qanday elementlarga ta'sir qiladi?
++ class="card" bo'lgan barcha elementlarga
+- id nomi card bo'lgan elementga
+- Sahifadagi barcha div elementiga
+- Sahifadagi barcha havolaga
+
+CSS da bir xususiyatni bir necha elementda takrorlamaslik uchun nima qilinadi?
++ Umumiy class yaratib, unga uslub berish
+- Har bir elementga alohida yozish
+- Har bir elementni o'chirish
+- Elementni rasmga aylantirish
+
+p { color: red; } dan keyin p { color: blue; } yozilsa, natija qanday?
++ Matn ko'k bo'ladi (keyingisi ustun keladi)
+- Sahifada matn qizil bo'ladi
+- Sahifada matn yashil bo'ladi
+- Sahifada matn ko'rinmaydi
+
+Inline uslub, ichki uslub va tashqi uslubdan qaysi biri ko'proq ustun keladi?
++ Inline (element ichidagi) uslub
+- Tashqi ulangan CSS fayl
+- Ichki yozilgan <style> uslubi
+- Ularning hammasi teng ustun keladi
+
+CSS da bo'sh joy (probel) qoidaga ta'sir qiladimi?
++ Yo'q, ortiqcha bo'shliqlar e'tiborga olinmaydi
+- Ha, ortiqcha bo'shliq qoidani buzadi
+- Ha, faqat rang qiymati uchun ta'sir qiladi
+- Ha, faqat shrift turi uchun ta'sir qiladi
+
+font-family: Arial, sans-serif; kodida sans-serif nima?
++ Arial bo'lmasa ishlatiladigan zaxira shrift
+- Eng asosiy tanlangan shrift
+- Belgilangan rang qiymati
+- Element fon rasmi
+
+CSS da rangni HEX kodida yozish namunasi qaysi?
++ #FF5733
+- rgb#FF5733
+- color:FF5733
+- hex(FF5733)
+
+width: 50%; qoidasi elementga qanday kenglik beradi?
++ Ota elementning yarmi kengligida
+- Doim 50 piksel kenglikda
+- Butun ekran kengligida
+- Eng kichik kenglikda
+
+Element ko'rinmay qolsa-yu, joyi saqlansa, qaysi xususiyat ishlatiladi?
++ visibility: hidden
+- display: none
+- color: none
+- width: none
+
+display: none va visibility: hidden o'rtasidagi farq nimada?
++ display: none joyni ham olib tashlaydi
+- Ikkalasi ham butunlay bir xil
+- visibility: hidden elementni o'chiradi
+- display: none elementni ko'rsatadi
+
+CSS da matnni bosh harfga o'tkazuvchi qiymat qaysi?
++ text-transform: uppercase
+- text-case: big
+- font-case: upper
+- letter-transform: high
+
+text-transform: lowercase qiymati nima qiladi?
++ Matnni kichik harfga o'tkazadi
+- Matnni bosh harfga o'tkazadi
+- Sahifadagi matnni qalin qiladi
+- Matnni o'chiradi
+
+background-repeat: repeat-x qiymati nima qiladi?
++ Fon rasmini gorizontal takrorlaydi
+- Element fon rasmini vertikal takrorlaydi
+- Element fon rasmini o'chiradi
+- Element fon rasmini kattalashtiradi
+
+CSS da soya effekti matn uchun qaysi xususiyat orqali beriladi?
++ text-shadow
+- font-shadow
+- shadow-text
+- letter-shadow
+
+z-index xususiyati nima uchun ishlatiladi?
++ Elementlarning ustma-ust joylashuv tartibini belgilash uchun
+- Sahifadagi element rangini o'zgartirish uchun
+- Sahifadagi element shriftini almashtirish uchun
+- Sahifadagi element matnini o'chirish uchun
+
+position: absolute xususiyati nima qiladi?
++ Elementni aniq joyga joylashtiradi
+- Elementni o'chiradi
+- Sahifadagi elementni qizil qiladi
+- Elementni yashiradi
+
+CSS da elementga o'tish (silliq o'zgarish) effekti qaysi xususiyat bilan beriladi?
++ transition
+- change
+- effect
+- move
+
+:hover, :active kabi belgilar CSS da nima deb ataladi?
++ Psevdo-klasslar
+- Selektorlar
+- Xususiyatlar
+- Qiymatlar
+
+CSS da o'lchov birligi "rem" nimaga bog'liq?
++ Asosiy (root) element shrift o'lchamiga
+- Butun ekran diagonaliga bog'liq
+- Saqlangan fayl hajmiga bog'liq
+- Internet ulanish tezligiga bog'liq
+
+Sahifada elementlarni yonma-yon joylashtirishning zamonaviy usuli qaysi?
++ Flexbox (display: flex)
+- Faqat ko'p bo'shliq qo'yish
+- Faqat rasm ishlatish
+- Faqat jadval ichida
+
+display: flex qanday imkoniyat beradi?
++ Elementlarni moslashuvchan joylashtirish
+- Sahifa elementlarini butunlay o'chirish
+- Ochiq turgan sahifani yopish
+- Saqlangan fayl hajmini siqish
+
+justify-content xususiyati flexbox da nimani boshqaradi?
++ Elementlarni gorizontal joylashtirishni
+- Sahifa elementlarining rangini
+- Sahifa elementlarining shriftini
+- Sahifa elementlarining fon rasmini
+
+CSS da grid nima uchun ishlatiladi?
++ Elementlarni katak (to'r) shaklida joylashtirish uchun
+- Sahifa elementlarini o'chirish uchun
+- Sahifaga rasm qo'shish uchun
+- Sahifada havola yaratish uchun
+
+Quyidagi kodda nechta qoida bor: h1 { color: red; } p { color: blue; }?
++ 2 ta
+- 1 ta
+- 3 ta
+- 4 ta
+
+Element hajmini o'zgarganda silliq harakat berish uchun nima ishlatiladi?
++ transition xususiyati
+- color xususiyati
+- font xususiyati
+- border xususiyati
+
+CSS faylni HTML ga ulashda rel="stylesheet" nimani bildiradi?
++ Ulanayotgan fayl uslublar fayli ekanligini
+- Ulanayotgan faylning rasm ekanligini
+- Ulanayotgan faylning video ekanligini
+- Ulanayotgan faylning sahifa ekanligini
+
+h1 { text-align: center; color: green; } qoidasi nechta narsani boshqaradi?
++ Ikkitani: joylashuv va rang
+- Bittani: faqat rang
+- Uchtani: rang, shrift, fon
+- Hech narsani boshqarmaydi
+
+Sahifada tugmani chiroyli qilish uchun qaysi xususiyatlar birga ishlatiladi?
++ background-color, padding va border-radius
+- Faqat width xususiyati
+- Faqat color xususiyati
+- Faqat height xususiyati
+
+CSS da element burchagini yumaloqlash darajasini nima belgilaydi?
++ border-radius qiymati
+- border-width qiymati
+- border-color qiymati
+- margin qiymati
+
+Sahifa dizaynida "oq bo'shliq" (bo'sh maydon) nima uchun foydali?
++ Ko'zni charchatmaydi va tartib beradi
+- Sahifa yuklanishini sekinlashtiradi
+- Ishlab turgan kompyuterni qizdiradi
+- Internet ulanishini uzadi
+
+CSS da matnni oxiridan kesib nuqta qo'yish (...) qaysi xususiyat bilan bo'ladi?
++ text-overflow: ellipsis
+- text-cut: dots
+- overflow-text: end
+- text-end: dots
+
+Rasmni elementga to'liq sig'dirish uchun qaysi xususiyat ishlatiladi?
++ object-fit
+- image-fit
+- picture-size
+- img-scale
+
+CSS da bir elementni boshqasidan ustun ko'rsatish uchun nima ishlatiladi?
++ Yuqori z-index qiymati
+- Katta font qiymati
+- Qizil color qiymati
+- Keng width qiymati
+
+Quyidagi kod xatosini toping: p { color: ; }. Xato nimada?
++ color xususiyatiga qiymat berilmagan
+- Qoidadagi selektor noto'g'ri
+- Ochilgan qavs yopilmagan
+- Bitta nuqta-vergul ortiqcha
+
+h1 { font-size: 40px; } dagi 40px nima?
++ Sarlavha matni o'lchami
+- Sarlavha rangi
+- Sarlavha shrifti
+- Sarlavha fon rasmi
+
+Web sahifada bir xil ko'rinishdagi tugmalarni qanday yaratish qulay?
++ Ularga umumiy class berib, CSS yozish
+- Har biriga alohida uslub yozish
+- Har birini rasmga aylantirish
+- Har birini o'chirish
+
+CSS da nima uchun class selektori ko'p ishlatiladi?
++ Bir uslubni ko'p elementga qo'llash qulay
+- Faqat bitta elementga tegishli bo'lgani uchun
+- Faqat rasmga tegishli bo'lgani uchun
+- Faqat havolaga tegishli bo'lgani uchun
+
+Sahifadagi barcha havolalar rangini o'zgartirish uchun qaysi selektor ishlatiladi?
++ a selektori
+- p selektori
+- img selektori
+- div selektori
+
+CSS da :first-child nimani tanlaydi?
++ Ota element ichidagi birinchi bolani
+- Faqat ota elementning o'zini
+- Sahifadagi barcha elementlarni
+- Ota elementdagi oxirgi bolani
+
+Sahifada shriftni butun sahifa uchun bir marta belgilash qulaymi?
++ Ha, body selektoriga yozish orqali
+- Yo'q, har elementga alohida yozish kerak
+- Faqat rasm bilan mumkin
+- Faqat jadval bilan mumkin
+
+CSS da rangni RGBA usulida yozishda "A" nimani bildiradi?
++ Shaffoflik darajasini
+- Rang nomini
+- Fayl hajmini
+- Shrift turini
+
+background-color: transparent qiymati nima qiladi?
++ Fonni shaffof qiladi
+- Fonni qora qiladi
+- Fonni oq qiladi
+- Fonni rasm qiladi
+
+CSS da xususiyatlarni qisqartirib bitta qatorda yozish qanday ataladi?
++ Qisqa (shorthand) yozuv
+- Uzun (to'liq) yozuv
+- Yashirin (ko'rinmas) yozuv
+- Bo'sh (mazmunsiz) yozuv
+
+margin: 10px 20px; qoidasida ikki qiymat nimani bildiradi?
++ Yuqori-past va o'ng-chap bo'shliqlarni
+- Faqat rang va shrift qiymatini
+- Faqat en va balandlik qiymatini
+- Faqat chegara va fon qiymatini
+
+Sahifa yuklanganda uslub ko'rinmasa, avval nima tekshiriladi?
++ link tegidagi CSS fayl manzili
+- Kompyuter monitori o'lchami
+- Kompyuter klaviaturasi tili
+- Internet xizmati narxi
+
+Web dizaynda foydalanuvchi tajribasi (qulaylik) nima uchun muhim?
++ Foydalanuvchi sahifada oson harakatlanadi
+- Sahifa yuklanishi sekinlashadi
+- Ishlab turgan kompyuter qiziydi
+- Internet ulanishi uziladi
+
+CSS uslublarini tartibli va izohli yozish nima beradi?
++ Kodni keyinchalik oson tuzatish imkonini
+- Kompyuter ishlashini tezlashtiradi
+- Internet xizmati narxini tushiradi
+- Saqlangan fayl hajmini oshiradi
+
+Sahifa dizaynida ranglar sonini cheklash nima uchun tavsiya etiladi?
++ Sahifa toza va uyg'un ko'rinishi uchun
+- Sahifa sekinlashishi uchun
+- Ishlab turgan kompyuter qizishi uchun
+- Fayllar yo'qolishi uchun
+
+HTML va CSS birga qanday natija beradi?
++ Mazmunli va chiroyli web sahifa
+- Faqat bo'm-bo'sh oq sahifa
+- Faqat bezaksiz kodli matn
+- Faqat rasmsiz oddiy jadval
+
+CSS asoslarini o'rganish nima uchun muhim?
++ Chiroyli va qulay web sahifalar yaratish uchun
+- Faqat kompyuter o'yini o'ynash uchun
+- Faqat matnlarni tarjima qilish uchun
+- Faqat ekranda rasm chizish uchun

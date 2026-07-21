@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML — To'liq O'quv Elektron Moduli</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --bg2: #161b27;
+  --bg3: #1e2535;
+  --bg4: #252d3d;
+  --accent: #f97316;
+  --accent2: #fb923c;
+  --accent3: #fbbf24;
+  --blue: #60a5fa;
+  --green: #4ade80;
+  --purple: #c084fc;
+  --cyan: #22d3ee;
+  --text: #e2e8f0;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --border: #2a3347;
+  --border2: #334155;
+  --success: #22c55e;
+  --error: #f87171;
+  --warn: #fbbf24;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --font: 'Segoe UI', system-ui, sans-serif;
+  --mono: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;overflow:hidden;}
+body{font-family:var(--font);background:var(--bg);color:var(--text);display:flex;flex-direction:column;}
+
+/* ── TOP BAR ── */
+.topbar{height:52px;min-height:52px;display:flex;align-items:center;border-bottom:1px solid var(--border);background:var(--bg2);z-index:100;}
+.topbar-logo{display:flex;align-items:center;gap:10px;padding:0 20px;width:260px;border-right:1px solid var(--border);height:100%;}
+.logo-badge{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#f97316,#fbbf24);display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#000;}
+.logo-text{font-size:14px;font-weight:700;color:var(--text);}
+.logo-sub{font-size:10px;color:var(--text3);}
+.topbar-center{flex:1;display:flex;align-items:center;gap:16px;padding:0 24px;}
+.topbar-breadcrumb{font-size:13px;color:var(--text2);display:flex;align-items:center;gap:6px;}
+.topbar-breadcrumb span{color:var(--text3);}
+.topbar-right{display:flex;align-items:center;gap:10px;margin-left:auto;padding-right:20px;}
+.topbar-right span{font-size:12px;color:var(--text3);}
+.progress-track{width:130px;height:5px;background:var(--bg4);border-radius:99px;overflow:hidden;}
+.progress-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent3));border-radius:99px;transition:width 0.5s ease;}
+.xp-badge{background:var(--bg4);border:1px solid var(--border2);border-radius:99px;padding:3px 12px;font-size:11px;color:var(--accent3);font-weight:700;}
+
+/* ── MAIN LAYOUT ── */
+.main-wrap{display:flex;flex:1;overflow:hidden;}
+
+/* ── SIDEBAR ── */
+.sidebar{width:260px;min-width:260px;background:var(--bg2);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow-y:auto;}
+.sidebar::-webkit-scrollbar{width:4px;}
+.sidebar::-webkit-scrollbar-thumb{background:var(--border2);border-radius:4px;}
+.sidebar-section{padding:14px 12px 8px;}
+.sidebar-label{font-size:10px;font-weight:700;color:var(--text3);letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px;padding:0 4px;}
+.nav-item{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:var(--radius-sm);cursor:pointer;transition:background .15s;border:1px solid transparent;margin-bottom:2px;}
+.nav-item:hover{background:var(--bg3);}
+.nav-item.active{background:var(--bg3);border-color:var(--border2);}
+.nav-item.active .nav-dot{background:var(--accent);box-shadow:0 0 8px var(--accent);}
+.nav-dot{width:7px;height:7px;border-radius:50%;background:var(--border2);flex-shrink:0;transition:all .2s;}
+.nav-dot.done{background:var(--success);}
+.nav-item-info{flex:1;min-width:0;}
+.nav-item-title{font-size:12px;color:var(--text);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.nav-item-sub{font-size:10px;color:var(--text3);margin-top:1px;}
+.nav-check{font-size:11px;color:var(--success);opacity:0;transition:opacity .2s;}
+.nav-check.show{opacity:1;}
+.sidebar-stats{margin:auto 0 0;padding:12px;border-top:1px solid var(--border);}
+.stat-row{display:flex;gap:6px;}
+.stat-card{flex:1;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px;text-align:center;}
+.stat-card .val{font-size:18px;font-weight:700;color:var(--accent);}
+.stat-card .lbl{font-size:9px;color:var(--text3);margin-top:2px;}
+
+/* ── CONTENT ── */
+.content{flex:1;overflow-y:auto;display:flex;flex-direction:column;}
+.content::-webkit-scrollbar{width:5px;}
+.content::-webkit-scrollbar-thumb{background:var(--border2);border-radius:4px;}
+.screen{display:none;flex-direction:column;height:100%;}
+.screen.active{display:flex;}
+
+/* ── WELCOME ── */
+#s-welcome{align-items:center;justify-content:flex-start;padding:0;overflow-y:auto;}
+.welcome-inner{width:100%;max-width:900px;margin:0 auto;padding:40px 32px;}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(249,115,22,.12);border:1px solid rgba(249,115,22,.3);color:var(--accent);font-size:12px;font-weight:600;padding:5px 16px;border-radius:99px;margin-bottom:20px;}
+.hero-h1{font-size:36px;font-weight:800;color:var(--text);line-height:1.2;margin-bottom:10px;}
+.hero-h1 em{color:var(--accent);font-style:normal;}
+.hero-sub{font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:32px;max-width:580px;}
+.module-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:32px;}
+.mcard{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden;}
+.mcard:hover{border-color:rgba(249,115,22,.4);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.3);}
+.mcard.done{border-color:rgba(74,222,128,.3);}
+.mcard-num{font-size:10px;color:var(--text3);font-weight:600;margin-bottom:8px;}
+.mcard-icon{font-size:24px;margin-bottom:8px;}
+.mcard h3{font-size:13px;font-weight:600;color:var(--text);margin-bottom:4px;}
+.mcard p{font-size:11px;color:var(--text3);line-height:1.5;}
+.done-badge{position:absolute;top:8px;right:8px;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.3);color:var(--success);font-size:9px;padding:2px 7px;border-radius:99px;}
+.btn-hero{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--accent),var(--accent3));color:#000;padding:13px 32px;border-radius:var(--radius);font-size:15px;font-weight:800;border:none;cursor:pointer;transition:all .2s;box-shadow:0 4px 20px rgba(249,115,22,.3);}
+.btn-hero:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(249,115,22,.4);}
+.welcome-tip{background:rgba(34,211,238,.05);border:1px solid rgba(34,211,238,.15);border-radius:var(--radius);padding:16px 20px;font-size:13px;color:var(--text2);line-height:1.7;margin-top:28px;}
+.welcome-tip strong{color:var(--cyan);}
+
+/* ── LESSON TABS ── */
+.steps-tabs{display:flex;gap:2px;padding:0 28px;border-bottom:1px solid var(--border);background:var(--bg2);flex-shrink:0;overflow-x:auto;}
+.steps-tabs::-webkit-scrollbar{height:0;}
+.step-tab{display:flex;align-items:center;gap:6px;padding:12px 14px;cursor:pointer;border-bottom:2px solid transparent;font-size:12px;font-weight:500;color:var(--text3);transition:color .15s;white-space:nowrap;}
+.step-tab:hover{color:var(--text2);}
+.step-tab.active{color:var(--accent);border-bottom-color:var(--accent);}
+.step-tab.done{color:var(--success);}
+.step-tab-num{width:18px;height:18px;border-radius:50%;background:var(--bg4);border:1px solid var(--border2);font-size:9px;font-weight:700;display:flex;align-items:center;justify-content:center;}
+.step-tab.active .step-tab-num{background:rgba(249,115,22,.15);border-color:var(--accent);color:var(--accent);}
+.step-tab.done .step-tab-num{background:rgba(34,197,94,.15);border-color:var(--success);color:var(--success);}
+.tab-content{display:none;}
+.tab-content.active{display:flex;flex-direction:column;gap:18px;}
+
+/* ── LESSON BODY ── */
+.lesson-main{flex:1;overflow-y:auto;padding:24px 28px;display:flex;flex-direction:column;gap:18px;}
+.lesson-main::-webkit-scrollbar{width:5px;}
+.lesson-main::-webkit-scrollbar-thumb{background:var(--border2);border-radius:4px;}
+.lesson-heading{display:flex;align-items:flex-start;gap:14px;}
+.lesson-icon{width:42px;height:42px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:20px;background:rgba(249,115,22,.12);}
+.lesson-eyebrow{font-size:10px;color:var(--text3);font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;}
+.lesson-title{font-size:20px;font-weight:700;color:var(--text);}
+
+/* ── THEORY CARDS ── */
+.theory-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;}
+.theory-card h3{font-size:14px;font-weight:600;color:var(--text);margin-bottom:10px;display:flex;align-items:center;gap:7px;}
+.theory-card h3 .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex-shrink:0;}
+.theory-card p{font-size:13.5px;color:var(--text2);line-height:1.8;margin-bottom:8px;}
+.theory-card p:last-child{margin-bottom:0;}
+.theory-card code{background:var(--bg4);border:1px solid var(--border2);color:var(--cyan);padding:1px 6px;border-radius:4px;font-family:var(--mono);font-size:12px;}
+.theory-card ul{margin:8px 0 8px 18px;}
+.theory-card ul li{font-size:13.5px;color:var(--text2);line-height:1.8;margin-bottom:3px;}
+.theory-card ul li code{background:var(--bg4);border:1px solid var(--border2);color:var(--cyan);padding:1px 5px;border-radius:4px;font-family:var(--mono);font-size:12px;}
+.tag-badge{display:inline-block;background:rgba(249,115,22,.12);border:1px solid rgba(249,115,22,.25);color:var(--accent);font-family:var(--mono);font-size:12px;padding:2px 8px;border-radius:5px;margin:1px 2px;}
+
+/* ── TAG TABLE ── */
+.tag-table{width:100%;border-collapse:collapse;margin-top:8px;}
+.tag-table th{text-align:left;font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;padding:8px 12px;border-bottom:1px solid var(--border);}
+.tag-table td{padding:9px 12px;font-size:13px;border-bottom:1px solid var(--border);color:var(--text2);vertical-align:top;}
+.tag-table td:first-child{font-family:var(--mono);color:var(--accent);font-size:12px;white-space:nowrap;}
+.tag-table tr:last-child td{border-bottom:none;}
+.tag-table tr:hover td{background:var(--bg3);}
+
+/* ── INFO BOXES ── */
+.hint-card{background:rgba(249,115,22,.05);border:1px solid rgba(249,115,22,.2);border-radius:var(--radius);padding:14px 18px;font-size:13px;color:var(--text2);line-height:1.7;}
+.hint-card strong{color:var(--accent);}
+.info-card{background:rgba(96,165,250,.05);border:1px solid rgba(96,165,250,.2);border-radius:var(--radius);padding:14px 18px;font-size:13px;color:var(--text2);line-height:1.7;}
+.info-card strong{color:var(--blue);}
+.warn-card{background:rgba(251,191,36,.05);border:1px solid rgba(251,191,36,.2);border-radius:var(--radius);padding:14px 18px;font-size:13px;color:var(--text2);line-height:1.7;}
+.warn-card strong{color:var(--accent3);}
+.tip-list{list-style:none;display:flex;flex-direction:column;gap:6px;margin-top:8px;}
+.tip-list li{display:flex;align-items:flex-start;gap:8px;font-size:13px;color:var(--text2);line-height:1.7;}
+.tip-list li::before{content:'→';color:var(--accent);font-weight:700;flex-shrink:0;margin-top:1px;}
+
+/* ── CODE BLOCK ── */
+.code-block{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:16px;font-family:var(--mono);font-size:13px;line-height:1.7;overflow-x:auto;}
+.code-block .tag{color:#fb923c;}
+.code-block .attr{color:#60a5fa;}
+.code-block .val{color:#4ade80;}
+.code-block .cmt{color:#475569;font-style:italic;}
+.code-block .txt{color:#e2e8f0;}
+
+/* ── GLOSSARY ── */
+.glossary{color:var(--cyan);border-bottom:1px dashed var(--cyan);cursor:pointer;}
+.glossary-tip{display:none;margin-top:8px;padding:10px 14px;background:rgba(34,211,238,.05);border:1px solid rgba(34,211,238,.15);border-radius:var(--radius-sm);font-size:12.5px;color:var(--text2);line-height:1.6;}
+.glossary-tip.open{display:block;}
+
+/* ── COMPILER ── */
+.compiler-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+.compiler-toolbar{display:flex;align-items:center;background:var(--bg3);border-bottom:1px solid var(--border);padding:0 6px;}
+.ctab{padding:10px 16px;font-size:12px;font-weight:500;color:var(--text3);cursor:pointer;border:none;background:transparent;border-bottom:2px solid transparent;transition:color .15s;}
+.ctab:hover{color:var(--text2);}
+.ctab.active{color:var(--accent);border-bottom-color:var(--accent);}
+.compiler-run-btn{margin-left:auto;display:flex;align-items:center;gap:5px;background:var(--accent);color:#000;border:none;padding:6px 14px;border-radius:6px;font-size:12px;font-weight:700;cursor:pointer;margin-right:6px;transition:all .15s;}
+.compiler-run-btn:hover{background:var(--accent2);}
+.compiler-reset-btn{display:flex;align-items:center;gap:5px;background:var(--bg4);color:var(--text2);border:1px solid var(--border2);padding:6px 12px;border-radius:6px;font-size:12px;cursor:pointer;margin-right:4px;transition:background .15s;}
+.compiler-reset-btn:hover{background:var(--bg3);}
+.compiler-body{display:grid;grid-template-columns:1fr 1fr;}
+.editor-pane{display:flex;flex-direction:column;border-right:1px solid var(--border);}
+.editor-pane-head{display:flex;align-items:center;gap:8px;padding:7px 14px;border-bottom:1px solid var(--border);font-size:10px;color:var(--text3);font-weight:700;text-transform:uppercase;letter-spacing:.06em;}
+.lang-dot{width:7px;height:7px;border-radius:50%;}
+.lang-dot.html{background:#fb923c;}
+.lang-dot.css{background:#60a5fa;}
+.code-textarea{flex:1;width:100%;background:var(--bg);color:var(--text);font-family:var(--mono);font-size:12.5px;line-height:1.7;padding:14px;border:none;outline:none;resize:none;min-height:180px;tab-size:2;}
+.preview-pane{display:flex;flex-direction:column;background:#fff;}
+.preview-pane-head{display:flex;align-items:center;gap:8px;padding:7px 14px;border-bottom:1px solid #e2e8f0;font-size:10px;color:#64748b;font-weight:700;text-transform:uppercase;letter-spacing:.06em;background:#f8fafc;}
+.preview-iframe{flex:1;border:none;width:100%;min-height:180px;}
+
+/* ── BOX MODEL ── */
+.bm-margin{background:rgba(251,191,36,.1);border:2px dashed rgba(251,191,36,.4);position:relative;display:inline-flex;}
+.bm-margin > .bm-label{position:absolute;top:4px;left:6px;font-size:9px;color:var(--accent3);font-weight:600;letter-spacing:.05em;text-transform:uppercase;}
+.bm-border{background:rgba(96,165,250,.1);border:3px solid rgba(96,165,250,.5);position:relative;display:inline-flex;}
+.bm-border > .bm-label{position:absolute;top:3px;left:5px;font-size:9px;color:var(--blue);font-weight:600;letter-spacing:.05em;text-transform:uppercase;}
+.bm-padding{background:rgba(34,197,94,.08);border:2px dashed rgba(34,197,94,.3);position:relative;display:inline-flex;}
+.bm-padding > .bm-label{position:absolute;top:3px;left:5px;font-size:9px;color:var(--green);font-weight:600;letter-spacing:.05em;text-transform:uppercase;}
+.bm-content{background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.3);padding:20px 32px;border-radius:4px;display:flex;align-items:center;justify-content:center;}
+.bm-content span{font-size:12px;font-weight:700;color:var(--accent);}
+.bm-slider-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.bm-slider-row label{font-size:12px;color:var(--text3);width:60px;font-weight:600;}
+.bm-slider-row input[type=range]{flex:1;accent-color:var(--accent);}
+.bm-val{font-size:12px;font-family:var(--mono);color:var(--accent);width:42px;text-align:right;}
+.css-output-box{background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px;font-family:var(--mono);font-size:12px;line-height:2;}
+.css-prop{color:var(--cyan);}
+.css-val{color:var(--accent);}
+
+/* ── QUIZ ── */
+.quiz-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--border);}
+.quiz-counter{font-size:12px;color:var(--text3);font-weight:600;}
+.quiz-mini-progress{display:flex;gap:4px;}
+.qp-dot{width:28px;height:4px;border-radius:99px;background:var(--bg4);transition:all .3s;}
+.qp-dot.active{background:var(--accent);}
+.qp-dot.correct{background:var(--success);}
+.qp-dot.wrong{background:var(--error);}
+.quiz-question{font-size:16px;font-weight:600;color:var(--text);line-height:1.5;margin-bottom:20px;}
+.quiz-opts{display:flex;flex-direction:column;gap:8px;margin-bottom:16px;}
+.qopt{display:flex;align-items:center;gap:12px;padding:12px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-sm);cursor:pointer;font-size:14px;color:var(--text2);text-align:left;transition:all .15s;}
+.qopt:hover{background:var(--bg3);border-color:var(--border2);}
+.qopt.correct{background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.4);color:var(--success);}
+.qopt.wrong{background:rgba(248,113,113,.1);border-color:rgba(248,113,113,.4);color:var(--error);}
+.qopt-letter{width:24px;height:24px;border-radius:5px;background:var(--bg4);border:1px solid var(--border2);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.qopt.correct .qopt-letter{background:rgba(34,197,94,.2);border-color:rgba(34,197,94,.4);color:var(--success);}
+.qopt.wrong .qopt-letter{background:rgba(248,113,113,.2);border-color:rgba(248,113,113,.4);color:var(--error);}
+.quiz-feedback{display:none;padding:12px 16px;border-radius:var(--radius-sm);font-size:13px;line-height:1.6;margin-bottom:14px;gap:10px;}
+.quiz-feedback.show{display:flex;align-items:flex-start;}
+.quiz-feedback.correct{background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.25);color:var(--text2);}
+.quiz-feedback.wrong{background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.25);color:var(--text2);}
+.quiz-feedback-icon{font-size:16px;flex-shrink:0;}
+
+/* ── RESULT ── */
+#s-result{align-items:center;justify-content:center;padding:40px;}
+.result-card{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:40px 48px;text-align:center;max-width:460px;width:100%;}
+.result-emoji{font-size:56px;margin-bottom:16px;}
+.result-score{font-size:52px;font-weight:800;line-height:1;margin-bottom:6px;}
+.result-score.perfect{color:var(--accent);}
+.result-score.good{color:var(--warn);}
+.result-score.poor{color:var(--error);}
+.result-label{font-size:13px;color:var(--text3);margin-bottom:20px;}
+.result-msg{font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:32px;}
+.result-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
+
+/* ── BUTTONS ── */
+.btn-outline{display:flex;align-items:center;gap:6px;background:transparent;color:var(--text2);border:1px solid var(--border2);padding:8px 18px;border-radius:var(--radius-sm);font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;}
+.btn-outline:hover{background:var(--bg3);color:var(--text);}
+.btn-solid{display:flex;align-items:center;gap:7px;background:var(--accent);color:#000;border:none;padding:9px 22px;border-radius:var(--radius-sm);font-size:13px;font-weight:700;cursor:pointer;transition:all .15s;}
+.btn-solid:hover{background:var(--accent2);}
+.btn-solid:disabled{background:var(--bg4);color:var(--text3);cursor:not-allowed;}
+
+/* ── FOOTER ── */
+.lesson-footer{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;border-top:1px solid var(--border);background:var(--bg2);flex-shrink:0;}
+
+/* ── SECTION DIVIDER ── */
+.section-divider{display:flex;align-items:center;gap:12px;margin:4px 0;}
+.section-divider span{font-size:12px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;}
+.section-divider::before,.section-divider::after{content:'';flex:1;height:1px;background:var(--border);}
+
+/* ── ATTRIBUTE DEMO ── */
+.attr-demo{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:14px 16px;margin-top:8px;}
+.attr-demo-row{display:grid;grid-template-columns:140px 1fr;gap:8px;align-items:start;padding:6px 0;border-bottom:1px solid var(--border);}
+.attr-demo-row:last-child{border-bottom:none;}
+.attr-name{font-family:var(--mono);font-size:12px;color:var(--accent2);font-weight:600;}
+.attr-desc{font-size:12.5px;color:var(--text2);line-height:1.6;}
+
+/* ── VISUAL DEMO CARDS ── */
+.demo-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-top:10px;}
+.demo-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px;font-size:12px;color:var(--text2);}
+.demo-card .demo-title{font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;}
+.demo-card code{background:var(--bg4);color:var(--cyan);font-family:var(--mono);font-size:11px;padding:1px 5px;border-radius:3px;}
+
+/* ── PROGRESS STEPS ── */
+.steps-visual{display:flex;flex-direction:column;gap:0;}
+.step-item{display:flex;gap:14px;padding-bottom:16px;position:relative;}
+.step-item:last-child{padding-bottom:0;}
+.step-item:not(:last-child)::after{content:'';position:absolute;left:14px;top:30px;bottom:0;width:1px;background:var(--border);}
+.step-num{width:28px;height:28px;border-radius:50%;background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.3);color:var(--accent);font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;z-index:1;}
+.step-body{flex:1;padding-top:4px;}
+.step-body h4{font-size:13px;font-weight:600;color:var(--text);margin-bottom:4px;}
+.step-body p{font-size:12.5px;color:var(--text2);line-height:1.6;}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="topbar-logo">
+    <div class="logo-badge">H</div>
+    <div>
+      <div class="logo-text">HTML Academy</div>
+      <div class="logo-sub">O'quv Elektron Moduli</div>
+    </div>
+  </div>
+  <div class="topbar-center">
+    <div class="topbar-breadcrumb">
+      <span id="tb-module">Bosh sahifa</span>
+      <span>›</span>
+      <span id="tb-lesson" style="color:var(--text2)">—</span>
+    </div>
+    <div class="topbar-right">
+      <span id="tb-prog-txt">0 / 30 bo'lim</span>
+      <div class="progress-track"><div class="progress-bar" id="tb-prog-bar" style="width:0%"></div></div>
+      <div class="xp-badge" id="xp-badge">0 XP</div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main-wrap">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">HTML Modullar</div>
+      <div class="nav-item active" id="nav-m0" onclick="openModule(0)">
+        <div class="nav-dot" id="dot-m0"></div>
+        <div class="nav-item-info"><div class="nav-item-title">📄 HTML kirish</div><div class="nav-item-sub">Asosiy tushunchalar</div></div>
+        <div class="nav-check" id="chk-m0">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m1" onclick="openModule(1)">
+        <div class="nav-dot" id="dot-m1"></div>
+        <div class="nav-item-info"><div class="nav-item-title">🏗 Sahifa tuzilmasi</div><div class="nav-item-sub">DOCTYPE, head, body</div></div>
+        <div class="nav-check" id="chk-m1">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m2" onclick="openModule(2)">
+        <div class="nav-dot" id="dot-m2"></div>
+        <div class="nav-item-info"><div class="nav-item-title">📝 Matn elementlari</div><div class="nav-item-sub">h1-h6, p, b, i, em</div></div>
+        <div class="nav-check" id="chk-m2">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m3" onclick="openModule(3)">
+        <div class="nav-dot" id="dot-m3"></div>
+        <div class="nav-item-info"><div class="nav-item-title">🔗 Havolalar</div><div class="nav-item-sub">a tegi, href, target</div></div>
+        <div class="nav-check" id="chk-m3">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m4" onclick="openModule(4)">
+        <div class="nav-dot" id="dot-m4"></div>
+        <div class="nav-item-info"><div class="nav-item-title">🖼 Rasmlar</div><div class="nav-item-sub">img, src, alt, width</div></div>
+        <div class="nav-check" id="chk-m4">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m5" onclick="openModule(5)">
+        <div class="nav-dot" id="dot-m5"></div>
+        <div class="nav-item-info"><div class="nav-item-title">📋 Ro'yxatlar</div><div class="nav-item-sub">ul, ol, li, dl</div></div>
+        <div class="nav-check" id="chk-m5">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m6" onclick="openModule(6)">
+        <div class="nav-dot" id="dot-m6"></div>
+        <div class="nav-item-info"><div class="nav-item-title">📊 Jadvallar</div><div class="nav-item-sub">table, tr, td, th</div></div>
+        <div class="nav-check" id="chk-m6">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m7" onclick="openModule(7)">
+        <div class="nav-dot" id="dot-m7"></div>
+        <div class="nav-item-info"><div class="nav-item-title">📬 Formalar</div><div class="nav-item-sub">form, input, button</div></div>
+        <div class="nav-check" id="chk-m7">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m8" onclick="openModule(8)">
+        <div class="nav-dot" id="dot-m8"></div>
+        <div class="nav-item-info"><div class="nav-item-title">🧱 Semantik HTML</div><div class="nav-item-sub">header, nav, main, footer</div></div>
+        <div class="nav-check" id="chk-m8">✓</div>
+      </div>
+      <div class="nav-item" id="nav-m9" onclick="openModule(9)">
+        <div class="nav-dot" id="dot-m9"></div>
+        <div class="nav-item-info"><div class="nav-item-title">🎯 Atributlar</div><div class="nav-item-sub">id, class, style, title</div></div>
+        <div class="nav-check" id="chk-m9">✓</div>
+      </div>
+    </div>
+    <div class="sidebar-stats">
+      <div class="stat-row">
+        <div class="stat-card"><div class="val" id="stat-done">0</div><div class="lbl">Tugatildi</div></div>
+        <div class="stat-card"><div class="val" id="stat-score">0%</div><div class="lbl">Ball</div></div>
+        <div class="stat-card"><div class="val" id="stat-xp">0</div><div class="lbl">XP</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <!-- WELCOME -->
+    <div id="s-welcome" class="screen active">
+      <div class="welcome-inner">
+        <div class="hero-badge">🟠 HTML · To'liq kurs · Boshlang'ich daraja</div>
+        <h1 class="hero-h1">HTML ni <em>to'liq</em> o'rganing</h1>
+        <p class="hero-sub">W3Schools va MDN asosida tuzilgan 10 ta modul. Har birida: nazariya, jonli kod muharriri va test. Modulni tamomlab XP to'plang!</p>
+        <div class="module-grid" id="module-grid"></div>
+        <button class="btn-hero" onclick="openModule(0)">▶ Birinchi modulni boshlash</button>
+        <div class="welcome-tip">
+          <strong>💡 Qanday ishlaydi?</strong> Har bir modulda 3 bosqich bor: <strong style="color:var(--accent)">Nazariya</strong> (tushuncha) → <strong style="color:var(--accent)">Kod muharriri</strong> (amaliyot) → <strong style="color:var(--accent)">Test</strong> (bilimni tekshirish). Barcha savolga javob berganingizdan so'ng modul "Tugallandi" holga o'tadi.
+        </div>
+      </div>
+    </div>
+
+    <!-- LESSON -->
+    <div id="s-lesson" class="screen" style="flex-direction:column;overflow:hidden;">
+      <div class="steps-tabs" id="steps-tabs"></div>
+      <div style="flex:1;overflow:hidden;display:flex;flex-direction:column;" id="tabs-body">
+        <!-- Module tab contents inserted by JS -->
+      </div>
+      <div class="lesson-footer">
+        <button class="btn-outline" onclick="goHome()">⌂ Bosh sahifa</button>
+        <div style="display:flex;gap:5px;align-items:center;" id="footer-dots"></div>
+        <button class="btn-solid" id="btn-next" onclick="nextTab()">Keyingi →</button>
+      </div>
+    </div>
+
+    <!-- RESULT -->
+    <div id="s-result" class="screen" style="align-items:center;justify-content:center;padding:40px;">
+      <div class="result-card">
+        <div class="result-emoji" id="res-emoji">🏆</div>
+        <div class="result-score" id="res-score">3/3</div>
+        <div class="result-label">to'g'ri javob</div>
+        <p class="result-msg" id="res-msg">Zo'r natija!</p>
+        <div class="result-actions">
+          <button class="btn-outline" onclick="retryQuiz()">↺ Qayta urinish</button>
+          <button class="btn-solid" onclick="goHome()">⌂ Bosh sahifa</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- content -->
+</div><!-- main-wrap -->
+
+<script>
+// ─── MODULE DATA ───────────────────────────────────────────
+const MODULES = [
+  { id:0, title:'HTML kirish', icon:'📄', tabs:['Nazariya','Kod','Test'], xp:25, color:'#f97316' },
+  { id:1, title:'Sahifa tuzilmasi', icon:'🏗', tabs:['Nazariya','Kod','Test'], xp:30, color:'#fb923c' },
+  { id:2, title:'Matn elementlari', icon:'📝', tabs:['Nazariya','Kod','Test'], xp:30, color:'#fbbf24' },
+  { id:3, title:'Havolalar', icon:'🔗', tabs:['Nazariya','Kod','Test'], xp:25, color:'#60a5fa' },
+  { id:4, title:'Rasmlar', icon:'🖼', tabs:['Nazariya','Kod','Test'], xp:25, color:'#4ade80' },
+  { id:5, title:"Ro'yxatlar", icon:'📋', tabs:['Nazariya','Kod','Test'], xp:25, color:'#22d3ee' },
+  { id:6, title:'Jadvallar', icon:'📊', tabs:['Nazariya','Kod','Test'], xp:30, color:'#c084fc' },
+  { id:7, title:'Formalar', icon:'📬', tabs:['Nazariya','Kod','Test'], xp:35, color:'#f472b6' },
+  { id:8, title:'Semantik HTML', icon:'🧱', tabs:['Nazariya','Kod','Test'], xp:35, color:'#a78bfa' },
+  { id:9, title:'Atributlar', icon:'🎯', tabs:['Nazariya','Kod','Test'], xp:30, color:'#34d399' },
+];
+
+// ─── QUIZ DATA ──────────────────────────────────────────────
+const QUIZZES = {
+  0:[
+    {q:'HTML qisqartmasi nima ma\'noni anglatadi?',opts:['HyperText Markup Language','HighText Machine Language','HyperTool Multi Language','HyperText Multi Layout'],correct:0,exp:'<b>HTML = HyperText Markup Language</b>. 1991-yilda Tim Berners-Lee tomonidan yaratilgan belgilash tili.'},
+    {q:'HTML faylning to\'g\'ri kengaytmasi qaysi?',opts:['.htm yoki .html','.hml','.web','.htl'],correct:0,exp:'HTML fayllar <code>.html</code> yoki qisqacha <code>.htm</code> kengaytmasi bilan saqlanadi.'},
+    {q:'HTML da izoh (comment) qanday yoziladi?',opts:['// izoh','/* izoh */','<!-- izoh -->','# izoh'],correct:2,exp:'HTML da izohlar <code>&lt;!-- bu izoh --&gt;</code> ko\'rinishida yoziladi. Brauzer bu qismni ko\'rsatmaydi.'},
+  ],
+  1:[
+    {q:'DOCTYPE deklaratsiyasi qaysi maqsadda ishlatiladi?',opts:['CSS qo\'shish uchun','JavaScript yozish uchun','Hujjat turini brauzerga bildirish uchun','Sarlavha ko\'rsatish uchun'],correct:2,exp:'<code>&lt;!DOCTYPE html&gt;</code> brauzerga bu HTML5 hujjat ekanligini bildiradi. Doim birinchi qatorda bo\'lishi kerak.'},
+    {q:'<head> tegida qaysi element bo\'lishi SHART?',opts:['<body>','<title>','<p>','<div>'],correct:1,exp:'<code>&lt;title&gt;</code> — brauzer yorlig\'ida ko\'rinadigan sahifa nomi. <code>&lt;head&gt;</code> ichida bo\'lishi kerak.'},
+    {q:'charset="UTF-8" nima maqsadda ishlatiladi?',opts:['Sahifa rangini belgilash','Belgilar kodlashni aniqlash','Shrift o\'rnatish','Til tanlash'],correct:1,exp:'<code>charset="UTF-8"</code> barcha tillar (lotin, kirill, arab va boshqa) to\'g\'ri ko\'rinishi uchun kerak.'},
+  ],
+  2:[
+    {q:'Eng kichik sarlavha tegi qaysi?',opts:['<h1>','<h9>','<h6>','<small>'],correct:2,exp:'HTML da sarlavhalar <code>&lt;h1&gt;</code> (eng katta) dan <code>&lt;h6&gt;</code> (eng kichik) gacha boradi.'},
+    {q:'Matnni qalin ko\'rsatish uchun qaysi teg ishlatiladi?',opts:['<italic>','<bold>','<b> yoki <strong>','<thick>'],correct:2,exp:'<code>&lt;b&gt;</code> vizual qalinlik, <code>&lt;strong&gt;</code> esa semantik muhimlik bildiradi. Ikkalasi ham qalin ko\'rsatadi.'},
+    {q:'<br> tegi nima qiladi?',opts:['Yangi paragraf yaratadi','Qatorni kesib o\'tadi (line break)','Hujjatni ajratadi','Matnni o\'chiradi'],correct:1,exp:'<code>&lt;br&gt;</code> — satr o\'tkazish (line break). Yangi paragraf emas, faqat keyingi qatorga o\'tadi.'},
+  ],
+  3:[
+    {q:'Havola yaratish uchun qaysi teg ishlatiladi?',opts:['<link>','<a>','<href>','<url>'],correct:1,exp:'<code>&lt;a href="url"&gt;Matn&lt;/a&gt;</code> — anchor (langar) tegi. Web sahifalar orasidagi asosiy bog\'lovchi.'},
+    {q:'target="_blank" nima qiladi?',opts:['Havolani o\'chiradi','Havola rangini o\'zgartiradi','Havolani yangi oynada ochadi','Havolani to\'xtatadi'],correct:2,exp:'<code>target="_blank"</code> — havola yangi brauzer yorlig\'ida yoki oynasida ochiladi.'},
+    {q:'Telefon raqamiga havola qanday yoziladi?',opts:['<a href="call:+998">','<a href="tel:+998">','<a href="phone:+998">','<a href="mob:+998">'],correct:1,exp:'<code>href="tel:+998901234567"</code> — telefon raqamiga havola. Mobil qurilmalarda avtomatik qo\'ng\'iroq qiladi.'},
+  ],
+  4:[
+    {q:'Rasm qo\'shish uchun qaysi teg ishlatiladi?',opts:['<image>','<img>','<picture>','<photo>'],correct:1,exp:'<code>&lt;img src="rasm.jpg" alt="tavsif"&gt;</code> — yopuvchi tegi yo\'q, self-closing element.'},
+    {q:'alt atributi nima uchun kerak?',opts:['Rasm rangini o\'zgartirish uchun','Rasm yuklanmasa alternativ matn ko\'rsatish uchun','Rasm o\'lchamini belgilash uchun','Rasm stilini berish uchun'],correct:1,exp:'<code>alt</code> — rasm yuklanmaganda yoki ko\'zi ojizlar uchun ekran o\'quvchi dasturida ko\'rinadigan matn. Muhim!'},
+    {q:'Rasm kengligini pikselda belgilash uchun qaysi atribut?',opts:['size','height','width','scale'],correct:2,exp:'<code>width="300"</code> — kenglikni pikselda yoki <code>width="50%"</code> foizda berish mumkin.'},
+  ],
+  5:[
+    {q:'Tartiblangan (numbered) ro\'yxat uchun qaysi teg?',opts:['<ul>','<dl>','<ol>','<nl>'],correct:2,exp:'<code>&lt;ol&gt;</code> (Ordered List) — 1, 2, 3... raqamlangan ro\'yxat. <code>&lt;ul&gt;</code> esa nuqtali ro\'yxat.'},
+    {q:'Ro\'yxat elementi uchun qaysi teg ishlatiladi?',opts:['<item>','<li>','<row>','<el>'],correct:1,exp:'<code>&lt;li&gt;</code> (List Item) — ul va ol ichida har bir element uchun ishlatiladi.'},
+    {q:'Ta\'rif ro\'yxati (description list) uchun qaysi teg?',opts:['<list>','<ul>','<dl>','<tl>'],correct:2,exp:'<code>&lt;dl&gt;</code> (Description List) — atamalar va ta\'riflari uchun. <code>&lt;dt&gt;</code> atama, <code>&lt;dd&gt;</code> ta\'rif.'},
+  ],
+  6:[
+    {q:'Jadval sarlavha katakchasi uchun qaysi teg?',opts:['<td>','<th>','<tr>','<tc>'],correct:1,exp:'<code>&lt;th&gt;</code> (Table Header) — sarlavha katakchasi. Qalin va markazlashgan holda ko\'rsatiladi.'},
+    {q:'Jadvaldagi qatorni belgilash uchun qaysi teg?',opts:['<row>','<line>','<tr>','<td>'],correct:2,exp:'<code>&lt;tr&gt;</code> (Table Row) — jadval qatorini bildiradi. Ichida <code>&lt;td&gt;</code> yoki <code>&lt;th&gt;</code> bo\'ladi.'},
+    {q:'colspan="2" nima qiladi?',opts:['2 ta qatorni birlashtiradi','2 ta ustunni birlashtiradi','2 ta jadvalni qo\'shadi','Katak kengligini 2x qiladi'],correct:1,exp:'<code>colspan="2"</code> — katakcha 2 ta ustun bo\'yicha kengayadi. <code>rowspan</code> esa qatorlar bo\'yicha.'},
+  ],
+  7:[
+    {q:'Forma yaratish uchun qaysi teg?',opts:['<input>','<form>','<field>','<data>'],correct:1,exp:'<code>&lt;form&gt;</code> — forma elementi. <code>action</code> (ma\'lumot yuboriladigan URL) va <code>method</code> atributlari bor.'},
+    {q:'Parol kiritish maydoni uchun qaysi input turi?',opts:['<input type="secret">','<input type="hidden">','<input type="password">','<input type="private">'],correct:2,exp:'<code>type="password"</code> — kiritilgan belgilar yashiriladi (yulduzcha yoki nuqta bilan ko\'rsatiladi).'},
+    {q:'Forma yuborish tugmasi qanday yaratiladi?',opts:['<button type="send">','<input type="submit">','<button type="post">','<send>'],correct:1,exp:'<code>&lt;input type="submit"&gt;</code> yoki <code>&lt;button type="submit"&gt;</code> — formani yuborish tugmasi.'},
+  ],
+  8:[
+    {q:'Asosiy navigatsiya uchun qaysi semantik teg?',opts:['<menu>','<nav>','<links>','<navigation>'],correct:1,exp:'<code>&lt;nav&gt;</code> — asosiy navigatsiya menyusi uchun. Qidiruv tizimlariga sahifa tuzilmasini tushuntiradi.'},
+    {q:'Sahifaning asosiy mazmuni uchun qaysi teg?',opts:['<content>','<body>','<main>','<center>'],correct:2,exp:'<code>&lt;main&gt;</code> — sahifaning asosiy noyob mazmuni. Bir sahifada faqat bitta <code>&lt;main&gt;</code> bo\'lishi kerak.'},
+    {q:'<article> va <section> farqi nima?',opts:['Hech qanday farq yo\'q','article mustaqil kontent, section tematik guruh','section mustaqil, article guruh','Faqat dizayni farq qiladi'],correct:1,exp:'<code>&lt;article&gt;</code> — mustaqil holda tarqatsa bo\'ladigan kontent (blog post, yangilik). <code>&lt;section&gt;</code> — tematik guruh.'},
+  ],
+  9:[
+    {q:'id atributining asosiy xususiyati qaysi?',opts:['Bir sahifada takrorlanishi mumkin','Bir sahifada yagona bo\'lishi kerak','CSS da ishlatib bo\'lmaydi','Majburiy atribut'],correct:1,exp:'<code>id</code> — bir sahifada yagona (unique) bo\'lishi kerak. CSS da <code>#id</code>, JS da <code>getElementById</code> bilan murojaat qilinadi.'},
+    {q:'class atributi qanday farq qiladi?',opts:['Faqat bitta elementga qo\'llanadi','Bir nechta elementga bir xil class berish mumkin','JavaScript da ishlatilmaydi','Faqat rasm uchun'],correct:1,exp:'<code>class</code> — bir nechta elementga bir xil qiymat berilishi mumkin. CSS da <code>.class</code> selektori bilan murojaat.'},
+    {q:'title atributi nima qiladi?',opts:['Sahifa sarlavhasini beradi','Element ustida sichqon turganda tooltip ko\'rsatadi','Elementni nomlaydi','Stilini beradi'],correct:1,exp:'<code>title="matn"</code> — foydalanuvchi element ustida sichqonni ushlab turganda paydo bo\'ladigan maslahat matni (tooltip).'},
+  ],
+};
+
+// ─── DEFAULT CODES ──────────────────────────────────────────
+const DEFAULT_CODES = {
+  0: `<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <title>Birinchi sahifam</title>
+</head>
+<body>
+
+  <h1>Salom, Dunyo! 👋</h1>
+  <p>Bu mening <b>birinchi</b> HTML sahifam.</p>
+
+  <!-- Bu izoh - brauzer ko'rsatmaydi -->
+  <p>HTML - veb-sahifaning asosi.</p>
+
+</body>
+</html>`,
+  1: `<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahifa tuzilmasi</title>
+</head>
+<body>
+
+  <h1>Asosiy sarlavha</h1>
+  <p>Bu sahifa to'g'ri tuzilmaga ega.</p>
+  <p>head va body - HTML ning ikkita asosiy qismi.</p>
+
+</body>
+</html>`,
+  2: `<h1>Birinchi darajali sarlavha</h1>
+<h2>Ikkinchi darajali sarlavha</h2>
+<h3>Uchinchi darajali sarlavha</h3>
+
+<p>Bu oddiy paragraf matni. <b>Qalin matn</b> va
+<i>kursiv matn</i> ham ishlatish mumkin.</p>
+
+<p>Bu <strong>muhim matn</strong> va
+<em>ta'kidlangan matn</em>.</p>
+
+<p>Birinchi qator.<br>Ikkinchi qator (br tegi).</p>
+
+<p>2<sup>3</sup> = 8 (yuqori),
+H<sub>2</sub>O (pastki)</p>`,
+  3: `<h2>Havola turlari</h2>
+
+<!-- Tashqi havola -->
+<p><a href="https://www.google.com" target="_blank">
+  Google saytiga o'tish (yangi yorliqda)
+</a></p>
+
+<!-- Email havola -->
+<p><a href="mailto:info@example.com">
+  Email yuboring
+</a></p>
+
+<!-- Telefon havola -->
+<p><a href="tel:+998901234567">
+  +998 90 123 45 67 ga qo'ng'iroq
+</a></p>
+
+<!-- Sahifa ichida havola -->
+<p><a href="#boshiga">Sahifa boshiga</a></p>`,
+  4: `<h2>Rasm qo'shish</h2>
+
+<!-- Asosiy rasm -->
+<img src="https://picsum.photos/300/200"
+     alt="Tasodifiy rasm"
+     width="300"
+     height="200">
+
+<p>Kenglik va balandlik belgilab qo'yildi.</p>
+
+<!-- Rasm + havola -->
+<a href="https://picsum.photos" target="_blank">
+  <img src="https://picsum.photos/200/150?random=2"
+       alt="Bosish mumkin bo'lgan rasm"
+       width="200">
+</a>`,
+  5: `<h2>Ro'yxat turlari</h2>
+
+<!-- Tartibsiz ro'yxat -->
+<ul>
+  <li>Dasturlash</li>
+  <li>Web dizayn</li>
+  <li>Ma'lumotlar bazasi</li>
+</ul>
+
+<!-- Tartiblangan ro'yxat -->
+<ol>
+  <li>HTML o'rganish</li>
+  <li>CSS o'rganish</li>
+  <li>JavaScript o'rganish</li>
+</ol>
+
+<!-- Ichma-ich ro'yxat -->
+<ul>
+  <li>Frontend
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </li>
+  <li>Backend</li>
+</ul>`,
+  6: `<table border="1" cellpadding="8" cellspacing="0"
+       style="border-collapse:collapse; font-family:Arial">
+
+  <thead>
+    <tr>
+      <th>Ism</th>
+      <th>Yosh</th>
+      <th>Shahar</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Akbar</td>
+      <td>22</td>
+      <td>Toshkent</td>
+    </tr>
+    <tr>
+      <td>Barno</td>
+      <td>19</td>
+      <td>Samarqand</td>
+    </tr>
+    <tr>
+      <td colspan="2">Jami</td>
+      <td>2 kishi</td>
+    </tr>
+  </tbody>
+
+</table>`,
+  7: `<form style="font-family:Arial; padding:20px;
+             max-width:350px; background:#f8fafc;
+             border-radius:8px;">
+
+  <h3>Ro'yxatdan o'tish</h3>
+
+  <label for="ism">Ism:</label><br>
+  <input type="text" id="ism" name="ism"
+         placeholder="Ismingiz" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"
+         placeholder="email@example.com"><br><br>
+
+  <label for="parol">Parol:</label><br>
+  <input type="password" id="parol" name="parol"
+         placeholder="Kamida 8 belgi"><br><br>
+
+  <label>Jinsi:</label><br>
+  <input type="radio" name="jins" value="erkak"> Erkak
+  <input type="radio" name="jins" value="ayol"> Ayol
+  <br><br>
+
+  <input type="submit" value="Yuborish">
+
+</form>`,
+  8: `<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Semantik HTML</title>
+  <style>
+    body { font-family: Arial; margin: 0; }
+    header { background: #1D9E75; color: white; padding: 16px; }
+    nav a { color: white; margin-right: 12px; }
+    main { padding: 20px; }
+    article { background: #f0fdf4; border: 1px solid #86efac;
+              padding: 16px; border-radius: 8px; margin-bottom: 16px; }
+    aside { background: #eff6ff; padding: 16px; border-radius: 8px; }
+    footer { background: #1e293b; color: white; padding: 14px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mening Blogim</h1>
+    <nav>
+      <a href="#">Bosh sahifa</a>
+      <a href="#">Maqolalar</a>
+      <a href="#">Biz haqimizda</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>HTML haqida</h2>
+      <p>HTML veb-sahifaning asosi...</p>
+    </article>
+    <aside>
+      <h3>Muallif haqida</h3>
+      <p>Web dasturchi...</p>
+    </aside>
+  </main>
+  <footer><p>© 2024 Mening Blogim</p></footer>
+</body>
+</html>`,
+  9: `<h2>Atributlar</h2>
+
+<!-- id atributi -->
+<p id="birinchi-paragraf">
+  Bu paragrafning id si bor.
+</p>
+
+<!-- class atributi -->
+<p class="muhim">Birinchi muhim matn</p>
+<p class="muhim">Ikkinchi muhim matn</p>
+
+<!-- title (tooltip) -->
+<p title="Bu tooltip!">
+  Ustimga sichqon olib keling 🖱
+</p>
+
+<!-- style atributi -->
+<p style="color: green; font-weight: bold;">
+  Inline CSS style bilan
+</p>
+
+<!-- lang atributi -->
+<p lang="en">This is English text.</p>
+<p lang="uz">Bu o'zbek tili matni.</p>`,
+};
+
+// ─── MODULE THEORY HTML ─────────────────────────────────────
+const THEORIES = {
+  0: `
+<div class="lesson-heading">
+  <div class="lesson-icon">📄</div>
+  <div><div class="lesson-eyebrow">Modul 1 · HTML</div><div class="lesson-title">HTML — veb-sahifaning asosi</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> HTML nima?</h3>
+  <p><strong style="color:var(--accent)">HTML</strong> (<span class="glossary" onclick="toggle('g1')">HyperText Markup Language</span>) — veb-brauzerga sahifaning mazmunini tushuntiradigan belgilash tili. 1991-yilda <strong>Tim Berners-Lee</strong> tomonidan yaratilgan.</p>
+  <div class="glossary-tip" id="g1">HyperText — sahifalar orasida giperhavolalar orqali o'tish imkonini beruvchi matn. Markup Language — mazmunni maxsus teglar bilan belgilab ko'rsatadigan til.</div>
+  <p>HTML <strong>dasturlash tili emas</strong> — u belgilash (markup) tilidir. Dastur yozmaydi, faqat mazmunni tasvirlaydi.</p>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> HTML qanday ishlaydi?</h3>
+  <div class="steps-visual">
+    <div class="step-item"><div class="step-num">1</div><div class="step-body"><h4>Siz HTML yozasiz</h4><p><code>index.html</code> faylida teglar bilan mazmun belgilaysiz</p></div></div>
+    <div class="step-item"><div class="step-num">2</div><div class="step-body"><h4>Brauzer o'qiydi</h4><p>Chrome, Firefox, Edge — teglarni tahlil qilib ko'rinishga aylantiradi</p></div></div>
+    <div class="step-item"><div class="step-num">3</div><div class="step-body"><h4>Foydalanuvchi ko'radi</h4><p>Vizual sahifa ekranda ko'rsatiladi</p></div></div>
+  </div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--green)"></span> Teg tuzilmasi</h3>
+  <p>HTML teglari <code>&lt;teg&gt;</code> ochuvchi va <code>&lt;/teg&gt;</code> yopuvchi ko'rinishda bo'ladi:</p>
+  <div class="code-block">
+<span class="tag">&lt;p&gt;</span><span class="txt">Bu paragraf matni</span><span class="tag">&lt;/p&gt;</span>
+<span class="tag">&lt;h1&gt;</span><span class="txt">Sarlavha</span><span class="tag">&lt;/h1&gt;</span>
+<span class="cmt">&lt;!-- Bu izoh (comment) - brauzer ko'rsatmaydi --&gt;</span>
+<span class="tag">&lt;img</span> <span class="attr">src=</span><span class="val">"rasm.jpg"</span> <span class="attr">alt=</span><span class="val">"Rasm"</span><span class="tag">&gt;</span> <span class="cmt">← yopuvchisiz</span>
+  </div>
+</div>
+<div class="warn-card">⚡ <strong>Muhim:</strong> Ba'zi teglar (img, br, hr, input) yopuvchi tegga ega emas — ular <em>self-closing</em> deyiladi.</div>`,
+
+  1: `
+<div class="lesson-heading">
+  <div class="lesson-icon">🏗</div>
+  <div><div class="lesson-eyebrow">Modul 2 · HTML</div><div class="lesson-title">HTML sahifaning to'liq tuzilmasi</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> DOCTYPE deklaratsiyasi</h3>
+  <p><code>&lt;!DOCTYPE html&gt;</code> — sahifaning birinchi qatorida yoziladi. Brauzerga bu <strong>HTML5</strong> hujjat ekanini bildiradi. Bu qator HTML tegi emas, brauzerga yo'riqnoma.</p>
+  <div class="code-block"><span class="cmt">&lt;!-- Har doim 1-qatorda! --&gt;</span>
+<span class="tag">&lt;!DOCTYPE html&gt;</span>
+<span class="tag">&lt;html</span> <span class="attr">lang=</span><span class="val">"uz"</span><span class="tag">&gt;</span>
+  ...
+<span class="tag">&lt;/html&gt;</span></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> &lt;head&gt; qismi — ko'rinmas meta-ma'lumotlar</h3>
+  <p>Foydalanuvchi <code>&lt;head&gt;</code> ni ko'rmaydi, lekin brauzer va qidiruv tizimlari uchun muhim:</p>
+  <table class="tag-table">
+    <tr><th>Element</th><th>Vazifasi</th></tr>
+    <tr><td>&lt;title&gt;</td><td>Brauzer yorlig'idagi sahifa nomi (majburiy)</td></tr>
+    <tr><td>&lt;meta charset&gt;</td><td>Belgilar kodlashi (UTF-8 — barcha alfavitlar)</td></tr>
+    <tr><td>&lt;meta viewport&gt;</td><td>Mobil qurilmalar uchun ko'rinish sozlamasi</td></tr>
+    <tr><td>&lt;meta description&gt;</td><td>Google qidiruvida ko'rinadigan tavsif</td></tr>
+    <tr><td>&lt;link&gt;</td><td>Tashqi CSS fayl ulash</td></tr>
+    <tr><td>&lt;script&gt;</td><td>JavaScript fayl ulash</td></tr>
+  </table>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--green)"></span> &lt;body&gt; qismi — ko'rinadigan kontent</h3>
+  <p>Foydalanuvchi ekranda ko'radigan barcha narsa <code>&lt;body&gt;</code> ichida yoziladi: sarlavhalar, matnlar, rasmlar, havolalar, formalar va boshqalar.</p>
+  <div class="code-block"><span class="tag">&lt;body&gt;</span>
+  <span class="tag">&lt;h1&gt;</span><span class="txt">Sarlavha</span><span class="tag">&lt;/h1&gt;</span>
+  <span class="tag">&lt;p&gt;</span><span class="txt">Paragraf matni</span><span class="tag">&lt;/p&gt;</span>
+<span class="tag">&lt;/body&gt;</span></div>
+</div>
+<div class="info-card">📚 <strong>W3C standart:</strong> html → head + body tuzilmasi HTML 4.01 dan beri standart hisoblanadi. HTML5 da DOCTYPE soddalashtirildi.</div>`,
+
+  2: `
+<div class="lesson-heading">
+  <div class="lesson-icon">📝</div>
+  <div><div class="lesson-eyebrow">Modul 3 · HTML</div><div class="lesson-title">Matn elementlari va formatlash</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> Sarlavhalar (Headings)</h3>
+  <p>HTML da 6 darajali sarlavha bor. <code>&lt;h1&gt;</code> eng katta va muhim, <code>&lt;h6&gt;</code> eng kichik. Qidiruv tizimlari uchun ham muhim — <code>&lt;h1&gt;</code> sahifaning asosiy mavzusini bildiradi.</p>
+  <div class="demo-cards">
+    <div class="demo-card"><div class="demo-title">Katta</div><code>&lt;h1&gt;</code> — Asosiy sarlavha</div>
+    <div class="demo-card"><div class="demo-title">O'rta</div><code>&lt;h2&gt;</code> — Qism sarlavhasi</div>
+    <div class="demo-card"><div class="demo-title">Kichik</div><code>&lt;h3&gt;</code>–<code>&lt;h6&gt;</code> — Kichik sarlavhalar</div>
+  </div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Matn formatlash teglari</h3>
+  <table class="tag-table">
+    <tr><th>Teg</th><th>Ko'rinishi</th><th>Maqsadi</th></tr>
+    <tr><td>&lt;b&gt;</td><td><b>Qalin matn</b></td><td>Vizual qalinlik (bold)</td></tr>
+    <tr><td>&lt;strong&gt;</td><td><strong>Muhim matn</strong></td><td>Semantik muhimlik + qalin</td></tr>
+    <tr><td>&lt;i&gt;</td><td><i>Kursiv</i></td><td>Vizual kursiv</td></tr>
+    <tr><td>&lt;em&gt;</td><td><em>Ta'kidlash</em></td><td>Semantik ta'kid + kursiv</td></tr>
+    <tr><td>&lt;u&gt;</td><td><u>Tagiga chiziq</u></td><td>Underline</td></tr>
+    <tr><td>&lt;mark&gt;</td><td>Ajratib ko'rsatish</td><td>Sariq highlight</td></tr>
+    <tr><td>&lt;del&gt;</td><td>O'chirilgan</td><td>Strikethrough</td></tr>
+    <tr><td>&lt;sup&gt;</td><td>2<sup>3</sup></td><td>Yuqori yozuv</td></tr>
+    <tr><td>&lt;sub&gt;</td><td>H<sub>2</sub>O</td><td>Pastki yozuv</td></tr>
+  </table>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--cyan)"></span> Blok va inline elementlar</h3>
+  <p><strong>Blok elementlar</strong> (h1-h6, p, div) — yangi qatordan boshlanadi va to'liq kenglikni egallaydi.</p>
+  <p><strong>Inline elementlar</strong> (b, i, a, span) — matn oqimida qoladi, yangi qator boshlamas.</p>
+  <p>Maxsus elementlar: <code>&lt;br&gt;</code> — qator o'tkazish, <code>&lt;hr&gt;</code> — gorizontal chiziq.</p>
+</div>`,
+
+  3: `
+<div class="lesson-heading">
+  <div class="lesson-icon">🔗</div>
+  <div><div class="lesson-eyebrow">Modul 4 · HTML</div><div class="lesson-title">Havolalar — &lt;a&gt; tegi</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> Asosiy havola sintaksisi</h3>
+  <p><code>&lt;a href="url"&gt;Matn&lt;/a&gt;</code> — <strong>anchor</strong> (langar) tegi. Veb-sahifalarni bir-biriga bog'lovchi asosiy element.</p>
+  <div class="code-block"><span class="tag">&lt;a</span> <span class="attr">href=</span><span class="val">"https://www.google.com"</span><span class="tag">&gt;</span><span class="txt">Googleg'a o'tish</span><span class="tag">&lt;/a&gt;</span></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> href turlari</h3>
+  <table class="tag-table">
+    <tr><th>href qiymati</th><th>Misol</th><th>Maqsad</th></tr>
+    <tr><td>Mutlaq URL</td><td><code>https://google.com</code></td><td>Tashqi saytga</td></tr>
+    <tr><td>Nisbiy URL</td><td><code>sahifa.html</code></td><td>Bir xil saytda</td></tr>
+    <tr><td>Anchor (#)</td><td><code>#kirish</code></td><td>Sahifa ichida</td></tr>
+    <tr><td>mailto:</td><td><code>mailto:a@b.uz</code></td><td>Email ochadi</td></tr>
+    <tr><td>tel:</td><td><code>tel:+998901234567</code></td><td>Qo'ng'iroq qiladi</td></tr>
+    <tr><td>#</td><td><code>#</code></td><td>Hech qaerga ketmaydi</td></tr>
+  </table>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--green)"></span> Muhim atributlar</h3>
+  <div class="attr-demo">
+    <div class="attr-demo-row"><div class="attr-name">target="_blank"</div><div class="attr-desc">Havola yangi yorliqda ochiladi. Xavfsizlik uchun <code>rel="noopener noreferrer"</code> ham qo'shing.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">title="..."</div><div class="attr-desc">Hover qilganda tooltip ko'rsatadi — qo'shimcha ma'lumot beradi.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">download</div><div class="attr-desc">Havolani sahifada ochish o'rniga yuklab oladi.</div></div>
+  </div>
+</div>
+<div class="hint-card">💡 <strong>SEO maslahat:</strong> "Bu yerga bosing" degan noaniQ matn o'rniga, havola mazmunini tavsiflovchi aniq matn yozing: "HTML darsligini o'qish".</div>`,
+
+  4: `
+<div class="lesson-heading">
+  <div class="lesson-icon">🖼</div>
+  <div><div class="lesson-eyebrow">Modul 5 · HTML</div><div class="lesson-title">Rasmlar — &lt;img&gt; tegi</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> &lt;img&gt; tegi</h3>
+  <p><code>&lt;img&gt;</code> — self-closing teg (yopuvchi tegi yo'q). Ikkita majburiy atribut:</p>
+  <div class="code-block"><span class="tag">&lt;img</span> <span class="attr">src=</span><span class="val">"rasm.jpg"</span> <span class="attr">alt=</span><span class="val">"Rasm tavsifi"</span><span class="tag">&gt;</span></div>
+  <p>Kenglik va balandlik belgilash ham tavsiya etiladi:</p>
+  <div class="code-block"><span class="tag">&lt;img</span> <span class="attr">src=</span><span class="val">"foto.png"</span> <span class="attr">alt=</span><span class="val">"Foto"</span> <span class="attr">width=</span><span class="val">"300"</span> <span class="attr">height=</span><span class="val">"200"</span><span class="tag">&gt;</span></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Atributlar</h3>
+  <div class="attr-demo">
+    <div class="attr-demo-row"><div class="attr-name">src</div><div class="attr-desc">Rasm manzili. URL, nisbiy yoki mutlaq yo'l bo'lishi mumkin. Majburiy atribut.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">alt</div><div class="attr-desc">Rasm yuklanmasa ko'rinadigan matn. Ko'zi ojizlar uchun screen reader o'qiydi. SEO uchun ham muhim. Majburiy!</div></div>
+    <div class="attr-demo-row"><div class="attr-name">width / height</div><div class="attr-desc">Piksel yoki foizda o'lcham. Belgilanmasa rasm asl o'lchamida ko'rsatiladi. Layout siljishini oldini oladi.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">loading="lazy"</div><div class="attr-desc">Rasm ekranga kirgunga qadar yuklanmaydi — sahifa tezligini oshiradi.</div></div>
+  </div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--green)"></span> Qo'llab-quvvatlanadigan formatlar</h3>
+  <div class="demo-cards">
+    <div class="demo-card"><div class="demo-title">JPEG</div>Fotosuratlar uchun, kichik fayl</div>
+    <div class="demo-card"><div class="demo-title">PNG</div>Shaffof fon, yuqori sifat</div>
+    <div class="demo-card"><div class="demo-title">GIF</div>Animatsiya uchun</div>
+    <div class="demo-card"><div class="demo-title">SVG</div>Vektorli, o'lcham o'zgarmaydi</div>
+    <div class="demo-card"><div class="demo-title">WebP</div>Zamonaviy, kichik va sifatli</div>
+  </div>
+</div>`,
+
+  5: `
+<div class="lesson-heading">
+  <div class="lesson-icon">📋</div>
+  <div><div class="lesson-eyebrow">Modul 6 · HTML</div><div class="lesson-title">Ro'yxatlar — ul, ol, dl</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> Tartibsiz ro'yxat (Unordered List)</h3>
+  <p><code>&lt;ul&gt;</code> — markerli ro'yxat (•). Tartib muhim bo'lmaganda ishlatiladi.</p>
+  <div class="code-block"><span class="tag">&lt;ul&gt;</span>
+  <span class="tag">&lt;li&gt;</span><span class="txt">HTML</span><span class="tag">&lt;/li&gt;</span>
+  <span class="tag">&lt;li&gt;</span><span class="txt">CSS</span><span class="tag">&lt;/li&gt;</span>
+  <span class="tag">&lt;li&gt;</span><span class="txt">JavaScript</span><span class="tag">&lt;/li&gt;</span>
+<span class="tag">&lt;/ul&gt;</span></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Tartiblangan ro'yxat (Ordered List)</h3>
+  <p><code>&lt;ol&gt;</code> — raqamlangan ro'yxat (1, 2, 3...). Tartib muhim bo'lganda.</p>
+  <div class="code-block"><span class="tag">&lt;ol</span> <span class="attr">type=</span><span class="val">"A"</span><span class="tag">&gt;</span> <span class="cmt">&lt;!-- A, B, C... --&gt;</span>
+  <span class="tag">&lt;li&gt;</span><span class="txt">Birinchi qadam</span><span class="tag">&lt;/li&gt;</span>
+  <span class="tag">&lt;li&gt;</span><span class="txt">Ikkinchi qadam</span><span class="tag">&lt;/li&gt;</span>
+<span class="tag">&lt;/ol&gt;</span></div>
+  <p style="margin-top:10px">ol uchun type atributi: <span class="tag-badge">1</span> <span class="tag-badge">A</span> <span class="tag-badge">a</span> <span class="tag-badge">I</span> <span class="tag-badge">i</span></p>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--cyan)"></span> Ta'rif ro'yxati (Description List)</h3>
+  <p><code>&lt;dl&gt;</code>, <code>&lt;dt&gt;</code> (term), <code>&lt;dd&gt;</code> (description) — lug'at yoki terminlar uchun.</p>
+  <div class="code-block"><span class="tag">&lt;dl&gt;</span>
+  <span class="tag">&lt;dt&gt;</span><span class="txt">HTML</span><span class="tag">&lt;/dt&gt;</span>
+  <span class="tag">&lt;dd&gt;</span><span class="txt">HyperText Markup Language</span><span class="tag">&lt;/dd&gt;</span>
+  <span class="tag">&lt;dt&gt;</span><span class="txt">CSS</span><span class="tag">&lt;/dt&gt;</span>
+  <span class="tag">&lt;dd&gt;</span><span class="txt">Cascading Style Sheets</span><span class="tag">&lt;/dd&gt;</span>
+<span class="tag">&lt;/dl&gt;</span></div>
+</div>`,
+
+  6: `
+<div class="lesson-heading">
+  <div class="lesson-icon">📊</div>
+  <div><div class="lesson-eyebrow">Modul 7 · HTML</div><div class="lesson-title">Jadvallar — table, tr, td, th</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> Jadval tuzilmasi</h3>
+  <p>HTML jadval bir nechta teg yordamida tuziladi:</p>
+  <table class="tag-table">
+    <tr><th>Teg</th><th>Ma'nosi</th><th>Vazifasi</th></tr>
+    <tr><td>&lt;table&gt;</td><td>Table</td><td>Jadvalni o'rab turuvchi konteyner</td></tr>
+    <tr><td>&lt;tr&gt;</td><td>Table Row</td><td>Jadval qatori</td></tr>
+    <tr><td>&lt;td&gt;</td><td>Table Data</td><td>Oddiy katak (ma'lumot)</td></tr>
+    <tr><td>&lt;th&gt;</td><td>Table Header</td><td>Sarlavha katakchasi (qalin, markazlashgan)</td></tr>
+    <tr><td>&lt;thead&gt;</td><td>Table Head</td><td>Sarlavha qatori guruhi</td></tr>
+    <tr><td>&lt;tbody&gt;</td><td>Table Body</td><td>Asosiy ma'lumotlar qismi</td></tr>
+    <tr><td>&lt;tfoot&gt;</td><td>Table Foot</td><td>Pastki qism (jami va hokazo)</td></tr>
+  </table>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Katak birlashtirish</h3>
+  <p><code>colspan</code> va <code>rowspan</code> — bir nechta katak yoki qatorni birlashtiradi:</p>
+  <div class="code-block"><span class="cmt">&lt;!-- 3 ta ustunni birlashtirish --&gt;</span>
+<span class="tag">&lt;td</span> <span class="attr">colspan=</span><span class="val">"3"</span><span class="tag">&gt;</span><span class="txt">Jami</span><span class="tag">&lt;/td&gt;</span>
+<span class="cmt">&lt;!-- 2 ta qatorni birlashtirish --&gt;</span>
+<span class="tag">&lt;td</span> <span class="attr">rowspan=</span><span class="val">"2"</span><span class="tag">&gt;</span><span class="txt">Narx</span><span class="tag">&lt;/td&gt;</span></div>
+</div>
+<div class="hint-card">💡 <strong>Maslahat:</strong> Jadvallar faqat jadvalviy ma'lumotlar uchun ishlatilsin. Sahifa tartibini (layout) jadval bilan qilish eskirgan usul — buning uchun CSS Flexbox yoki Grid ishlatiladi.</div>`,
+
+  7: `
+<div class="lesson-heading">
+  <div class="lesson-icon">📬</div>
+  <div><div class="lesson-eyebrow">Modul 8 · HTML</div><div class="lesson-title">Formalar — foydalanuvchi bilan muloqot</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> &lt;form&gt; tegi</h3>
+  <p>Forma foydalanuvchidan ma'lumot yig'ib serverga yuboradi.</p>
+  <div class="code-block"><span class="tag">&lt;form</span> <span class="attr">action=</span><span class="val">"/yuborish"</span> <span class="attr">method=</span><span class="val">"post"</span><span class="tag">&gt;</span>
+  <span class="cmt">&lt;!-- input elementlar bu yerda --&gt;</span>
+<span class="tag">&lt;/form&gt;</span></div>
+  <p style="margin-top:10px"><code>action</code> — ma'lumot yuboriladigan URL. <code>method</code> — GET yoki POST.</p>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Input turlari</h3>
+  <table class="tag-table">
+    <tr><th>type</th><th>Ko'rinishi / Maqsad</th></tr>
+    <tr><td>text</td><td>Oddiy matn kiritish</td></tr>
+    <tr><td>email</td><td>Email manzil (avtomatik tekshiradi)</td></tr>
+    <tr><td>password</td><td>Parol (yashirilgan)</td></tr>
+    <tr><td>number</td><td>Faqat raqam</td></tr>
+    <tr><td>tel</td><td>Telefon raqami</td></tr>
+    <tr><td>date</td><td>Sana tanlovchi</td></tr>
+    <tr><td>checkbox</td><td>Belgilash qutisi (ko'p tanlov)</td></tr>
+    <tr><td>radio</td><td>Bir tanlov (guruhdan bittasi)</td></tr>
+    <tr><td>file</td><td>Fayl yuklash</td></tr>
+    <tr><td>submit</td><td>Yuborish tugmasi</td></tr>
+    <tr><td>reset</td><td>Tozalash tugmasi</td></tr>
+  </table>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--green)"></span> &lt;label&gt; — muhim element</h3>
+  <p><code>&lt;label&gt;</code> input uchun nom beradi va foydalanuvchi tajribasini yaxshilaydi. <code>for</code> atributi input ning <code>id</code> siga mos keladi.</p>
+  <div class="code-block"><span class="tag">&lt;label</span> <span class="attr">for=</span><span class="val">"ism"</span><span class="tag">&gt;</span><span class="txt">Ismingiz:</span><span class="tag">&lt;/label&gt;</span>
+<span class="tag">&lt;input</span> <span class="attr">type=</span><span class="val">"text"</span> <span class="attr">id=</span><span class="val">"ism"</span> <span class="attr">name=</span><span class="val">"ism"</span><span class="tag">&gt;</span></div>
+</div>`,
+
+  8: `
+<div class="lesson-heading">
+  <div class="lesson-icon">🧱</div>
+  <div><div class="lesson-eyebrow">Modul 9 · HTML</div><div class="lesson-title">Semantik HTML5 elementlari</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> Semantik HTML nima?</h3>
+  <p><strong>Semantik</strong> — ma'noli, tushuntiradigan. <code>&lt;div&gt;</code> hamma narsani ifodalaydi, lekin ma'nosiz. Semantik teglar nima ekanligini ham bildiradi.</p>
+  <p>Foyda: SEO (Google tushunadi), accessibility (ko'zi ojizlar), kod o'qilishi yaxshi.</p>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Asosiy semantik teglar</h3>
+  <table class="tag-table">
+    <tr><th>Teg</th><th>Maqsadi</th></tr>
+    <tr><td>&lt;header&gt;</td><td>Sahifa yoki bo'lim sarlavhasi, logo, navigatsiya</td></tr>
+    <tr><td>&lt;nav&gt;</td><td>Asosiy navigatsiya havolalari</td></tr>
+    <tr><td>&lt;main&gt;</td><td>Sahifaning asosiy noyob mazmuni (bitta bo'ladi)</td></tr>
+    <tr><td>&lt;article&gt;</td><td>Mustaqil kontent: blog post, yangilik, sharh</td></tr>
+    <tr><td>&lt;section&gt;</td><td>Tematik guruh — sarlavhasi bor bo'lim</td></tr>
+    <tr><td>&lt;aside&gt;</td><td>Yon panel: reklama, teglar, qo'shimcha info</td></tr>
+    <tr><td>&lt;footer&gt;</td><td>Sahifa yoki bo'lim pastki qismi</td></tr>
+    <tr><td>&lt;figure&gt;</td><td>Rasm + izoh (figcaption) uchun</td></tr>
+    <tr><td>&lt;time&gt;</td><td>Sana va vaqt (mashina o'qiy oladi)</td></tr>
+  </table>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--purple)"></span> &lt;div&gt; vs Semantik</h3>
+  <div class="code-block"><span class="cmt">&lt;!-- Eski usul (div soup) --&gt;</span>
+<span class="tag">&lt;div</span> <span class="attr">class=</span><span class="val">"header"</span><span class="tag">&gt;</span>...<span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;div</span> <span class="attr">class=</span><span class="val">"nav"</span><span class="tag">&gt;</span>...<span class="tag">&lt;/div&gt;</span>
+
+<span class="cmt">&lt;!-- Zamonaviy semantik usul --&gt;</span>
+<span class="tag">&lt;header&gt;</span>...<span class="tag">&lt;/header&gt;</span>
+<span class="tag">&lt;nav&gt;</span>...<span class="tag">&lt;/nav&gt;</span></div>
+</div>`,
+
+  9: `
+<div class="lesson-heading">
+  <div class="lesson-icon">🎯</div>
+  <div><div class="lesson-eyebrow">Modul 10 · HTML</div><div class="lesson-title">HTML Atributlar — id, class, style va boshqalar</div></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot"></span> Atribut nima?</h3>
+  <p>Atributlar HTML tegiga qo'shimcha ma'lumot beradi. Ochuvchi tegning ichida yoziladi:</p>
+  <div class="code-block"><span class="tag">&lt;teg</span> <span class="attr">atribut=</span><span class="val">"qiymat"</span><span class="tag">&gt;</span><span class="txt">Kontent</span><span class="tag">&lt;/teg&gt;</span></div>
+</div>
+<div class="theory-card">
+  <h3><span class="dot" style="background:var(--blue)"></span> Asosiy global atributlar</h3>
+  <div class="attr-demo">
+    <div class="attr-demo-row"><div class="attr-name">id="..."</div><div class="attr-desc">Sahifada yagona identifikator. CSS da <code>#id</code>, JS da <code>getElementById()</code> bilan ishlatiladi.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">class="..."</div><div class="attr-desc">CSS klass nomi. Bir xil klassni bir nechta elementga berish mumkin. CSS da <code>.class</code> selektori.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">style="..."</div><div class="attr-desc">Inline CSS uslub. To'g'ridan-to'g'ri elementga stil beradi. Katta loyihalarda tavsiya etilmaydi.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">title="..."</div><div class="attr-desc">Tooltip matni. Foydalanuvchi element ustiga sichqon olib kelganda ko'rsatiladi.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">lang="..."</div><div class="attr-desc">Element tili (uz, en, ru). Ekran o'quvchilar va qidiruv tizimlari uchun muhim.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">hidden</div><div class="attr-desc">Elementni yashiradi. <code>display:none</code> kabi ishlaydi.</div></div>
+    <div class="attr-demo-row"><div class="attr-name">data-*</div><div class="attr-desc">Maxsus ma'lumot saqlash. Masalan: <code>data-id="42"</code>. JavaScript bilan o'qiladi.</div></div>
+  </div>
+</div>
+<div class="info-card">📌 <strong>id vs class:</strong> <code>id</code> — yagona (bitta element), <code>class</code> — ko'p elementga beriladi. CSS da id ustunligi (specificity) classdan yuqori.</div>`,
+};
+
+// ─── STATE ──────────────────────────────────────────────────
+let state = { cur:0, tab:0, done:[], xp:0, quizState:{} };
+
+// ─── INIT WELCOME ───────────────────────────────────────────
+function buildWelcomeGrid() {
+  const g = document.getElementById('module-grid');
+  g.innerHTML = MODULES.map(m => `
+    <div class="mcard ${state.done.includes(m.id)?'done':''}" onclick="openModule(${m.id})">
+      <div class="mcard-num">Modul ${m.id+1}</div>
+      <div class="mcard-icon">${m.icon}</div>
+      <h3>${m.title}</h3>
+      <p>${getModuleDesc(m.id)}</p>
+      <div class="done-badge" id="mc-done-${m.id}" style="display:${state.done.includes(m.id)?'block':'none'}">✓ Tugallandi</div>
+    </div>`).join('');
+}
+
+function getModuleDesc(id) {
+  const descs = [
+    'HTML nima, teglar, sintaksis',
+    'DOCTYPE, head, body tuzilmasi',
+    'Sarlavhalar, paragraflar, formatlash',
+    'Havolalar, href, target atributlari',
+    'img tegi, src, alt, o\'lchamlar',
+    "ul, ol, li, dl ro'yxat turlari",
+    'table, tr, td, th, colspan',
+    'form, input, label, button',
+    'header, nav, main, section, footer',
+    'id, class, style, title, data-*',
+  ];
+  return descs[id] || '';
+}
+
+// ─── NAVIGATION ─────────────────────────────────────────────
+function show(id) {
+  ['s-welcome','s-lesson','s-result'].forEach(s => {
+    const el = document.getElementById(s);
+    if(el){ el.style.display='none'; el.classList.remove('active'); }
+  });
+  const t = document.getElementById(id);
+  if(t){ t.style.display='flex'; t.classList.add('active'); }
+}
+
+function goHome() {
+  show('s-welcome');
+  buildWelcomeGrid();
+  updateSidebar();
+}
+
+function openModule(id) {
+  state.cur = id; state.tab = 0;
+  show('s-lesson');
+  renderModuleTabs(id);
+  buildStepTabs();
+  showTab(0);
+  updateTopbar();
+  updateSidebar();
+  initQuiz(id);
+}
+
+// ─── TAB RENDERING ──────────────────────────────────────────
+function renderModuleTabs(mid) {
+  const body = document.getElementById('tabs-body');
+  const theoryId = `m${mid}t0`;
+  const codeId = `m${mid}t1`;
+  const quizId = `m${mid}t2`;
+  body.innerHTML = `
+    <div id="${theoryId}" class="tab-content active lesson-main">
+      ${THEORIES[mid]}
+    </div>
+    <div id="${codeId}" class="tab-content lesson-main" style="display:none">
+      <div class="lesson-heading">
+        <div class="lesson-icon">${MODULES[mid].icon}</div>
+        <div>
+          <div class="lesson-eyebrow">Modul ${mid+1} · Kod muharriri</div>
+          <div class="lesson-title">Kodni yozing va natijasini ko'ring</div>
+        </div>
+      </div>
+      <div class="hint-card">🎯 <strong>Topshiriq:</strong> Kodni o'zgartiring yoki o'zingiznikini yozing. <strong style="color:var(--accent)">▶ Ishga tushirish</strong> tugmasi yoki kodni o'zgartirsangiz avtomatik yangilanadi.</div>
+      <div class="compiler-wrap">
+        <div class="compiler-toolbar">
+          <div class="ctab active">HTML</div>
+          <button class="compiler-reset-btn" onclick="resetEditor(${mid})">↺ Asl kod</button>
+          <button class="compiler-run-btn" onclick="runEditor(${mid})">▶ Ishga tushirish</button>
+        </div>
+        <div class="compiler-body">
+          <div class="editor-pane">
+            <div class="editor-pane-head"><span><span class="lang-dot html"></span> HTML</span></div>
+            <textarea class="code-textarea" id="editor-${mid}" spellcheck="false" oninput="runEditorDebounced(${mid})" style="min-height:240px">${escHtml(DEFAULT_CODES[mid])}</textarea>
+          </div>
+          <div class="preview-pane">
+            <div class="preview-pane-head">👁 Brauzerda ko'rinishi</div>
+            <iframe class="preview-iframe" id="preview-${mid}"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="${quizId}" class="tab-content lesson-main" style="display:none">
+      <div id="quiz-container-${mid}"></div>
+    </div>`;
+  setTimeout(() => runEditor(mid), 100);
+}
+
+function escHtml(s){ return s; }
+
+let debounceT = null;
+function runEditorDebounced(mid) {
+  clearTimeout(debounceT);
+  debounceT = setTimeout(() => runEditor(mid), 600);
+}
+
+function runEditor(mid) {
+  const ta = document.getElementById(`editor-${mid}`);
+  const fr = document.getElementById(`preview-${mid}`);
+  if(!ta||!fr) return;
+  try { fr.srcdoc = ta.value; } catch(e){}
+}
+
+function resetEditor(mid) {
+  const ta = document.getElementById(`editor-${mid}`);
+  if(ta){ ta.value = DEFAULT_CODES[mid]; runEditor(mid); }
+}
+
+// ─── STEP TABS ───────────────────────────────────────────────
+function buildStepTabs() {
+  const m = MODULES[state.cur];
+  const c = document.getElementById('steps-tabs');
+  c.innerHTML = m.tabs.map((t,i) => `
+    <div class="step-tab ${i===0?'active':''}" id="stab-${i}" onclick="showTab(${i})">
+      <div class="step-tab-num">${i+1}</div>${t}
+    </div>`).join('');
+  buildFooterDots();
+}
+
+function showTab(i) {
+  state.tab = i;
+  const m = MODULES[state.cur];
+  document.querySelectorAll('.step-tab').forEach((t,j) => t.classList.toggle('active',j===i));
+  document.querySelectorAll('.tab-content').forEach(t => t.style.display='none');
+  const tc = document.getElementById(`m${state.cur}t${i}`);
+  if(tc){ tc.style.display='flex'; if(i===1) setTimeout(()=>runEditor(state.cur),80); }
+  buildFooterDots();
+  const btn = document.getElementById('btn-next');
+  btn.textContent = i===m.tabs.length-1 ? 'Testni tugatish ✓' : 'Keyingi →';
+}
+
+function nextTab() {
+  const m = MODULES[state.cur];
+  if(state.tab < m.tabs.length-1){ showTab(state.tab+1); }
+  else { finishModule(); }
+}
+
+function buildFooterDots() {
+  const m = MODULES[state.cur];
+  const d = document.getElementById('footer-dots');
+  d.innerHTML = m.tabs.map((_,i) =>
+    `<div style="width:26px;height:4px;border-radius:99px;background:${i===state.tab?'var(--accent)':i<state.tab?'var(--success)':'var(--bg4)'};transition:background .3s"></div>`
+  ).join('');
+}
+
+// ─── QUIZ ────────────────────────────────────────────────────
+function initQuiz(mid) {
+  const c = document.getElementById(`quiz-container-${mid}`);
+  if(!c) return;
+  if(!state.quizState[mid]) state.quizState[mid] = {idx:0,score:0,answered:0};
+  renderQuestion(mid);
+}
+
+function renderQuestion(mid) {
+  const qs = state.quizState[mid];
+  const questions = QUIZZES[mid];
+  const c = document.getElementById(`quiz-container-${mid}`);
+  if(!c||!questions) return;
+  const q = questions[qs.idx];
+  const letters = ['A','B','C','D'];
+  c.innerHTML = `
+<div style="max-width:640px;margin:0 auto;padding:0 0 24px">
+  <div class="quiz-header">
+    <span class="quiz-counter">Savol ${qs.idx+1} / ${questions.length}</span>
+    <div class="quiz-mini-progress">
+      ${questions.map((_,i)=>`<div class="qp-dot ${i<qs.idx?(qs['r'+i]?'correct':'wrong'):i===qs.idx?'active':''}"></div>`).join('')}
+    </div>
+  </div>
+  <div class="quiz-question">${q.q}</div>
+  <div class="quiz-opts">
+    ${q.opts.map((o,i)=>`
+      <button class="qopt" id="qo${i}" onclick="answerQ(${mid},${i})">
+        <span class="qopt-letter">${letters[i]}</span>${o}
+      </button>`).join('')}
+  </div>
+  <div class="quiz-feedback" id="qfb"></div>
+  <button class="btn-solid" id="qnext-btn" style="display:none" onclick="nextQuestion(${mid})">
+    ${qs.idx+1<questions.length?'Keyingi savol →':"Natijani ko'rish ✓"}
+  </button>
+</div>`;
+}
+
+function answerQ(mid, i) {
+  const qs = state.quizState[mid];
+  const q = QUIZZES[mid][qs.idx];
+  document.querySelectorAll('.qopt').forEach(o => o.onclick=null);
+  const ok = i===q.correct;
+  document.getElementById('qo'+i).classList.add(ok?'correct':'wrong');
+  if(!ok) document.getElementById('qo'+q.correct).classList.add('correct');
+  const fb = document.getElementById('qfb');
+  fb.className = 'quiz-feedback show '+(ok?'correct':'wrong');
+  fb.innerHTML = `<span class="quiz-feedback-icon">${ok?'✓':'✗'}</span><span>${ok?"To'g'ri! ":'Noto\'g\'ri. '}${q.exp}</span>`;
+  if(ok){ qs.score++; qs['r'+qs.idx]=true; }
+  qs.answered++;
+  document.getElementById('qnext-btn').style.display='flex';
+}
+
+function nextQuestion(mid) {
+  const qs = state.quizState[mid];
+  qs.idx++;
+  if(qs.idx < QUIZZES[mid].length){ renderQuestion(mid); }
+  else { finishModule(); }
+}
+
+function finishModule() {
+  const qs = state.quizState[state.cur];
+  if(!qs||qs.answered < QUIZZES[state.cur].length){
+    alert('Avval barcha test savollariga javob bering!');
+    return;
+  }
+  const pct = Math.round(qs.score/QUIZZES[state.cur].length*100);
+  if(!state.done.includes(state.cur)){
+    state.done.push(state.cur);
+    state.xp += Math.round(MODULES[state.cur].xp*(pct/100));
+  }
+  document.getElementById('res-emoji').textContent = pct===100?'🏆':pct>=67?'👍':'📖';
+  document.getElementById('res-score').textContent = qs.score+'/'+QUIZZES[state.cur].length;
+  document.getElementById('res-score').className = 'result-score '+(pct===100?'perfect':pct>=67?'good':'poor');
+  document.getElementById('res-msg').innerHTML = pct===100
+    ? `Ajoyib! Barcha savollar to'g'ri! <strong style='color:var(--accent)'>+${Math.round(MODULES[state.cur].xp)} XP</strong> qo'shildi!`
+    : pct>=67 ? "Yaxshi natija! Keyingi modulga o'tishingiz mumkin."
+    : "Mavzuni qayta o'rganish tavsiya etiladi.";
+  show('s-result');
+  updateSidebar();
+}
+
+function retryQuiz() {
+  delete state.quizState[state.cur];
+  openModule(state.cur);
+  showTab(MODULES[state.cur].tabs.length-1);
+  initQuiz(state.cur);
+}
+
+// ─── TOPBAR / SIDEBAR ───────────────────────────────────────
+function updateTopbar() {
+  const m = MODULES[state.cur];
+  document.getElementById('tb-module').textContent = 'Modul '+(state.cur+1);
+  document.getElementById('tb-lesson').textContent = m.title;
+  const total = MODULES.reduce((a,m)=>a+m.tabs.length,0);
+  const done = state.done.length*3;
+  document.getElementById('tb-prog-txt').textContent = done+' / '+total+" bo'lim";
+  document.getElementById('tb-prog-bar').style.width = Math.round(done/total*100)+'%';
+  document.getElementById('xp-badge').textContent = state.xp+' XP';
+}
+
+function updateSidebar() {
+  MODULES.forEach(m => {
+    const done = state.done.includes(m.id);
+    const dot = document.getElementById('dot-m'+m.id);
+    if(dot) dot.className = 'nav-dot'+(done?' done':'');
+    const chk = document.getElementById('chk-m'+m.id);
+    if(chk) chk.classList.toggle('show',done);
+    const nav = document.getElementById('nav-m'+m.id);
+    if(nav) nav.classList.toggle('active',state.cur===m.id);
+  });
+  document.getElementById('stat-done').textContent = state.done.length;
+  const scores = Object.values(state.quizState).filter(q=>q.answered).map(q=>Math.round(q.score/3*100));
+  document.getElementById('stat-score').textContent = scores.length ? Math.round(scores.reduce((a,b)=>a+b,0)/scores.length)+'%' : '0%';
+  document.getElementById('stat-xp').textContent = state.xp;
+  document.getElementById('xp-badge').textContent = state.xp+' XP';
+}
+
+// ─── UTILS ───────────────────────────────────────────────────
+function toggle(id) {
+  const el = document.getElementById(id);
+  if(el) el.classList.toggle('open');
+}
+
+// ─── BOOT ────────────────────────────────────────────────────
+buildWelcomeGrid();
+</script>
+</body>
+</html>

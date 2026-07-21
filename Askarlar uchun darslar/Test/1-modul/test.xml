@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyTestX>
+	<Version Editor="Text1ToXML">11.0</Version>
+	<SaveDate>2026-07-13T15:28:25Z</SaveDate>
+	<TestOptions/>
+	<Groups>
+		<Group>
+			<Title>mytest_100_savol.txt</Title>
+			<Tasks>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#1. Axborot texnologiyalari deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Axborotni yig&apos;ish, saqlash, qayta ishlash va uzatish usullari hamda vositalari majmuasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat kompyuter o&apos;yinlarini yaratish jarayoni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matn yozish uchun mo&apos;ljallangan dasturlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Televizor va radio orqali ma&apos;lumot uzatish tizimi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#2. Kompyuter texnologiyalarining ta&apos;lim sohasidagi asosiy vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>O&apos;quv jarayonini samarali tashkil etish va bilim olishni osonlashtirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat imtihon o&apos;tkazish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Darslarni butunlay bekor qilish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat video ko&apos;rsatish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#3. Zamonaviy raqamli muhitda axborot texnologiyalarining o&apos;rni qanday?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Jamiyatning barcha sohalarida asosiy vosita sifatida keng qo&apos;llaniladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ilmiy tadqiqotlarda qo&apos;llaniladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat davlat idoralarida ishlatiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech qanday ahamiyatga ega emas</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#4. Axborot deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Atrof-muhitdagi voqea-hodisalar haqidagi ma&apos;lumotlar majmuasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat kompyuterda saqlanadigan fayllar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qog&apos;ozga yozilgan matnlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm va videolar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#5. Axborotning asosiy xossalariga nimalar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ishonchlilik, to&apos;liqlik, dolzarblik va tushunarlilik</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat hajm va rang</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Og&apos;irlik va uzunlik</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tezlik va harorat</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#6. Axborot texnologiyalarining ishlab chiqarish sohasidagi ahamiyati nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ishlab chiqarish jarayonlarini avtomatlashtirish va samaradorlikni oshirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ishchilar sonini majburiy oshirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Mahsulot sifatini pasaytirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat hisobot yozish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#7. Axborotni qayta ishlash deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Dastlabki ma&apos;lumotlarni yangi ko&apos;rinishga keltirish yoki yangi natija olish jarayoni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni butunlay o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ma&apos;lumotlarni chop etish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni ta&apos;mirlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#8. Axborot texnologiyalarining xizmat ko&apos;rsatish sohasida qo&apos;llanilishiga misol keltiring.</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Onlayn bank xizmatlari va elektron to&apos;lovlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;l mehnati bilan xizmat ko&apos;rsatish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Xizmatlardan foydalanishni cheklash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qog&apos;oz hujjatlarni ko&apos;paytirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#9. Raqamli texnologiyalar rivojlanishining jamiyatga ta&apos;siri qanday?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Axborot almashish tezlashadi va xizmatlardan foydalanish qulaylashadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Odamlar o&apos;rtasidagi aloqa butunlay to&apos;xtaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha kasblar yo&apos;qoladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech qanday o&apos;zgarish bo&apos;lmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#10. Axborotni uzatish vositalariga nimalar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kompyuter tarmoqlari, internet, aloqa kanallari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat pochta orqali xat yuborish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat og&apos;zaki suhbat</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Stol va stul</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#11. Kompyuter tizimining asosiy qismlari qaysilar?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Protsessor, xotira, kiritish va chiqarish qurilmalari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat monitor va klaviatura</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat printer va skaner</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Stol, stul va lampa</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#12. Protsessor (CPU) qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlarni qayta ishlaydi va buyruqlarni bajaradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni doimiy saqlaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat tasvirni ekranga chiqaradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat tovush chiqaradi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#13. Operativ xotira (RAM) nima uchun xizmat qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ishlayotgan dasturlar va ma&apos;lumotlarni vaqtincha saqlash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni doimiy saqlash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tasvirni chop etish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetga ulanish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#14. Doimiy xotira qurilmalariga nimalar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qattiq disk (HDD), SSD, flesh-xotira</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat operativ xotira</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitor va klaviatura</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sichqoncha va printer</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#15. Kompyuter o&apos;chirilganda operativ xotiradagi ma&apos;lumotlar nima bo&apos;ladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>O&apos;chib ketadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Doimiy saqlanib qoladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printerga yuboriladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetga yuklanadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#16. Kiritish qurilmalariga qaysilar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Klaviatura, sichqoncha, skaner, mikrofon</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitor, printer, karnay</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qattiq disk</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat protsessor</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#17. Chiqarish qurilmalariga qaysilar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Monitor, printer, karnay (kolonka)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviatura, sichqoncha, skaner</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat operativ xotira</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat protsessor</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#18. Ona plata (motherboard) qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kompyuterning barcha qurilmalarini o&apos;zaro bog&apos;laydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat tasvirni ekranga chiqaradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ma&apos;lumotlarni chop etadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat internetga ulaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#19. Protsessor tezligi qaysi birlikda o&apos;lchanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Gerts (GHz)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kilogramm (kg)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Metr (m)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Litr (l)</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#20. Xotira hajmi qaysi birliklarda o&apos;lchanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Bayt, kilobayt, megabayt, gigabayt</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Metr, kilometr</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Gramm, kilogramm</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Volt, amper</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#21. 1 gigabayt necha megabaytga teng?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>1024 megabayt</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>100 megabayt</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>10 megabayt</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>1000000 megabayt</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#22. Videokarta qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tasvirni qayta ishlab, monitorga uzatadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tovushni yozib oladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni chop etadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetga ulanishni ta&apos;minlaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#23. Klaviatura qanday qurilma hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumot kiritish qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumot chiqarish qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni doimiy saqlash qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni qayta ishlash qurilmasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#24. Sichqonchaning asosiy vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ekrandagi obyektlarni boshqarish va tanlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matn chop etish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tovush chiqarish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni saqlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#25. Monitor qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlarni tasvir ko&apos;rinishida ekranga chiqaradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni qog&apos;ozga chop etadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni kompyuterga kiritadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni qayta ishlaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#26. Printer qanday qurilma?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlarni qog&apos;ozga chop etuvchi chiqarish qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni kompyuterga kirituvchi qurilma</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tasvirni ekranga chiqaruvchi qurilma</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tovushni yozib oluvchi qurilma</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#27. Skaner qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Qog&apos;ozdagi matn va tasvirlarni raqamli ko&apos;rinishga o&apos;tkazadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni qog&apos;ozga chop etadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Tovush chiqaradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni sovutadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#28. Periferik qurilmalar deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kompyuterning tizim blokiga tashqaridan ulanadigan qo&apos;shimcha qurilmalar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat protsessor va operativ xotira</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning ichki simlari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat dasturiy ta&apos;minot</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#29. Lazerli printerning ishlash prinsipi nimaga asoslangan?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Lazer nuri va toner (kukun) yordamida tasvir hosil qilishga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Siyoh tomchilarini purkashga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ignalar bilan urishga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qalam bilan chizishga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#30. Purkovchi (СЃС‚СЂСѓР№РЅС‹Р№) printerda nima ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Suyuq siyoh (kartrij)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Toner kukuni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Uglerod qog&apos;oz</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rangli qalamlar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#31. Klaviaturadagi &quot;Enter&quot; tugmasining vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Buyruqni tasdiqlash yoki yangi qatorga o&apos;tish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnni o&apos;chirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ekranni tozalash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#32. Sichqonchaning chap tugmasi qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Obyektlarni tanlash va buyruqlarni bajarish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kontekst menyuni ochish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni qayta yuklash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ovozni balandlatish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#33. Sichqonchaning o&apos;ng tugmasi bosilganda nima ochiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kontekst menyu</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ish stoli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter o&apos;chadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printer ishga tushadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#34. Qurilmalarni kompyuterga ulashda eng ko&apos;p ishlatiladigan port qaysi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>USB port</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Quvvat kabeli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Antenna</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Audio kirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#35. Operatsion tizim nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kompyuter resurslarini boshqaruvchi va foydalanuvchi bilan aloqani ta&apos;minlovchi dasturlar majmuasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matn yozish dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning jismoniy qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet sahifasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#36. Quyidagilardan qaysi biri operatsion tizim hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Windows</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Microsoft Word</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Google Chrome</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Adobe Photoshop</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#37. Operatsion tizimning asosiy vazifalaridan biri nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kompyuter resurslarini (xotira, protsessor, qurilmalar) boshqarish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm chizish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat musiqa ijro etish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matn tarjima qilish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#38. Windows operatsion tizimida &quot;Ish stoli&quot; (Desktop) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tizim yuklangandan keyin ekranda ko&apos;rinadigan asosiy ish maydoni</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter qo&apos;yiladigan stol</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat printer sozlamalari oynasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetdagi veb-sahifa</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#39. &quot;РџСѓСЃРє&quot; (Start) menyusining vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Dasturlarni ishga tushirish va tizim funksiyalariga kirishni ta&apos;minlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni ta&apos;mirlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat o&apos;yinlar ro&apos;yxatini ko&apos;rsatish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitorni o&apos;chirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#40. Yorliq (СЏСЂР»С‹Рє, shortcut) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Dastur yoki faylga tez kirish uchun ko&apos;rsatkich</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylning asl nusxasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Antivirus dasturi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#41. Masalalar paneli (Taskbar) odatda ekranning qayerida joylashadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ekranning pastki qismida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat ekranning o&apos;rtasida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitorning orqa tomonida</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturada</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#42. Windows tizimida oynani yopish uchun qaysi tugma bosiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Oynaning yuqori o&apos;ng burchagidagi &quot;X&quot; tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturadagi &quot;Enter&quot; tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sichqonchaning o&apos;rta tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Oynaning pastki chap burchagidagi tugma</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#43. Operatsion tizimlarning turlariga qaysilar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Windows, Linux, macOS, Android</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Word, Excel, PowerPoint</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Chrome, Firefox, Opera</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Photoshop, CorelDraw, Paint</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#44. Grafik interfeys (GUI) deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Foydalanuvchi bilan oynalar, piktogrammalar va menyular orqali muloqot qilish usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat matn buyruqlari orqali ishlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning tashqi ko&apos;rinishi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printerning ishlash usuli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#45. Oynani ekran bo&apos;ylab to&apos;liq ochish (kattalashtirish) tugmasi qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Р Р°Р·РІРµСЂРЅСѓС‚СЊ (Maximize)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>РЎРІРµСЂРЅСѓС‚СЊ (Minimize)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Р—Р°РєСЂС‹С‚СЊ (Close)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>РЈРґР°Р»РёС‚СЊ (Delete)</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#46. &quot;РЎРІРµСЂРЅСѓС‚СЊ&quot; (Minimize) tugmasi bosilganda oyna qayerga yashirinadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Masalalar paneliga (Taskbar)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butunlay o&apos;chib ketadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printerga yuboriladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Boshqa kompyuterga o&apos;tadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#47. Operatsion tizim kompyuterning qaysi xotirasiga yuklanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Operativ xotiraga (RAM)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat printerga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitorga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturaga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#48. Fayl nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Diskda nom bilan saqlanadigan ma&apos;lumotlar majmuasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning jismoniy qismi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet tarmog&apos;i</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr kabeli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#49. Papka (jild) nima uchun xizmat qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Fayllarni tartibli saqlash va guruhlash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ma&apos;lumotlarni chop etish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni sovutish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetga ulanish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#50. Fayl nomi qanday qismlardan iborat?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Nom va kengaytma (masalan: hujjat.docx)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat raqamlardan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasmlardan</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Parol va logindan</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#51. Fayl kengaytmasi nimani bildiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Faylning turini va qaysi dastur bilan ochilishini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylning yaratilgan sanasini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning narxini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Foydalanuvchining ismini</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#52. &quot;.docx&quot; kengaytmali fayl qanday fayl hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Microsoft Word matnli hujjati</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm fayli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Musiqa fayli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Video fayli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#53. &quot;.jpg&quot; yoki &quot;.png&quot; kengaytmali fayllar qanday fayllar?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Rasm (tasvir) fayllari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnli hujjatlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Musiqa fayllari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Dastur fayllari</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#54. Faylni nusxalash (copy) qanday buyruqlar bilan bajariladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ctrl+C va Ctrl+V</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ctrl+Z va Ctrl+Y</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Alt+F4</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ctrl+P</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#55. Faylni bir joydan ikkinchi joyga ko&apos;chirishda qaysi buyruqlar ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ctrl+X va Ctrl+V</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ctrl+P va Ctrl+S</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Alt+Tab</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Ctrl+A</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#56. O&apos;chirilgan fayllar odatda qayerga tushadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Savat (РљРѕСЂР·РёРЅР°, Recycle Bin)ga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butunlay yo&apos;q bo&apos;lib ketadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printerga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#57. Savatdan (РљРѕСЂР·РёРЅР°) faylni qanday qaytarish mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&quot;Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ&quot; (Restore) buyrug&apos;i orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylni qayta yozish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni o&apos;chirib yoqish orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Buni qilib bo&apos;lmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#58. Yangi papka yaratish uchun qanday amal bajariladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Sichqonchaning o&apos;ng tugmasi bosilib, &quot;РЎРѕР·РґР°С‚СЊ&quot; - &quot;РџР°РїРєСѓ&quot; tanlanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturada &quot;Delete&quot; bosiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter qayta yuklanadi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitor o&apos;chiriladi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#59. Fayl tizimi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlarni diskda saqlash va tashkil etish usuli</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning tashqi qurilmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet brauzeri</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Antivirus dasturi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#60. Faylni qayta nomlash uchun qaysi buyruq ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ (Rename)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>РЈРґР°Р»РёС‚СЊ (Delete)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>РџРµС‡Р°С‚СЊ (Print)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>РљРѕРїРёСЂРѕРІР°С‚СЊ (Copy)</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#61. Ma&apos;lumotlarni tartibli saqlashning ahamiyati nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kerakli faylni tez topish va ish samaradorligini oshirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni tezroq buzish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Xotirani behuda to&apos;ldirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech qanday ahamiyati yo&apos;q</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#62. Ctrl+A tugmalar birikmasi qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Barcha obyektlarni belgilaydi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faylni o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni o&apos;chiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yangi papka yaratadi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#63. Amaliy dasturiy ta&apos;minot nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Foydalanuvchining aniq masalalarini hal qilishga mo&apos;ljallangan dasturlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning jismoniy qismlari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat operatsion tizimlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr simlari</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#64. Quyidagilardan qaysi biri matn muharriri hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Microsoft Word</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Google Chrome</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kalkulyator</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#65. Microsoft Excel qanday dastur?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elektron jadvallar bilan ishlash dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm chizish dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Video montaj dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Operatsion tizim</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#66. Microsoft PowerPoint dasturining vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Taqdimotlar (prezentatsiyalar) yaratish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matnli hujjatlar tahrirlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Musiqa yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni himoyalash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#67. Grafik muharrir dasturlariga qaysilar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Paint, Adobe Photoshop, CorelDraw</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Word, Excel, PowerPoint</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows, Linux, macOS</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Chrome, Opera, Firefox</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#68. Matn muharririning asosiy vazifasi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Matnlarni yaratish, tahrirlash va formatlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat rasm chizish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni virusdan tozalash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetga ulanish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#69. Amaliy dasturlarning kundalik faoliyatdagi ahamiyati nimada?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Hujjatlar tayyorlash, hisob-kitoblar va turli vazifalarni tez bajarishga yordam beradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat vaqtni behuda sarflashga xizmat qiladi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni sekinlashtiradi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech qanday foyda keltirmaydi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#70. Arxivator dasturlar qanday vazifani bajaradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Fayllarni siqish va hajmini kichraytirish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllarni chop etish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm chizish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Musiqa ijro etish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#71. Quyidagilardan qaysi biri arxivator dastur?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>WinRAR</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Microsoft Word</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Paint</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows Media Player</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#72. Antivirus dasturlar qaysi guruhga kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Xizmat ko&apos;rsatuvchi (himoya) dasturlar guruhiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>O&apos;yin dasturlari guruhiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Operatsion tizimlar guruhiga</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Qurilmalar guruhiga</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#73. Dasturni kompyuterga o&apos;rnatish jarayoni qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Installyatsiya (o&apos;rnatish)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Formatlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Skanerlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Arxivlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#74. Kompyuter tarmog&apos;i nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>O&apos;zaro ma&apos;lumot almashish uchun bog&apos;langan kompyuterlar majmuasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bitta kompyuterning ichki qurilmalari</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr tarmog&apos;i</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Televizion kanallar</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#75. Internet nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Butun dunyo kompyuterlarini birlashtiruvchi global tarmoq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Bitta binodagi kompyuterlar tarmog&apos;i</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Televizor kanali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#76. Lokal tarmoq (LAN) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kichik hudud (bino, ofis) ichidagi kompyuterlar tarmog&apos;i</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Butun dunyo bo&apos;ylab tarmoq</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat telefon tarmog&apos;i</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr uzatish liniyasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#77. Veb-brauzer nima uchun ishlatiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Internet sahifalarini ko&apos;rish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Matn chop etish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Rasm chizish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni ta&apos;mirlash uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#78. Quyidagilardan qaysi biri veb-brauzer hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Google Chrome</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Microsoft Excel</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Paint</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#79. Elektron pochta (e-mail) nima uchun xizmat qiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Internet orqali xat va fayllar almashish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat qo&apos;ng&apos;iroq qilish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni tozalash uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printer sozlash uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#80. Veb-sayt manzili qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>URL manzil</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>IP protsessor</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>RAM xotira</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>USB port</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#81. Qidiruv tizimlariga qaysilar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Google, Yandex, Bing</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Word, Excel, PowerPoint</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows, Linux</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Photoshop, Paint</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#82. Internetga ulanish uchun qanday qurilma kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Modem yoki router</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Printer</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Skaner</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Karnay</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#83. Wi-Fi texnologiyasi nimani anglatadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Simsiz internet aloqasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Simli telefon aloqasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Televizion antenna</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr kabeli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#84. Ma&apos;lumotni internetdan kompyuterga olish jarayoni qanday nomlanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Yuklab olish (download)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Yuklash (upload)</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Formatlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Arxivlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#85. Internet xizmatlariga nimalar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Elektron pochta, qidiruv tizimlari, ijtimoiy tarmoqlar, onlayn xizmatlar</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat televizor ko&apos;rish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat kitob o&apos;qish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat telefon qo&apos;ng&apos;iroqlari</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#86. Ijtimoiy tarmoqlarga qaysilar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Facebook, Instagram, Telegram</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Word, Excel</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Windows, Linux</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitor, klaviatura</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#87. Axborot xavfsizligi deganda nima tushuniladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Axborotni ruxsatsiz kirish, o&apos;zgartirish va yo&apos;q qilishdan himoyalash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni changdan tozalash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat parol o&apos;ylab topish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internetdan butunlay foydalanmaslik</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#88. Kompyuter virusi nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kompyuterga zarar yetkazuvchi va o&apos;z-o&apos;zidan tarqaluvchi maxsus dastur</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Foydali antivirus dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterning jismoniy qismi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Internet brauzeri</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#89. Viruslardan himoyalanish uchun nima qilish kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Antivirus dasturini o&apos;rnatish va muntazam yangilab turish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni hech qachon yoqmaslik</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha fayllarni o&apos;chirib tashlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitorni almashtirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#90. Quyidagilardan qaysi biri antivirus dastur hisoblanadi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Kaspersky</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Microsoft Word</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Google Chrome</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Paint</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#91. Kuchli (ishonchli) parol qanday bo&apos;lishi kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Harflar, raqamlar va maxsus belgilardan iborat, kamida 8 ta belgili</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat &quot;12345&quot; kabi oddiy raqamlardan iborat</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat o&apos;z ismidan iborat</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat bitta harfdan iborat</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#92. Shaxsiy ma&apos;lumotlarni internetda himoyalash uchun nima qilish kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Parollarni sir saqlash va shubhali saytlarga ma&apos;lumot kiritmaslik</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Parolni hammaga aytish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha saytlarga shaxsiy ma&apos;lumotlarni yozish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Hech qanday chora ko&apos;rmaslik</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#93. Zararli dasturlar kompyuterga qanday yo&apos;llar bilan kirishi mumkin?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Shubhali saytlar, elektron pochta ilovalari va tekshirilmagan fleshkalar orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat monitor orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat printer orqali</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr simi orqali</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#94. Fishing (phishing) nima?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Foydalanuvchining maxfiy ma&apos;lumotlarini aldov yo&apos;li bilan olishga urinish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Foydali antivirus dasturi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuter o&apos;yini</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllarni siqish usuli</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#95. Internetda xavfsiz ishlash qoidalariga nimalar kiradi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Notanish havolalarni ochmaslik va ishonchli saytlardan foydalanish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha havolalarni ochish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Parollarni ijtimoiy tarmoqlarda e&apos;lon qilish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Antivirusni o&apos;chirib qo&apos;yish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#96. Ma&apos;lumotlarning zaxira nusxasini (backup) yaratish nima uchun kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Ma&apos;lumotlar yo&apos;qolganda ularni tiklash imkoniyatiga ega bo&apos;lish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Kompyuterni sekinlashtirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Xotirani behuda to&apos;ldirish uchun</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Viruslarni ko&apos;paytirish uchun</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#97. Kompyuterni to&apos;g&apos;ri o&apos;chirish tartibi qanday?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>&quot;РџСѓСЃРє&quot; menyusidan &quot;Р—Р°РІРµСЂС€РµРЅРёРµ СЂР°Р±РѕС‚С‹&quot; (Shut down) buyrug&apos;ini tanlash</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Elektr simini to&apos;g&apos;ridan-to&apos;g&apos;ri sug&apos;urib olish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitorni o&apos;chirish kifoya</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturani ajratib qo&apos;yish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#98. Kompyuterni ishga tushirish uchun qaysi tugma bosiladi?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Tizim blokidagi &quot;Power&quot; (quvvat) tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Klaviaturadagi &quot;Enter&quot; tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Sichqonchaning chap tugmasi</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Monitordagi menyu tugmasi</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#99. Elektron pochta orqali kelgan notanish ilova (fayl)ni ochishdan oldin nima qilish kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Uni antivirus bilan tekshirish yoki ochmaslik</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Darhol ochib ko&apos;rish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Barcha do&apos;stlarga yuborish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Parol bilan birga saqlash</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+				<Task Type="TYPE_TASK_CHOICE_SINGLE">
+					<QuestionText>
+						<PlainText>#100. Internetdan fayl yuklab olishda qanday qoidaga amal qilish kerak?</PlainText>
+					</QuestionText>
+					<Variants>
+						<VariantText CorrectAnswer="True">
+							<PlainText>Faqat ishonchli va rasmiy saytlardan yuklab olish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Har qanday saytdan yuklab olish mumkin</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Faqat shubhali saytlardan yuklab olish</PlainText>
+						</VariantText>
+						<VariantText>
+							<PlainText>Fayllarni tekshirmasdan ishga tushirish</PlainText>
+						</VariantText>
+					</Variants>
+				</Task>
+			</Tasks>
+		</Group>
+	</Groups>
+</MyTestX>

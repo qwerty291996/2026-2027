@@ -1,0 +1,599 @@
+#1. Axborot texnologiyalari deganda nima tushuniladi?
++Axborotni yig'ish, saqlash, qayta ishlash va uzatish usullari hamda vositalari majmuasi
+-Faqat kompyuter o'yinlarini yaratish jarayoni
+-Faqat matn yozish uchun mo'ljallangan dasturlar
+-Televizor va radio orqali ma'lumot uzatish tizimi
+
+#2. Kompyuter texnologiyalarining ta'lim sohasidagi asosiy vazifasi nima?
++O'quv jarayonini samarali tashkil etish va bilim olishni osonlashtirish
+-Faqat imtihon o'tkazish
+-Darslarni butunlay bekor qilish
+-Faqat video ko'rsatish
+
+#3. Zamonaviy raqamli muhitda axborot texnologiyalarining o'rni qanday?
++Jamiyatning barcha sohalarida asosiy vosita sifatida keng qo'llaniladi
+-Faqat ilmiy tadqiqotlarda qo'llaniladi
+-Faqat davlat idoralarida ishlatiladi
+-Hech qanday ahamiyatga ega emas
+
+#4. Axborot deganda nima tushuniladi?
++Atrof-muhitdagi voqea-hodisalar haqidagi ma'lumotlar majmuasi
+-Faqat kompyuterda saqlanadigan fayllar
+-Faqat qog'ozga yozilgan matnlar
+-Faqat rasm va videolar
+
+#5. Axborotning asosiy xossalariga nimalar kiradi?
++Ishonchlilik, to'liqlik, dolzarblik va tushunarlilik
+-Faqat hajm va rang
+-Og'irlik va uzunlik
+-Tezlik va harorat
+
+#6. Axborot texnologiyalarining ishlab chiqarish sohasidagi ahamiyati nimada?
++Ishlab chiqarish jarayonlarini avtomatlashtirish va samaradorlikni oshirish
+-Ishchilar sonini majburiy oshirish
+-Mahsulot sifatini pasaytirish
+-Faqat hisobot yozish
+
+#7. Axborotni qayta ishlash deganda nima tushuniladi?
++Dastlabki ma'lumotlarni yangi ko'rinishga keltirish yoki yangi natija olish jarayoni
+-Ma'lumotlarni butunlay o'chirish
+-Faqat ma'lumotlarni chop etish
+-Kompyuterni ta'mirlash
+
+#8. Axborot texnologiyalarining xizmat ko'rsatish sohasida qo'llanilishiga misol keltiring.
++Onlayn bank xizmatlari va elektron to'lovlar
+-Faqat qo'l mehnati bilan xizmat ko'rsatish
+-Xizmatlardan foydalanishni cheklash
+-Qog'oz hujjatlarni ko'paytirish
+
+#9. Raqamli texnologiyalar rivojlanishining jamiyatga ta'siri qanday?
++Axborot almashish tezlashadi va xizmatlardan foydalanish qulaylashadi
+-Odamlar o'rtasidagi aloqa butunlay to'xtaydi
+-Barcha kasblar yo'qoladi
+-Hech qanday o'zgarish bo'lmaydi
+
+#10. Axborotni uzatish vositalariga nimalar kiradi?
++Kompyuter tarmoqlari, internet, aloqa kanallari
+-Faqat pochta orqali xat yuborish
+-Faqat og'zaki suhbat
+-Stol va stul
+
+#11. Kompyuter tizimining asosiy qismlari qaysilar?
++Protsessor, xotira, kiritish va chiqarish qurilmalari
+-Faqat monitor va klaviatura
+-Faqat printer va skaner
+-Stol, stul va lampa
+
+#12. Protsessor (CPU) qanday vazifani bajaradi?
++Ma'lumotlarni qayta ishlaydi va buyruqlarni bajaradi
+-Ma'lumotlarni doimiy saqlaydi
+-Faqat tasvirni ekranga chiqaradi
+-Faqat tovush chiqaradi
+
+#13. Operativ xotira (RAM) nima uchun xizmat qiladi?
++Ishlayotgan dasturlar va ma'lumotlarni vaqtincha saqlash uchun
+-Ma'lumotlarni doimiy saqlash uchun
+-Tasvirni chop etish uchun
+-Internetga ulanish uchun
+
+#14. Doimiy xotira qurilmalariga nimalar kiradi?
++Qattiq disk (HDD), SSD, flesh-xotira
+-Faqat operativ xotira
+-Monitor va klaviatura
+-Sichqoncha va printer
+
+#15. Kompyuter o'chirilganda operativ xotiradagi ma'lumotlar nima bo'ladi?
++O'chib ketadi
+-Doimiy saqlanib qoladi
+-Printerga yuboriladi
+-Internetga yuklanadi
+
+#16. Kiritish qurilmalariga qaysilar kiradi?
++Klaviatura, sichqoncha, skaner, mikrofon
+-Monitor, printer, karnay
+-Faqat qattiq disk
+-Faqat protsessor
+
+#17. Chiqarish qurilmalariga qaysilar kiradi?
++Monitor, printer, karnay (kolonka)
+-Klaviatura, sichqoncha, skaner
+-Faqat operativ xotira
+-Faqat protsessor
+
+#18. Ona plata (motherboard) qanday vazifani bajaradi?
++Kompyuterning barcha qurilmalarini o'zaro bog'laydi
+-Faqat tasvirni ekranga chiqaradi
+-Faqat ma'lumotlarni chop etadi
+-Faqat internetga ulaydi
+
+#19. Protsessor tezligi qaysi birlikda o'lchanadi?
++Gerts (GHz)
+-Kilogramm (kg)
+-Metr (m)
+-Litr (l)
+
+#20. Xotira hajmi qaysi birliklarda o'lchanadi?
++Bayt, kilobayt, megabayt, gigabayt
+-Metr, kilometr
+-Gramm, kilogramm
+-Volt, amper
+
+#21. 1 gigabayt necha megabaytga teng?
++1024 megabayt
+-100 megabayt
+-10 megabayt
+-1000000 megabayt
+
+#22. Videokarta qanday vazifani bajaradi?
++Tasvirni qayta ishlab, monitorga uzatadi
+-Tovushni yozib oladi
+-Ma'lumotlarni chop etadi
+-Internetga ulanishni ta'minlaydi
+
+#23. Klaviatura qanday qurilma hisoblanadi?
++Ma'lumot kiritish qurilmasi
+-Ma'lumot chiqarish qurilmasi
+-Ma'lumotlarni doimiy saqlash qurilmasi
+-Ma'lumotlarni qayta ishlash qurilmasi
+
+#24. Sichqonchaning asosiy vazifasi nima?
++Ekrandagi obyektlarni boshqarish va tanlash
+-Matn chop etish
+-Tovush chiqarish
+-Ma'lumotlarni saqlash
+
+#25. Monitor qanday vazifani bajaradi?
++Ma'lumotlarni tasvir ko'rinishida ekranga chiqaradi
+-Ma'lumotlarni qog'ozga chop etadi
+-Ma'lumotlarni kompyuterga kiritadi
+-Ma'lumotlarni qayta ishlaydi
+
+#26. Printer qanday qurilma?
++Ma'lumotlarni qog'ozga chop etuvchi chiqarish qurilmasi
+-Ma'lumotlarni kompyuterga kirituvchi qurilma
+-Tasvirni ekranga chiqaruvchi qurilma
+-Tovushni yozib oluvchi qurilma
+
+#27. Skaner qanday vazifani bajaradi?
++Qog'ozdagi matn va tasvirlarni raqamli ko'rinishga o'tkazadi
+-Ma'lumotlarni qog'ozga chop etadi
+-Tovush chiqaradi
+-Kompyuterni sovutadi
+
+#28. Periferik qurilmalar deganda nima tushuniladi?
++Kompyuterning tizim blokiga tashqaridan ulanadigan qo'shimcha qurilmalar
+-Faqat protsessor va operativ xotira
+-Kompyuterning ichki simlari
+-Faqat dasturiy ta'minot
+
+#29. Lazerli printerning ishlash prinsipi nimaga asoslangan?
++Lazer nuri va toner (kukun) yordamida tasvir hosil qilishga
+-Siyoh tomchilarini purkashga
+-Ignalar bilan urishga
+-Qalam bilan chizishga
+
+#30. Purkovchi (струйный) printerda nima ishlatiladi?
++Suyuq siyoh (kartrij)
+-Toner kukuni
+-Uglerod qog'oz
+-Rangli qalamlar
+
+#31. Klaviaturadagi "Enter" tugmasining vazifasi nima?
++Buyruqni tasdiqlash yoki yangi qatorga o'tish
+-Kompyuterni o'chirish
+-Matnni o'chirish
+-Ekranni tozalash
+
+#32. Sichqonchaning chap tugmasi qanday vazifani bajaradi?
++Obyektlarni tanlash va buyruqlarni bajarish
+-Kontekst menyuni ochish
+-Kompyuterni qayta yuklash
+-Ovozni balandlatish
+
+#33. Sichqonchaning o'ng tugmasi bosilganda nima ochiladi?
++Kontekst menyu
+-Ish stoli
+-Kompyuter o'chadi
+-Printer ishga tushadi
+
+#34. Qurilmalarni kompyuterga ulashda eng ko'p ishlatiladigan port qaysi?
++USB port
+-Quvvat kabeli
+-Antenna
+-Audio kirish
+
+#35. Operatsion tizim nima?
++Kompyuter resurslarini boshqaruvchi va foydalanuvchi bilan aloqani ta'minlovchi dasturlar majmuasi
+-Faqat matn yozish dasturi
+-Kompyuterning jismoniy qurilmasi
+-Internet sahifasi
+
+#36. Quyidagilardan qaysi biri operatsion tizim hisoblanadi?
++Windows
+-Microsoft Word
+-Google Chrome
+-Adobe Photoshop
+
+#37. Operatsion tizimning asosiy vazifalaridan biri nima?
++Kompyuter resurslarini (xotira, protsessor, qurilmalar) boshqarish
+-Faqat rasm chizish
+-Faqat musiqa ijro etish
+-Faqat matn tarjima qilish
+
+#38. Windows operatsion tizimida "Ish stoli" (Desktop) nima?
++Tizim yuklangandan keyin ekranda ko'rinadigan asosiy ish maydoni
+-Kompyuter qo'yiladigan stol
+-Faqat printer sozlamalari oynasi
+-Internetdagi veb-sahifa
+
+#39. "Пуск" (Start) menyusining vazifasi nima?
++Dasturlarni ishga tushirish va tizim funksiyalariga kirishni ta'minlash
+-Kompyuterni ta'mirlash
+-Faqat o'yinlar ro'yxatini ko'rsatish
+-Monitorni o'chirish
+
+#40. Yorliq (ярлык, shortcut) nima?
++Dastur yoki faylga tez kirish uchun ko'rsatkich
+-Faylning asl nusxasi
+-Kompyuter qurilmasi
+-Antivirus dasturi
+
+#41. Masalalar paneli (Taskbar) odatda ekranning qayerida joylashadi?
++Ekranning pastki qismida
+-Faqat ekranning o'rtasida
+-Monitorning orqa tomonida
+-Klaviaturada
+
+#42. Windows tizimida oynani yopish uchun qaysi tugma bosiladi?
++Oynaning yuqori o'ng burchagidagi "X" tugmasi
+-Klaviaturadagi "Enter" tugmasi
+-Sichqonchaning o'rta tugmasi
+-Oynaning pastki chap burchagidagi tugma
+
+#43. Operatsion tizimlarning turlariga qaysilar kiradi?
++Windows, Linux, macOS, Android
+-Word, Excel, PowerPoint
+-Chrome, Firefox, Opera
+-Photoshop, CorelDraw, Paint
+
+#44. Grafik interfeys (GUI) deganda nima tushuniladi?
++Foydalanuvchi bilan oynalar, piktogrammalar va menyular orqali muloqot qilish usuli
+-Faqat matn buyruqlari orqali ishlash
+-Kompyuterning tashqi ko'rinishi
+-Printerning ishlash usuli
+
+#45. Oynani ekran bo'ylab to'liq ochish (kattalashtirish) tugmasi qanday nomlanadi?
++Развернуть (Maximize)
+-Свернуть (Minimize)
+-Закрыть (Close)
+-Удалить (Delete)
+
+#46. "Свернуть" (Minimize) tugmasi bosilganda oyna qayerga yashirinadi?
++Masalalar paneliga (Taskbar)
+-Butunlay o'chib ketadi
+-Printerga yuboriladi
+-Boshqa kompyuterga o'tadi
+
+#47. Operatsion tizim kompyuterning qaysi xotirasiga yuklanadi?
++Operativ xotiraga (RAM)
+-Faqat printerga
+-Monitorga
+-Klaviaturaga
+
+#48. Fayl nima?
++Diskda nom bilan saqlanadigan ma'lumotlar majmuasi
+-Kompyuterning jismoniy qismi
+-Internet tarmog'i
+-Elektr kabeli
+
+#49. Papka (jild) nima uchun xizmat qiladi?
++Fayllarni tartibli saqlash va guruhlash uchun
+-Ma'lumotlarni chop etish uchun
+-Kompyuterni sovutish uchun
+-Internetga ulanish uchun
+
+#50. Fayl nomi qanday qismlardan iborat?
++Nom va kengaytma (masalan: hujjat.docx)
+-Faqat raqamlardan
+-Faqat rasmlardan
+-Parol va logindan
+
+#51. Fayl kengaytmasi nimani bildiradi?
++Faylning turini va qaysi dastur bilan ochilishini
+-Faylning yaratilgan sanasini
+-Kompyuterning narxini
+-Foydalanuvchining ismini
+
+#52. ".docx" kengaytmali fayl qanday fayl hisoblanadi?
++Microsoft Word matnli hujjati
+-Rasm fayli
+-Musiqa fayli
+-Video fayli
+
+#53. ".jpg" yoki ".png" kengaytmali fayllar qanday fayllar?
++Rasm (tasvir) fayllari
+-Matnli hujjatlar
+-Musiqa fayllari
+-Dastur fayllari
+
+#54. Faylni nusxalash (copy) qanday buyruqlar bilan bajariladi?
++Ctrl+C va Ctrl+V
+-Ctrl+Z va Ctrl+Y
+-Alt+F4
+-Ctrl+P
+
+#55. Faylni bir joydan ikkinchi joyga ko'chirishda qaysi buyruqlar ishlatiladi?
++Ctrl+X va Ctrl+V
+-Ctrl+P va Ctrl+S
+-Alt+Tab
+-Ctrl+A
+
+#56. O'chirilgan fayllar odatda qayerga tushadi?
++Savat (Корзина, Recycle Bin)ga
+-Butunlay yo'q bo'lib ketadi
+-Printerga
+-Internetga
+
+#57. Savatdan (Корзина) faylni qanday qaytarish mumkin?
++"Восстановить" (Restore) buyrug'i orqali
+-Faylni qayta yozish orqali
+-Kompyuterni o'chirib yoqish orqali
+-Buni qilib bo'lmaydi
+
+#58. Yangi papka yaratish uchun qanday amal bajariladi?
++Sichqonchaning o'ng tugmasi bosilib, "Создать" - "Папку" tanlanadi
+-Klaviaturada "Delete" bosiladi
+-Kompyuter qayta yuklanadi
+-Monitor o'chiriladi
+
+#59. Fayl tizimi nima?
++Ma'lumotlarni diskda saqlash va tashkil etish usuli
+-Kompyuterning tashqi qurilmasi
+-Internet brauzeri
+-Antivirus dasturi
+
+#60. Faylni qayta nomlash uchun qaysi buyruq ishlatiladi?
++Переименовать (Rename)
+-Удалить (Delete)
+-Печать (Print)
+-Копировать (Copy)
+
+#61. Ma'lumotlarni tartibli saqlashning ahamiyati nimada?
++Kerakli faylni tez topish va ish samaradorligini oshirish
+-Kompyuterni tezroq buzish
+-Xotirani behuda to'ldirish
+-Hech qanday ahamiyati yo'q
+
+#62. Ctrl+A tugmalar birikmasi qanday vazifani bajaradi?
++Barcha obyektlarni belgilaydi
+-Faylni o'chiradi
+-Kompyuterni o'chiradi
+-Yangi papka yaratadi
+
+#63. Amaliy dasturiy ta'minot nima?
++Foydalanuvchining aniq masalalarini hal qilishga mo'ljallangan dasturlar
+-Kompyuterning jismoniy qismlari
+-Faqat operatsion tizimlar
+-Elektr simlari
+
+#64. Quyidagilardan qaysi biri matn muharriri hisoblanadi?
++Microsoft Word
+-Windows
+-Google Chrome
+-Kalkulyator
+
+#65. Microsoft Excel qanday dastur?
++Elektron jadvallar bilan ishlash dasturi
+-Rasm chizish dasturi
+-Video montaj dasturi
+-Operatsion tizim
+
+#66. Microsoft PowerPoint dasturining vazifasi nima?
++Taqdimotlar (prezentatsiyalar) yaratish
+-Matnli hujjatlar tahrirlash
+-Musiqa yozish
+-Kompyuterni himoyalash
+
+#67. Grafik muharrir dasturlariga qaysilar kiradi?
++Paint, Adobe Photoshop, CorelDraw
+-Word, Excel, PowerPoint
+-Windows, Linux, macOS
+-Chrome, Opera, Firefox
+
+#68. Matn muharririning asosiy vazifasi nima?
++Matnlarni yaratish, tahrirlash va formatlash
+-Faqat rasm chizish
+-Kompyuterni virusdan tozalash
+-Internetga ulanish
+
+#69. Amaliy dasturlarning kundalik faoliyatdagi ahamiyati nimada?
++Hujjatlar tayyorlash, hisob-kitoblar va turli vazifalarni tez bajarishga yordam beradi
+-Faqat vaqtni behuda sarflashga xizmat qiladi
+-Kompyuterni sekinlashtiradi
+-Hech qanday foyda keltirmaydi
+
+#70. Arxivator dasturlar qanday vazifani bajaradi?
++Fayllarni siqish va hajmini kichraytirish
+-Fayllarni chop etish
+-Rasm chizish
+-Musiqa ijro etish
+
+#71. Quyidagilardan qaysi biri arxivator dastur?
++WinRAR
+-Microsoft Word
+-Paint
+-Windows Media Player
+
+#72. Antivirus dasturlar qaysi guruhga kiradi?
++Xizmat ko'rsatuvchi (himoya) dasturlar guruhiga
+-O'yin dasturlari guruhiga
+-Operatsion tizimlar guruhiga
+-Qurilmalar guruhiga
+
+#73. Dasturni kompyuterga o'rnatish jarayoni qanday nomlanadi?
++Installyatsiya (o'rnatish)
+-Formatlash
+-Skanerlash
+-Arxivlash
+
+#74. Kompyuter tarmog'i nima?
++O'zaro ma'lumot almashish uchun bog'langan kompyuterlar majmuasi
+-Bitta kompyuterning ichki qurilmalari
+-Elektr tarmog'i
+-Televizion kanallar
+
+#75. Internet nima?
++Butun dunyo kompyuterlarini birlashtiruvchi global tarmoq
+-Bitta binodagi kompyuterlar tarmog'i
+-Kompyuter dasturi
+-Televizor kanali
+
+#76. Lokal tarmoq (LAN) nima?
++Kichik hudud (bino, ofis) ichidagi kompyuterlar tarmog'i
+-Butun dunyo bo'ylab tarmoq
+-Faqat telefon tarmog'i
+-Elektr uzatish liniyasi
+
+#77. Veb-brauzer nima uchun ishlatiladi?
++Internet sahifalarini ko'rish uchun
+-Matn chop etish uchun
+-Rasm chizish uchun
+-Kompyuterni ta'mirlash uchun
+
+#78. Quyidagilardan qaysi biri veb-brauzer hisoblanadi?
++Google Chrome
+-Microsoft Excel
+-Windows
+-Paint
+
+#79. Elektron pochta (e-mail) nima uchun xizmat qiladi?
++Internet orqali xat va fayllar almashish uchun
+-Faqat qo'ng'iroq qilish uchun
+-Kompyuterni tozalash uchun
+-Printer sozlash uchun
+
+#80. Veb-sayt manzili qanday nomlanadi?
++URL manzil
+-IP protsessor
+-RAM xotira
+-USB port
+
+#81. Qidiruv tizimlariga qaysilar kiradi?
++Google, Yandex, Bing
+-Word, Excel, PowerPoint
+-Windows, Linux
+-Photoshop, Paint
+
+#82. Internetga ulanish uchun qanday qurilma kerak?
++Modem yoki router
+-Printer
+-Skaner
+-Karnay
+
+#83. Wi-Fi texnologiyasi nimani anglatadi?
++Simsiz internet aloqasi
+-Simli telefon aloqasi
+-Televizion antenna
+-Elektr kabeli
+
+#84. Ma'lumotni internetdan kompyuterga olish jarayoni qanday nomlanadi?
++Yuklab olish (download)
+-Yuklash (upload)
+-Formatlash
+-Arxivlash
+
+#85. Internet xizmatlariga nimalar kiradi?
++Elektron pochta, qidiruv tizimlari, ijtimoiy tarmoqlar, onlayn xizmatlar
+-Faqat televizor ko'rish
+-Faqat kitob o'qish
+-Faqat telefon qo'ng'iroqlari
+
+#86. Ijtimoiy tarmoqlarga qaysilar kiradi?
++Facebook, Instagram, Telegram
+-Word, Excel
+-Windows, Linux
+-Monitor, klaviatura
+
+#87. Axborot xavfsizligi deganda nima tushuniladi?
++Axborotni ruxsatsiz kirish, o'zgartirish va yo'q qilishdan himoyalash
+-Kompyuterni changdan tozalash
+-Faqat parol o'ylab topish
+-Internetdan butunlay foydalanmaslik
+
+#88. Kompyuter virusi nima?
++Kompyuterga zarar yetkazuvchi va o'z-o'zidan tarqaluvchi maxsus dastur
+-Foydali antivirus dasturi
+-Kompyuterning jismoniy qismi
+-Internet brauzeri
+
+#89. Viruslardan himoyalanish uchun nima qilish kerak?
++Antivirus dasturini o'rnatish va muntazam yangilab turish
+-Kompyuterni hech qachon yoqmaslik
+-Barcha fayllarni o'chirib tashlash
+-Monitorni almashtirish
+
+#90. Quyidagilardan qaysi biri antivirus dastur hisoblanadi?
++Kaspersky
+-Microsoft Word
+-Google Chrome
+-Paint
+
+#91. Kuchli (ishonchli) parol qanday bo'lishi kerak?
++Harflar, raqamlar va maxsus belgilardan iborat, kamida 8 ta belgili
+-Faqat "12345" kabi oddiy raqamlardan iborat
+-Faqat o'z ismidan iborat
+-Faqat bitta harfdan iborat
+
+#92. Shaxsiy ma'lumotlarni internetda himoyalash uchun nima qilish kerak?
++Parollarni sir saqlash va shubhali saytlarga ma'lumot kiritmaslik
+-Parolni hammaga aytish
+-Barcha saytlarga shaxsiy ma'lumotlarni yozish
+-Hech qanday chora ko'rmaslik
+
+#93. Zararli dasturlar kompyuterga qanday yo'llar bilan kirishi mumkin?
++Shubhali saytlar, elektron pochta ilovalari va tekshirilmagan fleshkalar orqali
+-Faqat monitor orqali
+-Faqat printer orqali
+-Elektr simi orqali
+
+#94. Fishing (phishing) nima?
++Foydalanuvchining maxfiy ma'lumotlarini aldov yo'li bilan olishga urinish
+-Foydali antivirus dasturi
+-Kompyuter o'yini
+-Fayllarni siqish usuli
+
+#95. Internetda xavfsiz ishlash qoidalariga nimalar kiradi?
++Notanish havolalarni ochmaslik va ishonchli saytlardan foydalanish
+-Barcha havolalarni ochish
+-Parollarni ijtimoiy tarmoqlarda e'lon qilish
+-Antivirusni o'chirib qo'yish
+
+#96. Ma'lumotlarning zaxira nusxasini (backup) yaratish nima uchun kerak?
++Ma'lumotlar yo'qolganda ularni tiklash imkoniyatiga ega bo'lish uchun
+-Kompyuterni sekinlashtirish uchun
+-Xotirani behuda to'ldirish uchun
+-Viruslarni ko'paytirish uchun
+
+#97. Kompyuterni to'g'ri o'chirish tartibi qanday?
++"Пуск" menyusidan "Завершение работы" (Shut down) buyrug'ini tanlash
+-Elektr simini to'g'ridan-to'g'ri sug'urib olish
+-Monitorni o'chirish kifoya
+-Klaviaturani ajratib qo'yish
+
+#98. Kompyuterni ishga tushirish uchun qaysi tugma bosiladi?
++Tizim blokidagi "Power" (quvvat) tugmasi
+-Klaviaturadagi "Enter" tugmasi
+-Sichqonchaning chap tugmasi
+-Monitordagi menyu tugmasi
+
+#99. Elektron pochta orqali kelgan notanish ilova (fayl)ni ochishdan oldin nima qilish kerak?
++Uni antivirus bilan tekshirish yoki ochmaslik
+-Darhol ochib ko'rish
+-Barcha do'stlarga yuborish
+-Parol bilan birga saqlash
+
+#100. Internetdan fayl yuklab olishda qanday qoidaga amal qilish kerak?
++Faqat ishonchli va rasmiy saytlardan yuklab olish
+-Har qanday saytdan yuklab olish mumkin
+-Faqat shubhali saytlardan yuklab olish
+-Fayllarni tekshirmasdan ishga tushirish
